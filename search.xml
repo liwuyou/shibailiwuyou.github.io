@@ -30,7 +30,7 @@
   <entry>
     <title>零基础小白3d打印基本入门（2.0）</title>
     <url>/2023/07/24/3D%E6%89%93%E5%8D%B0%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="欢迎加入3d打印社温暖的大家庭"><a href="#欢迎加入3d打印社温暖的大家庭" class="headerlink" title="欢迎加入3d打印社温暖的大家庭"></a>欢迎加入3d打印社温暖的大家庭</h1><p><img src="/3D%E6%89%93%E5%8D%B0%E5%85%A5%E9%97%A8img%5C18.png"><br>本手册旨在帮助新同学完成3d打印从0到1的过程 </p>
+    <content><![CDATA[<h1 id="欢迎加入3d打印社温暖的大家庭"><a href="#欢迎加入3d打印社温暖的大家庭" class="headerlink" title="欢迎加入3d打印社温暖的大家庭"></a>欢迎加入3d打印社温暖的大家庭</h1><p><img src="/wj%5Csource_posts%5C3D%E6%89%93%E5%8D%B0%E5%85%A5%E9%97%A8img%5C18.png"><br>本手册旨在帮助新同学完成3d打印从0到1的过程 </p>
 <h2 id="第一步-建模软件的安装"><a href="#第一步-建模软件的安装" class="headerlink" title="第一步 建模软件的安装"></a>第一步 建模软件的安装</h2><p>建模软件有很多，如有其他需求请自行查找。<br>这里主要介绍一种，北矿的我们用的最多的软件。Solidwords</p>
 <p>Solidwords是工业建模软件，主要用于工业零部件的建模。<br>安装其实有点小复杂。安装需谨慎，请严格按照规范进行。<br>这玩意儿实际上是付费软件（用于学习的话，是可以白嫖的。），本人实际安装的时候，因为安装时出现一些差错。只能把电脑系统重装了<br>软件图标</p>
 <p><img src="/3D%E6%89%93%E5%8D%B0%E5%85%A5%E9%97%A8img%5C16.png"></p>
@@ -85,5 +85,10 @@
 <li>简单的电路板焊接</li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>ros车基本学习</title>
+    <url>/2023/07/24/ros%E8%BD%A6%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
