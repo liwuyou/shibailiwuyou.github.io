@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>markdown基本介绍与语法</title>
+    <url>/2023/07/26/markdown%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="markdown是什么？"><a href="#markdown是什么？" class="headerlink" title="markdown是什么？"></a>markdown是什么？</h1><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等</p>
+<h1 id="我为什么使用markdown"><a href="#我为什么使用markdown" class="headerlink" title="我为什么使用markdown"></a>我为什么使用markdown</h1><p>写个人博客需要，且markdown使用简单，b站搜索十分钟学会，word无法完成个人博客的书写.<br>markdown和word可相互转化,但效果不好，排版问题较大。markdown无法实现精细排版要求。</p>
+<hr>
+<p>在线编译器网址</p>
+<blockquote>
+<p><a href="https://markdown.com.cn/editor/">https://markdown.com.cn/editor/</a></p>
+</blockquote>
+<h2 id="在线转化器网址-https-www-easeconvert-com-markdown-to-word"><a href="#在线转化器网址-https-www-easeconvert-com-markdown-to-word" class="headerlink" title="在线转化器网址&gt; https://www.easeconvert.com/markdown-to-word/"></a>在线转化器网址<br>&gt; <a href="https://www.easeconvert.com/markdown-to-word/">https://www.easeconvert.com/markdown-to-word/</a></h2><h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">——————标题——————</span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line">...</span><br><span class="line"><span class="section">###### 六级标题</span></span><br><span class="line"></span><br><span class="line">——————字体———————</span><br><span class="line"><span class="strong">**这个是粗体**</span></span><br><span class="line"><span class="emphasis">*这个是斜体*</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*这个是粗体加斜体*</span>**</span></span><br><span class="line">~这里想用删除线~~</span><br><span class="line">--- 分割线</span><br><span class="line"></span><br><span class="line">——————列表———————</span><br><span class="line">无序列表的使用，在符号<span class="code">`-`</span>后加空格使用</span><br><span class="line">有序列表的使用，在数字及符号<span class="code">`.`</span>后加空格后输入内容</span><br><span class="line"></span><br><span class="line">——————图片———————</span><br><span class="line">使用符号&gt;</span><br><span class="line"><span class="quote">&gt; 引用内容</span></span><br><span class="line"></span><br><span class="line">——————表格———————</span><br><span class="line">可以使用冒号来定义表格的对齐方式，如下：</span><br><span class="line">| 姓名   | 年龄 |     工作 |</span><br><span class="line">| :----- | :--: | -------: |</span><br><span class="line">| 小可爱 |  18  | 吃可爱多 |</span><br><span class="line">| 小小勇敢 |  20  | 爬棵勇敢树 |</span><br><span class="line">| 小小小机智 |  22  | 看一本机智书 |</span><br><span class="line"></span><br><span class="line">——————链接———————</span><br><span class="line">[<span class="string">描述</span>](<span class="link">链接</span>)</span><br><span class="line"></span><br><span class="line">——————图片———————</span><br><span class="line">！[<span class="string">描述</span>](<span class="link">链接</span>)</span><br><span class="line"></span><br><span class="line">——————代码———————</span><br><span class="line"><span class="code">```语言</span></span><br><span class="line"><span class="code">代码块</span></span><br><span class="line"><span class="code">``` </span>(占位，不管)</span><br></pre></td></tr></table></figure>
+
+<p>笔记over</p>
+]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>this is my blog</title>
     <url>/2023/07/23/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -51,38 +69,6 @@
       </tags>
   </entry>
   <entry>
-    <title>markdown基本介绍与语法</title>
-    <url>/2023/07/26/markdown%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="markdown是什么？"><a href="#markdown是什么？" class="headerlink" title="markdown是什么？"></a>markdown是什么？</h1><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等</p>
-<h1 id="我为什么使用markdown"><a href="#我为什么使用markdown" class="headerlink" title="我为什么使用markdown"></a>我为什么使用markdown</h1><p>写个人博客需要，且markdown使用简单，b站搜索十分钟学会，word无法完成个人博客的书写.<br>markdown和word可相互转化,但效果不好，排版问题较大。markdown无法实现精细排版要求。</p>
-<hr>
-<p>在线编译器网址</p>
-<blockquote>
-<p><a href="https://markdown.com.cn/editor/">https://markdown.com.cn/editor/</a></p>
-</blockquote>
-<h2 id="在线转化器网址-https-www-easeconvert-com-markdown-to-word"><a href="#在线转化器网址-https-www-easeconvert-com-markdown-to-word" class="headerlink" title="在线转化器网址&gt; https://www.easeconvert.com/markdown-to-word/"></a>在线转化器网址<br>&gt; <a href="https://www.easeconvert.com/markdown-to-word/">https://www.easeconvert.com/markdown-to-word/</a></h2><h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">——————标题——————</span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line">...</span><br><span class="line"><span class="section">###### 六级标题</span></span><br><span class="line"></span><br><span class="line">——————字体———————</span><br><span class="line"><span class="strong">**这个是粗体**</span></span><br><span class="line"><span class="emphasis">*这个是斜体*</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*这个是粗体加斜体*</span>**</span></span><br><span class="line">~这里想用删除线~~</span><br><span class="line">--- 分割线</span><br><span class="line"></span><br><span class="line">——————列表———————</span><br><span class="line">无序列表的使用，在符号<span class="code">`-`</span>后加空格使用</span><br><span class="line">有序列表的使用，在数字及符号<span class="code">`.`</span>后加空格后输入内容</span><br><span class="line"></span><br><span class="line">——————图片———————</span><br><span class="line">使用符号&gt;</span><br><span class="line"><span class="quote">&gt; 引用内容</span></span><br><span class="line"></span><br><span class="line">——————表格———————</span><br><span class="line">可以使用冒号来定义表格的对齐方式，如下：</span><br><span class="line">| 姓名   | 年龄 |     工作 |</span><br><span class="line">| :----- | :--: | -------: |</span><br><span class="line">| 小可爱 |  18  | 吃可爱多 |</span><br><span class="line">| 小小勇敢 |  20  | 爬棵勇敢树 |</span><br><span class="line">| 小小小机智 |  22  | 看一本机智书 |</span><br><span class="line"></span><br><span class="line">——————链接———————</span><br><span class="line">[<span class="string">描述</span>](<span class="link">链接</span>)</span><br><span class="line"></span><br><span class="line">——————图片———————</span><br><span class="line">！[<span class="string">描述</span>](<span class="link">链接</span>)</span><br><span class="line"></span><br><span class="line">——————代码———————</span><br><span class="line"><span class="code">```语言</span></span><br><span class="line"><span class="code">代码块</span></span><br><span class="line"><span class="code">``` </span>(占位，不管)</span><br></pre></td></tr></table></figure>
-
-<p>笔记over</p>
-]]></content>
-      <tags>
-        <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ros车基本学习</title>
-    <url>/2023/07/24/ros%E8%BD%A6%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>个人介绍</title>
-    <url>/2023/07/23/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/</url>
-    <content><![CDATA[<p>欢迎来到我的个人博客   </p>
-<p>姓名：王健<br>性别：男<br>爱好：睡觉和吃饭以及听音乐<br>性格：温和喜静，喜独处<br>理想：实现共产主义，追求社会公平<br>讨厌的事：被他人意志所裹挟<br>擅长的事：模仿与学习<br>——————————————————————————— </p>
-<p>为什么写博客？</p>
-<p>主要原因有二个方面吧，<br>首先呢，记录学习状态。学习的时候很多代码确实很难记住，知道怎么用就好了，必要的时候翻翻个人博客就可以找到。<br> 然后吧，记录生活日常。当然这个可能比较少。<br> ——————————————————————————</p>
-]]></content>
-  </entry>
-  <entry>
     <title>我的技术栈</title>
     <url>/2023/07/24/%E6%88%91%E7%9A%84%E6%8A%80%E6%9C%AF%E6%A0%88/</url>
     <content><![CDATA[<h2 id="我的技术栈"><a href="#我的技术栈" class="headerlink" title="我的技术栈"></a>我的技术栈</h2><p>语言类：   </p>
@@ -107,6 +93,20 @@
 <li>简单的pcb板绘制</li>
 <li>简单的电路板焊接</li>
 </ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>ros车基本学习</title>
+    <url>/2023/07/24/ros%E8%BD%A6%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>个人介绍</title>
+    <url>/2023/07/23/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<p>欢迎来到我的个人博客   </p>
+<p>姓名：王健<br>性别：男<br>爱好：睡觉和吃饭以及听音乐<br>性格：温和喜静，喜独处<br>理想：实现共产主义，追求社会公平<br>讨厌的事：被他人意志所裹挟<br>擅长的事：模仿与学习<br>——————————————————————————— </p>
+<p>为什么写博客？</p>
+<p>主要原因有二个方面吧，<br>首先呢，记录学习状态。学习的时候很多代码确实很难记住，知道怎么用就好了，必要的时候翻翻个人博客就可以找到。<br> 然后吧，记录生活日常。当然这个可能比较少。<br> ——————————————————————————</p>
 ]]></content>
   </entry>
 </search>
