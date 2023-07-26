@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>this is my blog</title>
+    <url>/2023/07/23/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>零基础小白3d打印基本入门（2.0）</title>
     <url>/2023/07/24/3D%E6%89%93%E5%8D%B0%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<h1 id="欢迎加入3d打印社温暖的大家庭"><a href="#欢迎加入3d打印社温暖的大家庭" class="headerlink" title="欢迎加入3d打印社温暖的大家庭"></a>欢迎加入3d打印社温暖的大家庭</h1><p><img src="https://img1.imgtp.com/2023/07/24/AmMYOg0J.png"><br>本手册旨在帮助新同学完成3d打印从0到1的过程<br><img src="https://img1.imgtp.com/2023/07/24/tkyrQC6R.jpg"> </p>
@@ -33,24 +51,6 @@
       </tags>
   </entry>
   <entry>
-    <title>this is my blog</title>
-    <url>/2023/07/23/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>markdown基本介绍与语法</title>
     <url>/2023/07/26/markdown%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h1 id="markdown是什么？"><a href="#markdown是什么？" class="headerlink" title="markdown是什么？"></a>markdown是什么？</h1><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等</p>
@@ -72,6 +72,15 @@
     <title>ros车基本学习</title>
     <url>/2023/07/24/ros%E8%BD%A6%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>个人介绍</title>
+    <url>/2023/07/23/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<p>欢迎来到我的个人博客   </p>
+<p>姓名：王健<br>性别：男<br>爱好：睡觉和吃饭以及听音乐<br>性格：温和喜静，喜独处<br>理想：实现共产主义，追求社会公平<br>讨厌的事：被他人意志所裹挟<br>擅长的事：模仿与学习<br>——————————————————————————— </p>
+<p>为什么写博客？</p>
+<p>主要原因有二个方面吧，<br>首先呢，记录学习状态。学习的时候很多代码确实很难记住，知道怎么用就好了，必要的时候翻翻个人博客就可以找到。<br> 然后吧，记录生活日常。当然这个可能比较少。<br> ——————————————————————————</p>
+]]></content>
   </entry>
   <entry>
     <title>我的技术栈</title>
@@ -98,15 +107,6 @@
 <li>简单的pcb板绘制</li>
 <li>简单的电路板焊接</li>
 </ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>个人介绍</title>
-    <url>/2023/07/23/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/</url>
-    <content><![CDATA[<p>欢迎来到我的个人博客   </p>
-<p>姓名：王健<br>性别：男<br>爱好：睡觉和吃饭以及听音乐<br>性格：温和喜静，喜独处<br>理想：实现共产主义，追求社会公平<br>讨厌的事：被他人意志所裹挟<br>擅长的事：模仿与学习<br>——————————————————————————— </p>
-<p>为什么写博客？</p>
-<p>主要原因有二个方面吧，<br>首先呢，记录学习状态。学习的时候很多代码确实很难记住，知道怎么用就好了，必要的时候翻翻个人博客就可以找到。<br> 然后吧，记录生活日常。当然这个可能比较少。<br> ——————————————————————————</p>
 ]]></content>
   </entry>
 </search>
