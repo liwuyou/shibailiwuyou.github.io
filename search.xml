@@ -101,10 +101,11 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;build_depend&gt;message_generation&lt;/build_depend&gt;</span><br><span class="line">&lt;exec_depend&gt;message_runtime&lt;/exec_depend&gt;</span><br></pre></td></tr></table></figure>
 
 <p>3.在CMakeLists.txt内加入：<br> <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"> <span class="built_in">add_message_files</span>(</span><br><span class="line">  FILES</span><br><span class="line">  Person.msg</span><br><span class="line">)</span><br><span class="line"> </span><br><span class="line"><span class="built_in">generate_messages</span>(</span><br><span class="line">  DEPENDENCIES</span><br><span class="line">  std_msgs</span><br><span class="line">)</span><br></pre></td></tr></table></figure></p>
-<h2 id="并把改为"><a href="#并把改为" class="headerlink" title="并把改为"></a>并把<br><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">#  CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs turtlesim</span><br></pre></td></tr></table></figure><br>改为<br><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs turtlesim message_runtime</span><br></pre></td></tr></table></figure></h2><p>系统关机及重启</p>
+<h2 id="并把-改为"><a href="#并把-改为" class="headerlink" title="   并把   改为"></a>   并把<br><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">#  CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs turtlesim</span><br></pre></td></tr></table></figure><br>   改为<br><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs turtlesim message_runtime</span><br></pre></td></tr></table></figure></h2><p>系统关机及重启</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//关机</span></span><br><span class="line">shutdown -h now</span><br><span class="line"><span class="comment">//重启</span></span><br><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
 <p>ctrl all+T打开新的终端</p>
-]]></content>
+<hr>
+<h2 id="摄像头参数命令"><a href="#摄像头参数命令" class="headerlink" title="摄像头参数命令"></a>摄像头参数命令<br><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">qv4l2</span><br></pre></td></tr></table></figure></h2>]]></content>
       <tags>
         <tag>ros</tag>
       </tags>
