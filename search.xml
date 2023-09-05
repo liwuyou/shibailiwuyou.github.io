@@ -275,14 +275,9 @@
 <p>而在软件类方向，我们首先第一步是科学上网，这一步自行领悟。然后使用github，github是开源社区开源社区里面有很多开源的项目和代码，计算机类必备。<br>然后还要学习一些基本的电脑工具软件，如资源管理器，powershell等<br>Linux系统是我们开发的常用系统，特别是在机器人领域， 机器人开发平台ros，就是在Linux系统上开发的，像很多服务器，都搭载在Linux系统上。Linux系统相对于WINDOWS系统具有轻量化，稳定性的优点。十分建议学习。<br>如果你python学的好的话，还可以进阶学习神经网络的相关知识，如视觉识别相关的open CV,yolo等</p>
 <hr>
 <p>最后，对学习路线进行一下小小的总结。以下有几种路线以供选择，难度依次增大<br>注意难度与实用并不相关。</p>
-<p>最快最轻量的路线<br>语言类的python，硬件类的soildwords，单片机类的arduino，esp32</p>
-<p>稍微复杂一点<br>语言类的python，c，硬件类的soildwords，单片机类的51，stm32</p>
-<p>在稍微复杂一点<br>语言类的python，c，硬件类的，pcb绘制，solidwords，单片机类的，arduino，esp32，stm32，软件类的linux开发</p>
-<hr>
-<p>最后，对学习路线进行一下小小的总结。以下有几种路线以供选择，难度依次增大<br>注意难度与实用并不相关。</p>
 <p>最快最轻量的路线</p>
 <ul>
-<li>语言类的python，硬件类的soildwords，单片机类的arduino，esp32</li>
+<li>语言类的c，硬件类的soildwords，单片机类的arduino，esp32</li>
 </ul>
 <p>稍微复杂一点</p>
 <ul>
