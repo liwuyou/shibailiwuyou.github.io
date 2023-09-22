@@ -3,10 +3,10 @@
   <entry>
     <title>零基础小白3d打印基本入门（2.0）</title>
     <url>/2023/07/24/3D%E6%89%93%E5%8D%B0%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="欢迎加入3d打印社温暖的大家庭"><a href="#欢迎加入3d打印社温暖的大家庭" class="headerlink" title="欢迎加入3d打印社温暖的大家庭"></a>欢迎加入3d打印社温暖的大家庭</h1><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/AmMYOg0J.png"/></div></div>   
+    <content><![CDATA[<h2 id="欢迎加入3d打印社温暖的大家庭"><a href="#欢迎加入3d打印社温暖的大家庭" class="headerlink" title="欢迎加入3d打印社温暖的大家庭"></a>欢迎加入3d打印社温暖的大家庭</h2><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/AmMYOg0J.png"/></div></div>   
 <p>本手册旨在帮助新同学完成3d打印从0到1的过程 </p>
 <div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/tkyrQC6R.jpg"/></div></div> 
-<h2 id="第一步-建模软件的安装"><a href="#第一步-建模软件的安装" class="headerlink" title="第一步 建模软件的安装"></a>第一步 建模软件的安装</h2><p>建模软件有很多，如有其他需求请自行查找。<br>这里主要介绍一种，北矿的我们用的最多的软件。Solidwords</p>
+<h3 id="第一步-建模软件的安装"><a href="#第一步-建模软件的安装" class="headerlink" title="第一步 建模软件的安装"></a>第一步 建模软件的安装</h3><p>建模软件有很多，如有其他需求请自行查找。<br>这里主要介绍一种，北矿的我们用的最多的软件。Solidwords</p>
 <p>Solidwords是工业建模软件，主要用于工业零部件的建模。<br>安装其实有点小复杂。安装需谨慎，请严格按照规范进行。<br>这玩意儿实际上是付费软件（用于学习的话，是可以白嫖的。），本人实际安装的时候，因为安装时出现一些差错。只能把电脑系统重装了<br>软件图标</p>
 <div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/049Ht7N4.png"/></div></div>
 
@@ -17,8 +17,8 @@
 <p>在此再次提醒各位，安装需谨慎，请严格按照安装操作进行。(我想你大概也不想重装电脑吧[狗头])<br>不愿折腾的可选择淘宝远程指导，但十分不推荐。</p>
 <div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/rZI49koI.png"/></div></div>
 <p>按照上面的操作，一步一步的来就可以安装完毕了。<br>下面进入到第二步</p>
-<h2 id="第二步-建模软件的学习"><a href="#第二步-建模软件的学习" class="headerlink" title="第二步 建模软件的学习"></a>第二步 建模软件的学习</h2><p>依旧是以solidwords为例（如果安装了其他建模软件的话，请自行查找教程）<br>在B站上可以找到学习的教程。这里推荐阿奇学solidwolds.<br><a href="https://www.bilibili.com/video/BV1iw411Z7HZ/">https://www.bilibili.com/video/BV1iw411Z7HZ/</a><br>链接如上。<br>建模软件的学习，请自行按照视频进行。<br>学习完了建模软件就可以开始3d打印了吗？还差最后一步。</p>
-<h2 id="第三步-开始3d打印"><a href="#第三步-开始3d打印" class="headerlink" title="第三步 开始3d打印"></a>第三步 开始3d打印</h2><p>首先需要一台电脑，一台打印机，一个U盘，一个已经建模好的模型。建模软件。切片软件。<br>（当然了，模型也可以在各大网站上去找。）<br>切片软件有很多，请自行查找。<br>但是学校的打印机很垃圾。<br>需要配备专门的切片软件，也就是说，市场上通用的切片软件，eg.cura实际上是用不了的。哦，也可以用，但是切出来的不能够用于学校的打印机，只能够用于自制的打印机，或者是其他品牌的打印机。<br>专门的切片软件链接放在这里，请自行下载。<br><a href="https://cr.triority.cn/f/LRHZ/SHINING_Setup_5.2.6.exe">https://cr.triority.cn/f/LRHZ/SHINING_Setup_5.2.6.exe</a><br>切片软件图标:   </p>
+<h3 id="第二步-建模软件的学习"><a href="#第二步-建模软件的学习" class="headerlink" title="第二步 建模软件的学习"></a>第二步 建模软件的学习</h3><p>依旧是以solidwords为例（如果安装了其他建模软件的话，请自行查找教程）<br>在B站上可以找到学习的教程。这里推荐阿奇学solidwolds.<br><a href="https://www.bilibili.com/video/BV1iw411Z7HZ/">https://www.bilibili.com/video/BV1iw411Z7HZ/</a><br>链接如上。<br>建模软件的学习，请自行按照视频进行。<br>学习完了建模软件就可以开始3d打印了吗？还差最后一步。</p>
+<h3 id="第三步-开始3d打印"><a href="#第三步-开始3d打印" class="headerlink" title="第三步 开始3d打印"></a>第三步 开始3d打印</h3><p>首先需要一台电脑，一台打印机，一个U盘，一个已经建模好的模型。建模软件。切片软件。<br>（当然了，模型也可以在各大网站上去找。）<br>切片软件有很多，请自行查找。<br>但是学校的打印机很垃圾。<br>需要配备专门的切片软件，也就是说，市场上通用的切片软件，eg.cura实际上是用不了的。哦，也可以用，但是切出来的不能够用于学校的打印机，只能够用于自制的打印机，或者是其他品牌的打印机。<br>专门的切片软件链接放在这里，请自行下载。<br><a href="https://cr.triority.cn/f/LRHZ/SHINING_Setup_5.2.6.exe">https://cr.triority.cn/f/LRHZ/SHINING_Setup_5.2.6.exe</a><br>切片软件图标:   </p>
 <div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/itt6rHxt.png"/></div></div>   
 <p>这个链接的存活取决于mjx学长服务器的存活时间.请注意保存。   </p>
 <p>3d打印模型的获取方式</p>
@@ -45,7 +45,7 @@
 <div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/zo9MSVZf.jpg"/></div></div>   
 <p>右上角是打印机的菜单界面，点击打印，下翻目录，找到我们要打印的立方体模型。点击三角形开始打印。这样我们只需要等待打印完成就可以了。</p>
 <p> </p>
-<h2 id="第四步-打印机的维护"><a href="#第四步-打印机的维护" class="headerlink" title="第四步 打印机的维护"></a>第四步 打印机的维护</h2><p>打印机的维护，包括内容有：（实际打印中，我们会碰到的最多的问题。）<br>1.耗材安装<br>2.打印机调平<br>3.堵头问题怎么处理<br>当然了，这里也放一个学校打印机的官方的维护视频的链接<br>链接：<a href="https://pan.quark.cn/s/714267f196f7">https://pan.quark.cn/s/714267f196f7</a><br>当然了，如果在实际使用过程中碰到了一些无法解决的问题，请积极的请教学长。因为实际维修的过程可能跟官方给的教程有很大差异。
+<h3 id="第四步-打印机的维护"><a href="#第四步-打印机的维护" class="headerlink" title="第四步 打印机的维护"></a>第四步 打印机的维护</h3><p>打印机的维护，包括内容有：（实际打印中，我们会碰到的最多的问题。）<br>1.耗材安装<br>2.打印机调平<br>3.堵头问题怎么处理<br>当然了，这里也放一个学校打印机的官方的维护视频的链接<br>链接：<a href="https://pan.quark.cn/s/714267f196f7">https://pan.quark.cn/s/714267f196f7</a><br>当然了，如果在实际使用过程中碰到了一些无法解决的问题，请积极的请教学长。因为实际维修的过程可能跟官方给的教程有很大差异。
  </p>
 <p>附录 作品展示</p>
 <div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/MIwHxmDv.jpg"/></div></div>
@@ -267,7 +267,7 @@
     <url>/2023/09/05/%E7%A4%BE%E5%9B%A2%E6%88%90%E5%91%98%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%8F%8A%E5%85%B6%E4%BB%8B%E7%BB%8D/</url>
     <content><![CDATA[<p>本文档用于告知新生社员基本的学习路线，学习方向。<br>该文档同步发布在我的个人博客(liwuyou.github.io)以及3D打印社网站(cumtb.club)上<br>个人意见，仅供参考<br>如果对学习路线有疑问或者不了解的地方，请联系社长或管理员</p>
 <hr>
-<h1 id="学习路线"><a href="#学习路线" class="headerlink" title="学习路线"></a>学习路线</h1><h3 id="语言类"><a href="#语言类" class="headerlink" title="语言类"></a>语言类</h3><ul>
+<h2 id="学习路线"><a href="#学习路线" class="headerlink" title="学习路线"></a>学习路线</h2><h3 id="语言类"><a href="#语言类" class="headerlink" title="语言类"></a>语言类</h3><ul>
 <li>c&#x2F;c++</li>
 <li>python</li>
 <li>English</li>
@@ -296,7 +296,7 @@
 <hr>
 <hr>
 <hr>
-<h1 id="具体介绍"><a href="#具体介绍" class="headerlink" title="具体介绍"></a>具体介绍</h1><p>请注意学习路线里面的，并不是所有内容都要学。   </p>
+<h2 id="具体介绍"><a href="#具体介绍" class="headerlink" title="具体介绍"></a>具体介绍</h2><p>请注意学习路线里面的，并不是所有内容都要学。   </p>
 <p>首先呢，语言类方面，我们要学习一门编程语言，如果你想走嵌入式开发c是必选的，如果你想走更偏软件一点的机器学习，人工智能的路线，推荐学习python，如果更偏向于算法，对计算机更加细致入微的调控请选择C++。<br>北矿的我们，大一上学期学的是python，但是课程很水，两节课就可以讲完所有的python基本语法，课程简单，基本不会挂科。大一下学期学的是C语言，蛮重要的，会考试，分数占比大，容易挂科。<br>推荐入门，语言使用c，理由如下，下学期要学C语言，提前预习，可获得更高分数，或者获得更多的空余时间。<br>然后尽量把英语学好，特别是在外网的时候，英语就很重要了，当然不会，也没有关系。用翻译软件也能解决，但是翻译软件并不能适用于所有场景，所以英语还是尽量学好一点</p>
 <hr>
 <p>而在单片机类中，什么是单片机，请自行百度，了解什么是单片机，单片机的常见类型。<br>为什么要学习单片机呢？单片机是嵌入式开发学习的基本环节，学会了使用单片机，我们可以设计一些具有一些实用价值的东西，如智能门锁，烟雾报警器，联网天气显示时钟等。<br>我们目前使用的单片机类型有很多，而最简单的最好入门的最容易上手的是arduino，arduino开发套件，淘宝上买的话，大概100多块钱，闲鱼上二手更便宜。Arduino，开发简单，开源库多，资料较多。<br>arduino学完下一步就可以使用，arduino的开发环境，开发esp32，Esp 32是一款性能更加强大，具有联网和蓝牙功能的单片机，价格低廉。<br>如果不从arduino入手的话，也可以从51单片机进行入门，51单片机是stm32单片机的前置课程，直接上手stm 32难度较大，学完51更容易上手。Stm32是当前使用规模最大的单片机类型之一，功能强大，性能优越，能够完成很多复杂的工作，如果方向是嵌入式的话，很难不接触到stm 32这款单片机。而且stm 32也是大学生毕业设计的首选单片机之一。<br>然后就是树莓派和香橙派以及其他什么派，从某种意义上来讲，这些派应该不属于单片机类型，他们可以连接屏幕，充当电脑，甚至安装WINDOWS系统使用。当然了，他们性能没有电脑这么强。一般他们都安装Linux系统进行开发，充当上位机使用。如自动导航小车的上位机。性能十分强大，价格也昂贵。</p>
