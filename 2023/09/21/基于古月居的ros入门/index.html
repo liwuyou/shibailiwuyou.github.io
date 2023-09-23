@@ -33,7 +33,7 @@
 <meta property="og:image" content="https://img1.imgtp.com/2023/09/22/hq718lRQ.jpg">
 <meta property="og:image" content="https://img1.imgtp.com/2023/09/23/lrEzYc0C.png">
 <meta property="article:published_time" content="2023-09-20T17:12:16.000Z">
-<meta property="article:modified_time" content="2023-09-23T05:40:49.739Z">
+<meta property="article:modified_time" content="2023-09-23T06:01:18.441Z">
 <meta property="article:author" content="wj">
 <meta property="article:tag" content="ros">
 <meta name="twitter:card" content="summary_large_image">
@@ -74,7 +74,7 @@
 
   
 
-<header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://img1.imgtp.com/2023/09/22/d9tKgPBV.jpg" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">无忧</div><div class="sub cap">today is a good day</div></a></div>
+<header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="/img/wx.jpg" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">无忧</div><div class="sub cap">today is a good day</div></a></div>
 
 <nav class="menu dis-select"></nav>
 </header>
@@ -146,7 +146,7 @@
 <p>问题：我需要在原有的ROS工程基础之上，新建一个ROS功能包。我直接复制了其他目录下原有的一个包，进行修改。然后问题来了：catkin_make后竟然没有反应。甚至没有检测到我新改写的cmake</p>
 </blockquote>
 <blockquote>
-<p>解决：ros允许多个工作空间使用相同功能包，但多个工作空间source不要放在脚本里，手动敲，否则会被覆盖在catkin_make之前source一下，之后再source一下。而且要多次执行，如下。注意要先开下roscores，py文件要给其可执行权限</p>
+<p>解决：ros允许多个工作空间使用相同功能包，但多个工作空间source不要放在脚本里，手动敲，否则会被覆盖在catkin_make之前source一下，之后再source一下。而且要多次执行，如下。注意要先开下roscores，py文件要给其可执行权限，并且脚本文件的source只在新的终端开启时才运行</p>
 </blockquote>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//将文件复制过来后，在工作空间目录下打开终端</span><br><span class="line">source ~/ws_space/devel/setup.bash</span><br><span class="line">catkin_make</span><br><span class="line">source ~/ws_space/devel/setup.bash</span><br><span class="line">catkin_make</span><br><span class="line">source ~/ws_space/devel/setup.bash</span><br></pre></td></tr></table></figure>
 
@@ -162,7 +162,8 @@
 <div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img1.imgtp.com/2023/09/23/lrEzYc0C.png"/></div></div>
 <h2 id="launch文件"><a href="#launch文件" class="headerlink" title="launch文件"></a>launch文件</h2><p>使用 launch 文件，可以一次性启动多个 ROS 节点</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 包名 节点名称 自定义节点名 --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 注释 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">launch</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">node</span> <span class="attr">pkg</span>=<span class="string">&quot;helloworld&quot;</span> <span class="attr">type</span>=<span class="string">&quot;demo_hello&quot;</span> <span class="attr">name</span>=<span class="string">&quot;hello&quot;</span> <span class="attr">output</span>=<span class="string">&quot;screen&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">node</span> <span class="attr">pkg</span>=<span class="string">&quot;turtlesim&quot;</span> <span class="attr">type</span>=<span class="string">&quot;turtlesim_node&quot;</span> <span class="attr">name</span>=<span class="string">&quot;t1&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">node</span> <span class="attr">pkg</span>=<span class="string">&quot;turtlesim&quot;</span> <span class="attr">type</span>=<span class="string">&quot;turtle_teleop_key&quot;</span> <span class="attr">name</span>=<span class="string">&quot;key1&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">launch</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="客户端与服务端"><a href="#客户端与服务端" class="headerlink" title="客户端与服务端"></a>客户端与服务端</h2><h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><h2 id="参数的使用"><a href="#参数的使用" class="headerlink" title="参数的使用"></a>参数的使用</h2><p>parameter Server    全局变量存储空间</p>
+<h2 id="客户端与服务端"><a href="#客户端与服务端" class="headerlink" title="客户端与服务端"></a>客户端与服务端</h2><h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="参数的使用"><a href="#参数的使用" class="headerlink" title="参数的使用"></a>参数的使用</h2><p>parameter Server    全局变量存储空间</p>
 
 
 
