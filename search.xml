@@ -434,15 +434,16 @@
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 包名 节点名称 自定义节点名 --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 注释 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">launch</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">node</span> <span class="attr">pkg</span>=<span class="string">&quot;helloworld&quot;</span> <span class="attr">type</span>=<span class="string">&quot;demo_hello&quot;</span> <span class="attr">name</span>=<span class="string">&quot;hello&quot;</span> <span class="attr">output</span>=<span class="string">&quot;screen&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">node</span> <span class="attr">pkg</span>=<span class="string">&quot;turtlesim&quot;</span> <span class="attr">type</span>=<span class="string">&quot;turtlesim_node&quot;</span> <span class="attr">name</span>=<span class="string">&quot;t1&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">node</span> <span class="attr">pkg</span>=<span class="string">&quot;turtlesim&quot;</span> <span class="attr">type</span>=<span class="string">&quot;turtle_teleop_key&quot;</span> <span class="attr">name</span>=<span class="string">&quot;key1&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">launch</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h2 id="客户端与服务端"><a href="#客户端与服务端" class="headerlink" title="客户端与服务端"></a>客户端与服务端</h2><h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 <h2 id="参数的使用"><a href="#参数的使用" class="headerlink" title="参数的使用"></a>参数的使用</h2><p>parameter Server    全局变量存储空间</p>
-<h2 id="常用可视化工具"><a href="#常用可视化工具" class="headerlink" title="常用可视化工具"></a>常用可视化工具</h2><h3 id="QT工具箱"><a href="#QT工具箱" class="headerlink" title="QT工具箱"></a>QT工具箱</h3><div class="tag-plugin image"><div class="image-bg"><img src="../../public/img/ros/9875cf93e2e2a92d9b9ccbb05ce5400.png"/></div></div>
+<h2 id="常用可视化工具"><a href="#常用可视化工具" class="headerlink" title="常用可视化工具"></a>常用可视化工具</h2><h3 id="QT工具箱"><a href="#QT工具箱" class="headerlink" title="QT工具箱"></a>QT工具箱</h3><div class="tag-plugin image"><div class="image-bg"><img src="/img/ros/9875cf93e2e2a92d9b9ccbb05ce5400.png"/></div></div>
 <ul>
 <li>日志输出rqt_console</li>
 <li>计算图ret_graph</li>
 <li>数据绘图rqt_plot</li>
 <li>图像渲染rqt_image_view</li>
 </ul>
-<h3 id="rviz"><a href="#rviz" class="headerlink" title="rviz"></a>rviz</h3><div class="tag-plugin image"><div class="image-bg"><img src="../../public/img/ros/2608e71acd215de1473461dd380e02d.png"/></div></div>
-]]></content>
+<h3 id="rviz"><a href="#rviz" class="headerlink" title="rviz"></a>rviz</h3><div class="tag-plugin image"><div class="image-bg"><img src="/img/ros/2608e71acd215de1473461dd380e02d.png"/></div></div>
+
+<h3 id="gazebo"><a href="#gazebo" class="headerlink" title="gazebo"></a>gazebo</h3>]]></content>
       <tags>
         <tag>ros</tag>
       </tags>
