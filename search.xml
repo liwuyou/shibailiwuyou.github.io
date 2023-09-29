@@ -424,7 +424,6 @@
 <h2 id="客户端与服务端"><a href="#客户端与服务端" class="headerlink" title="客户端与服务端"></a>客户端与服务端</h2><h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><blockquote>
 <p>rosservice call &#x2F;clear “{}”</p>
 </blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 <h2 id="参数的使用"><a href="#参数的使用" class="headerlink" title="参数的使用"></a>参数的使用</h2><p>parameter Server    全局变量存储空间</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 列出当前有多个参数</span><br><span class="line">rosparam list</span><br><span class="line">// 显示某个参数值</span><br><span class="line">rosparam get param_key</span><br><span class="line">// 设置某个参数值</span><br><span class="line">rosparam set param_key param_value</span><br><span class="line">//保存参数到文件</span><br><span class="line">rosparam dump file_name</span><br><span class="line">// 从文件读取参数</span><br><span class="line">rosparam load file_anme</span><br><span class="line">// 删除参数</span><br><span class="line">rosparam delete param_key</span><br></pre></td></tr></table></figure>
 
@@ -468,9 +467,53 @@
 <li>机器人模型设计</li>
 <li>为模型上装备传感器与执行器</li>
 </ul>
+<blockquote>
+<p><a href="https://gazebosim.org/docs">https://gazebosim.org/docs</a></p>
+</blockquote>
 ]]></content>
       <tags>
         <tag>ros</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>arduino的系统学习</title>
+    <url>/2023/09/29/arduino%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<p>我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧</p>
+<hr>
+<p>arduino IDE下载</p>
+<blockquote>
+<p><a href="http://www.arduino.cc/">www.arduino.cc</a></p>
+</blockquote>
+<h2 id="arduino-uno引脚图"><a href="#arduino-uno引脚图" class="headerlink" title="arduino uno引脚图"></a>arduino uno引脚图</h2><div class="tag-plugin image"><div class="image-bg"><img src="https://img-blog.csdnimg.cn/20181217095530334.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3NzM4ODM4,size_16,color_FFFFFF,t_70"></div></div>
+
+<p>Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶体振荡器，一个USB接口，一个DC接口，一个ICSP接口，一个复位按钮。它包含了微控制器所需的一切，你只用简单地把它连接到计算机的USB接口，或者使用AC-DC适配器，再或者用电池，就可以驱动它。</p>
+<h3 id="存储空间"><a href="#存储空间" class="headerlink" title="存储空间"></a>存储空间</h3><p>ATmega328 有32KB Flash存储空间（其中0.5KB被用于存储bootloader），2KB 的SRAM和1KB 的EEPROM。<br>可以使用官方提供的EEPROM库读写EEPROM空间。</p>
+<h3 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h3><p>Arduino Uno有14个数字输入输出引脚，可使用 pinMode()、digitalWrite() 和 digitalRead() 控制。<br>其中一些带有特殊功能，这些引脚如下</p>
+<h4 id="Serial"><a href="#Serial" class="headerlink" title="Serial"></a>Serial</h4><p>0（RX）、1（TX），被用于接收和发送串口数据。这两个引脚通过连接到ATmega16u2来与计算机进行串口通信。</p>
+<h4 id="外部中断"><a href="#外部中断" class="headerlink" title="外部中断"></a>外部中断</h4><p>2、3，可以输入外部中断信号。中断有四种触发模式：低电平触发、电平改变触发、上升沿触发、下降沿触发。</p>
+<h4 id="PWM输出："><a href="#PWM输出：" class="headerlink" title="PWM输出："></a>PWM输出：</h4><p>3、5、6、9、10、11，可用于输出8-bit PWM波。对应函数 analogWrite() 。</p>
+<h4 id="SPI："><a href="#SPI：" class="headerlink" title="SPI："></a>SPI：</h4><p>10（SS）、11（MOSI）、12（MISO）、13（SCK），可用于SPI通信。可以使用官方提供的SPI库操纵。</p>
+<h4 id="L-LED："><a href="#L-LED：" class="headerlink" title="L-LED："></a>L-LED：</h4><p>13。13号引脚连接了一个LED，当引脚输出高电平时打开LED，当引脚输出低电平时关闭LED。</p>
+<h4 id="TWI："><a href="#TWI：" class="headerlink" title="TWI："></a>TWI：</h4><p>A4（SDA）、A5（SCL）和TWI接口，可用于TWI通信，兼容I²C通信。可以使用官方提供的Wire库操纵。</p>
+<h2 id="点亮一个LED灯"><a href="#点亮一个LED灯" class="headerlink" title="点亮一个LED灯"></a>点亮一个LED灯</h2><p>点灯大师，闪亮登场<br><strong>LED灯正负两端会有2v的电压差</strong></p>
+<h3 id="pinMode-引脚号，状态-设置引脚模式"><a href="#pinMode-引脚号，状态-设置引脚模式" class="headerlink" title="pinMode(引脚号，状态)  设置引脚模式"></a>pinMode(引脚号，状态)  设置引脚模式</h3><ul>
+<li>输出(OUTPUT)</li>
+<li>输入(INPUT)</li>
+<li>输入上拉模式(INPUT_PULLUP)</li>
+</ul>
+<h3 id="digitalWrite-引脚号-状态-引脚输出状态"><a href="#digitalWrite-引脚号-状态-引脚输出状态" class="headerlink" title="digitalWrite(引脚号,状态);  引脚输出状态"></a>digitalWrite(引脚号,状态);  引脚输出状态</h3><ul>
+<li>HIGH(高电平)</li>
+<li>LOW(低电平)</li>
+</ul>
+<h3 id="上拉电阻"><a href="#上拉电阻" class="headerlink" title="上拉电阻"></a>上拉电阻</h3><p>arduino开发板上拉电阻10K</p>
+<h3 id="引脚悬空"><a href="#引脚悬空" class="headerlink" title="引脚悬空"></a>引脚悬空</h3><p>引脚设置成INPUT却没有加任何电路，引脚检测状态不定（0&#x2F;1）</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//点亮二号引脚</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  digitalWrite(<span class="number">2</span>,HIGH);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<div class="tag-plugin image"><div class="image-bg"><img src="/.io//acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
+]]></content>
+  </entry>
+  <entry>
+    <title>江科大51再学习</title>
+    <url>/2023/09/29/%E6%B1%9F%E7%A7%91%E5%A4%A751%E5%86%8D%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
