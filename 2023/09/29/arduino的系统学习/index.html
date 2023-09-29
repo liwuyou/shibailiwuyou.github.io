@@ -31,12 +31,9 @@
 <meta property="og:description" content="我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧  arduino IDE下载  www.arduino.cc  arduino uno引脚图  Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://img1.imgtp.com/2023/09/30/dF8YseB9.png">
-<meta property="og:image" content="https://liwuyou.github.io/.io//acef7197dc8e2003ceb04c42952ec92.jpg">
-<meta property="og:image" content="https://liwuyou.github.io/.io//acef7197dc8e2003ceb04c42952ec92.jpg">
-<meta property="og:image" content="https://liwuyou.github.io/.io//acef7197dc8e2003ceb04c42952ec92.jpg">
-<meta property="og:image" content="https://liwuyou.github.io/.io/public/img/alipay.svg">
+<meta property="og:image" content="https://liwuyou.github.io/2023/09/29/arduino%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/acef7197dc8e2003ceb04c42952ec92.jpg">
 <meta property="article:published_time" content="2023-09-29T15:16:19.000Z">
-<meta property="article:modified_time" content="2023-09-29T16:57:03.290Z">
+<meta property="article:modified_time" content="2023-09-29T17:10:46.970Z">
 <meta property="article:author" content="wj">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://img1.imgtp.com/2023/09/30/dF8YseB9.png">
@@ -136,11 +133,8 @@
 <h3 id="上拉电阻"><a href="#上拉电阻" class="headerlink" title="上拉电阻"></a>上拉电阻</h3><p>arduino开发板上拉电阻10K</p>
 <h3 id="引脚悬空"><a href="#引脚悬空" class="headerlink" title="引脚悬空"></a>引脚悬空</h3><p>引脚设置成INPUT却没有加任何电路，引脚检测状态不定（0&#x2F;1）</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//点亮二号引脚</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  digitalWrite(<span class="number">2</span>,HIGH);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/.io//acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/.io//acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/.io//acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/.io//../public/img/alipay.svg"></div></div>
 
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
 <h2 id="串口通信"><a href="#串口通信" class="headerlink" title="串口通信"></a>串口通信</h2>
 
 
