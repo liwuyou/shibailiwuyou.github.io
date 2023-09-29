@@ -509,7 +509,8 @@
 <h3 id="引脚悬空"><a href="#引脚悬空" class="headerlink" title="引脚悬空"></a>引脚悬空</h3><p>引脚设置成INPUT却没有加任何电路，引脚检测状态不定（0&#x2F;1）</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//点亮二号引脚</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  digitalWrite(<span class="number">2</span>,HIGH);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <div class="tag-plugin image"><div class="image-bg"><img src="/.io//acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
-]]></content>
+
+<h2 id="串口通信"><a href="#串口通信" class="headerlink" title="串口通信"></a>串口通信</h2>]]></content>
   </entry>
   <entry>
     <title>江科大51再学习</title>
