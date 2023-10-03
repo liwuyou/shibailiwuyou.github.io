@@ -3,23 +3,23 @@
   <entry>
     <title>零基础小白3d打印基本入门（2.0）</title>
     <url>/2023/07/24/3D%E6%89%93%E5%8D%B0%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h2 id="欢迎加入3d打印社温暖的大家庭"><a href="#欢迎加入3d打印社温暖的大家庭" class="headerlink" title="欢迎加入3d打印社温暖的大家庭"></a>欢迎加入3d打印社温暖的大家庭</h2><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/AmMYOg0J.png"/></div></div>   
+    <content><![CDATA[<h2 id="欢迎加入3d打印社温暖的大家庭"><a href="#欢迎加入3d打印社温暖的大家庭" class="headerlink" title="欢迎加入3d打印社温暖的大家庭"></a>欢迎加入3d打印社温暖的大家庭</h2><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/AmMYOg0J.png"></div></div>   
 <p>本手册旨在帮助新同学完成3d打印从0到1的过程 </p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/tkyrQC6R.jpg"/></div></div> 
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/tkyrQC6R.jpg"></div></div> 
 <h3 id="第一步-建模软件的安装"><a href="#第一步-建模软件的安装" class="headerlink" title="第一步 建模软件的安装"></a>第一步 建模软件的安装</h3><p>建模软件有很多，如有其他需求请自行查找。<br>这里主要介绍一种，北矿的我们用的最多的软件。Solidwords</p>
 <p>Solidwords是工业建模软件，主要用于工业零部件的建模。<br>安装其实有点小复杂。安装需谨慎，请严格按照规范进行。<br>这玩意儿实际上是付费软件（用于学习的话，是可以白嫖的。），本人实际安装的时候，因为安装时出现一些差错。只能把电脑系统重装了<br>软件图标</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/049Ht7N4.png"/></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/049Ht7N4.png"></div></div>
 
 <p>基本界面</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/kRyKxBMW.png"/></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/kRyKxBMW.png"></div></div>
 
 <p>具体安装方法<br>下载路径：<br><a href="https://www.cadzxw.com/download.html">https://www.cadzxw.com/download.html</a><br>打开网址后，菜单下拉。找到solidwords的一栏。<br>选择最新版solidwords安装图文教程点击查看。</p>
 <p>在此再次提醒各位，安装需谨慎，请严格按照安装操作进行。(我想你大概也不想重装电脑吧[狗头])<br>不愿折腾的可选择淘宝远程指导，但十分不推荐。</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/rZI49koI.png"/></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/rZI49koI.png"></div></div>
 <p>按照上面的操作，一步一步的来就可以安装完毕了。<br>下面进入到第二步</p>
 <h3 id="第二步-建模软件的学习"><a href="#第二步-建模软件的学习" class="headerlink" title="第二步 建模软件的学习"></a>第二步 建模软件的学习</h3><p>依旧是以solidwords为例（如果安装了其他建模软件的话，请自行查找教程）<br>在B站上可以找到学习的教程。这里推荐阿奇学solidwolds.<br><a href="https://www.bilibili.com/video/BV1iw411Z7HZ/">https://www.bilibili.com/video/BV1iw411Z7HZ/</a><br>链接如上。<br>建模软件的学习，请自行按照视频进行。<br>学习完了建模软件就可以开始3d打印了吗？还差最后一步。</p>
 <h3 id="第三步-开始3d打印"><a href="#第三步-开始3d打印" class="headerlink" title="第三步 开始3d打印"></a>第三步 开始3d打印</h3><p>首先需要一台电脑，一台打印机，一个U盘，一个已经建模好的模型。建模软件。切片软件。<br>（当然了，模型也可以在各大网站上去找。）<br>切片软件有很多，请自行查找。<br>但是学校的打印机很垃圾。<br>需要配备专门的切片软件，也就是说，市场上通用的切片软件，eg.cura实际上是用不了的。哦，也可以用，但是切出来的不能够用于学校的打印机，只能够用于自制的打印机，或者是其他品牌的打印机。<br>专门的切片软件链接放在这里，请自行下载。<br><a href="https://cr.triority.cn/f/LRHZ/SHINING_Setup_5.2.6.exe">https://cr.triority.cn/f/LRHZ/SHINING_Setup_5.2.6.exe</a><br>切片软件图标:   </p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/itt6rHxt.png"/></div></div>   
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/itt6rHxt.png"></div></div>   
 <p>这个链接的存活取决于mjx学长服务器的存活时间.请注意保存。   </p>
 <p>3d打印模型的获取方式</p>
 <ul>
@@ -28,38 +28,177 @@
 <li>建模软件手绘 (机械学生展示你的实力吧)</li>
 </ul>
 <p>这里我将会演示一下。依旧是基于solidwords<br>1.打开solidwords的已建好的模型。   </p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/wHSLZKu5.png"/></div></div> 
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/wHSLZKu5.png"></div></div> 
 <p>2.选择文件另存为（在这之前请保存好你的文件，快捷键Ctrl+s.如果已经保存，请忽略括号内容）</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/4vXCJS7K.png"/></div></div>  
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/4vXCJS7K.png"></div></div>  
 <p>3.点击后弹出界面如下图所示 </p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/HAauHqOs.png"/></div></div>  
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/HAauHqOs.png"></div></div>  
 <p>请选择文件名,并点击保存类型。找到stl格式.保存.<br>(STL(Stereolithography)文件，有时被称为“标准三角语言”或“标准曲面细分语言”，由3D Systems于1987年创建，并且已被广泛用作全行业3D打印机模型的标准文件。)<br>学校的打印机专用的切片软件只能识别stl格式.<br>接下来会弹出一系列界面。选按照默认选择是就可以了。然后你的保存路径里会出现这样一文件。如图。(因为我直接保存在桌面上了)<br>（这种文件一般发给淘宝商家就可以打印了。）</p>
 <p>打开这个文件。会出现如下的界面   </p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/93X62dey.png"/></div></div>   
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/93X62dey.png"></div></div>   
 <p>右侧是调参界面。<br>我简单的介绍一些重要的吧<br>首先，右侧的材料一栏。(社团买的材料。主要是PLA，有时也有ABS。)<br>然后就是添加支撑这一栏。如果说你的材料有镂空结构。请添加支撑。不然的话，打印的时候会塌掉。（当然，你也可以利用支撑的特性做出一些其他作品。）</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/MBCRLxz0.jpg"/></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/MBCRLxz0.jpg"></div></div>
 <p>在此展示一下20级sk学长的作品。圣诞树.没有添加支撑。让其自然下落而形成的圣诞树结构。他的建模模型和实际图完全不一样。实际图是没有添加支撑的塌掉的建模模型。<br>切片软件左侧一栏可以移动调整打印件的位置和方向。点击立方体打印件，左侧就会变成可选状态。<br>常用功能有移动，缩放，旋转。（多尝试几遍就熟悉了。）<br>摆好模型的位置。使它变成一个容易打印的状态。<br>这一点比较重要，如果模型的位置和方向不好的话。可能会使打印机打印时失败。。</p>
 <p>摆好模型的位置，并调整参数后。点击右下角的准备按钮。并插上U盘。这里建议最好用学校的U盘。自己的U盘的话，插上去可能会检测不出来。</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/Lemx3Ukl.jpg"/></div></div>  
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/Lemx3Ukl.jpg"></div></div>  
 <p>学校的U盘如上图。<br>切片完成后，点击右下角的保存到可移动磁盘。<br>拔出U盘，将U盘插入打印机。<br>打印机全貌</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/zo9MSVZf.jpg"/></div></div>   
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/zo9MSVZf.jpg"></div></div>   
 <p>右上角是打印机的菜单界面，点击打印，下翻目录，找到我们要打印的立方体模型。点击三角形开始打印。这样我们只需要等待打印完成就可以了。</p>
 <p> </p>
 <h3 id="第四步-打印机的维护"><a href="#第四步-打印机的维护" class="headerlink" title="第四步 打印机的维护"></a>第四步 打印机的维护</h3><p>打印机的维护，包括内容有：（实际打印中，我们会碰到的最多的问题。）<br>1.耗材安装<br>2.打印机调平<br>3.堵头问题怎么处理<br>当然了，这里也放一个学校打印机的官方的维护视频的链接<br>链接：<a href="https://pan.quark.cn/s/714267f196f7">https://pan.quark.cn/s/714267f196f7</a><br>当然了，如果在实际使用过程中碰到了一些无法解决的问题，请积极的请教学长。因为实际维修的过程可能跟官方给的教程有很大差异。
  </p>
 <p>附录 作品展示</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/MIwHxmDv.jpg"/></div></div>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/qWLhHk79.jpg"/></div></div>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/TQgisbIx.jpg"/></div></div>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/ADsMdzjV.jpg"/></div></div>    
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/qQLOPgyc.jpg"/></div></div> 
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/OiXNqS28.jpg"/></div></div> 
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/345kYCdv.jpg"/></div></div>
-<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/cKurTDXX.jpg"/></div></div>  
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/MIwHxmDv.jpg"></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/qWLhHk79.jpg"></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/TQgisbIx.jpg"></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/ADsMdzjV.jpg"></div></div>    
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/qQLOPgyc.jpg"></div></div> 
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/OiXNqS28.jpg"></div></div> 
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/345kYCdv.jpg"></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/24/cKurTDXX.jpg"></div></div>  
 <p>进阶 如何制作一台3d打印机<br><a href="https://www.bilibili.com/video/BV15N411o7ou?p=1&vd_source">https://www.bilibili.com/video/BV15N411o7ou?p=1&amp;vd_source</a></p>
 ]]></content>
       <tags>
         <tag>3d打印</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>51/stc/stm校巡线车基本方案</title>
+    <url>/2023/09/19/51-stc-stm%E6%A0%A1%E5%B7%A1%E7%BA%BF%E8%BD%A6%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>arduino小项目1——小时钟</title>
+    <url>/2023/07/30/arduino%E5%B0%8F%E9%A1%B9%E7%9B%AE1%E2%80%94%E2%80%94%E5%B0%8F%E6%97%B6%E9%92%9F/</url>
+    <content><![CDATA[<p>难度系数：★<br>使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕</p>
+<p>接线图，文字描述。<br>单片机上的A4接小屏幕上的SDA，A5接SCL。</p>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://s1.ax1x.com/2023/07/30/pPpcIcd.jpg"></div></div>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;MsTimer2.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;U8g2lib.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="title">u8g2</span><span class="params">(U8G2_R0, SCL, SDA)</span></span>; <span class="comment">// 配置构造函数</span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> year = <span class="number">2020</span>, month = <span class="number">1</span>, day = <span class="number">1</span>, hour = <span class="number">0</span>, minute = <span class="number">0</span>, second = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">onTimer</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    second++;</span><br><span class="line">    <span class="keyword">if</span> (second &gt;= <span class="number">60</span>) &#123;</span><br><span class="line">        second = <span class="number">0</span>;</span><br><span class="line">        minute++;</span><br><span class="line">        <span class="keyword">if</span> (minute &gt;= <span class="number">60</span>) &#123;</span><br><span class="line">            minute = <span class="number">0</span>;</span><br><span class="line">            hour++;</span><br><span class="line">            <span class="keyword">if</span> (hour &gt;= <span class="number">24</span>) &#123;</span><br><span class="line">                hour = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">    u8g2.<span class="built_in">begin</span>();</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line"> </span><br><span class="line">    MsTimer2::<span class="built_in">set</span>(<span class="number">1000</span>, onTimer); <span class="comment">// 中断时间为1秒</span></span><br><span class="line">    MsTimer2::<span class="built_in">start</span>(); <span class="comment">// 启动定时器</span></span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">displayTime</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">displayTime</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line">  </span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB08_tr);</span><br><span class="line">    u8g2.<span class="built_in">drawStr</span>(<span class="number">0</span>, <span class="number">15</span>, <span class="string">&quot;TIME:&quot;</span>);</span><br><span class="line">  </span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB12_tr);</span><br><span class="line">    <span class="type">char</span> strTemp[<span class="number">12</span>];</span><br><span class="line">    <span class="built_in">sprintf</span>(strTemp, <span class="string">&quot; %d.%.2d.%.2d&quot;</span>, year, month, day);</span><br><span class="line">    u8g2.<span class="built_in">drawStr</span>(<span class="number">35</span>, <span class="number">15</span>, strTemp);</span><br><span class="line">  </span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB14_tr);</span><br><span class="line">    <span class="built_in">sprintf</span>(strTemp, <span class="string">&quot;%.2d.%.2d.%.2d&quot;</span>, hour, minute, second);</span><br><span class="line">    u8g2.<span class="built_in">drawStr</span>(<span class="number">25</span>, <span class="number">45</span>, strTemp);</span><br><span class="line"> </span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>arduino</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>arduino小项目2——电压表</title>
+    <url>/2023/07/30/arduino%E5%B0%8F%E9%A1%B9%E7%9B%AE2%E2%80%94%E2%80%94%E7%94%B5%E5%8E%8B%E8%A1%A8/</url>
+    <content><![CDATA[<p>难度系数：★<br>使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕，小按钮</p>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/30/wjSqoIWh.jpeg"></div></div>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"> </span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;U8g2lib.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="title">u8g2</span><span class="params">(U8G2_R0, SCL, SDA)</span></span>; <span class="comment">// 配置构造函数</span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> analogMax = <span class="number">1008</span>,analogMin = <span class="number">14</span>;<span class="comment">//理想范围0-1023;由实际情况调整；1008~4.93v,0~0V;</span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">    <span class="built_in">pinMode</span>(A0, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    <span class="built_in">pinMode</span>(<span class="number">2</span>, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    u8g2.<span class="built_in">begin</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">float</span> a = <span class="built_in">Voltage_detect</span>();</span><br><span class="line">  <span class="built_in">displayMenu</span>(a);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//oled屏幕显示</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">displayMenu</span><span class="params">(<span class="type">float</span> a)</span> </span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB08_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">0</span>, <span class="number">14</span>);</span><br><span class="line"> </span><br><span class="line">    </span><br><span class="line">    u8g2.<span class="built_in">print</span>(<span class="string">&quot;Voltage, (0-5v)&quot;</span>);</span><br><span class="line">    <span class="comment">// 显示电压表...</span></span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB14_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">20</span>, <span class="number">34</span>);</span><br><span class="line">    u8g2.<span class="built_in">println</span>(a);</span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//检测并转化为0-5v</span></span><br><span class="line"><span class="function"><span class="type">float</span> <span class="title">Voltage_detect</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">//range is 0.07 to 4.91</span></span><br><span class="line">    <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0); <span class="comment">//读取io口模拟值</span></span><br><span class="line">    <span class="type">float</span> Voltage = analogdate*<span class="number">5.0</span>/<span class="number">1023.0</span>; <span class="comment">//转化</span></span><br><span class="line">    <span class="comment">//Serial.println(Voltage);</span></span><br><span class="line">    <span class="keyword">if</span>(Voltage&gt;=<span class="number">4.92</span>)&#123;</span><br><span class="line">      Serial.<span class="built_in">println</span>(<span class="string">&quot;out&quot;</span>);  <span class="comment">//串口打印</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> Serial.<span class="built_in">println</span>(Voltage);</span><br><span class="line">    <span class="keyword">return</span> Voltage; <span class="comment">//返回值</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/07/30/33MvMJ89.jpeg"></div></div>
+<p>本来想弄万用表来着，emmp,放弃了,没写完，代码如下</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;U8g2lib.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="title">u8g2</span><span class="params">(U8G2_R0, SCL, SDA)</span></span>; <span class="comment">// 配置构造函数</span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> gear = <span class="number">0</span>; <span class="comment">// 万用表状态 0.菜单；1.电压表；2.电流表；3.电阻表</span></span><br><span class="line"><span class="type">int</span> analogMax = <span class="number">1008</span>,analogMin = <span class="number">14</span>;<span class="comment">//理想范围0-1023;由实际情况调整；1008~4.93v,0~0V;</span></span><br><span class="line"><span class="type">int</span> R_I=<span class="number">220</span>; <span class="comment">// 电流表状态，电阻为220欧姆</span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">    <span class="built_in">pinMode</span>(A0, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    <span class="built_in">pinMode</span>(<span class="number">2</span>, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    u8g2.<span class="built_in">begin</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">double</span> a = <span class="built_in">Voltage_detect</span>();</span><br><span class="line">  switch1();</span><br><span class="line">  <span class="built_in">displayMenu</span>(a);</span><br><span class="line">  <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0);</span><br><span class="line">  </span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">switch1</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> key = <span class="built_in">digitalRead</span>(<span class="number">2</span>);</span><br><span class="line"> </span><br><span class="line">    <span class="comment">// 第一次判断</span></span><br><span class="line">    <span class="keyword">if</span> (key == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// 延时20ms 消除按键抖动</span></span><br><span class="line">        <span class="built_in">delay</span>(<span class="number">20</span>);</span><br><span class="line">        <span class="comment">// 第二次判断</span></span><br><span class="line">        <span class="keyword">if</span> (key == <span class="number">0</span>) &#123;</span><br><span class="line">            gear++; <span class="comment">// 状态++</span></span><br><span class="line">            <span class="keyword">if</span> (gear &gt; <span class="number">3</span>) &#123;</span><br><span class="line">                gear = <span class="number">0</span>; <span class="comment">// 循环到第一个菜单状态</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 等待按键被松开</span></span><br><span class="line">        <span class="keyword">while</span> (!<span class="built_in">digitalRead</span>(<span class="number">2</span>)) &#123;</span><br><span class="line">            <span class="comment">// 等待按键松开</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">displayMenu</span><span class="params">(<span class="type">double</span> a)</span> </span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB08_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">0</span>, <span class="number">14</span>);</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">switch</span> (gear) &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">            <span class="comment">//u8g2.print(&quot;Menu&quot;);</span></span><br><span class="line">            <span class="comment">// 显示菜单选项...</span></span><br><span class="line">            <span class="built_in">face</span>();</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Voltage&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电压表...</span></span><br><span class="line">            u8g2.<span class="built_in">setCursor</span>(<span class="number">20</span>, <span class="number">34</span>);</span><br><span class="line">            u8g2.<span class="built_in">println</span>(a);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Current&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电流表...</span></span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">3</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Resistance&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电阻表...</span></span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">face</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();                                    <span class="comment">//清空显示屏缓存</span></span><br><span class="line"> </span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//画四分之一圆，圆心坐标（56,44），半径8</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">40</span>,<span class="number">18</span>,<span class="number">20</span>,<span class="number">30</span>);                            <span class="comment">//画斜线，两端点坐标分别是（40，18）（20,30）</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">88</span>,<span class="number">18</span>,<span class="number">108</span>,<span class="number">30</span>);                           <span class="comment">//画斜线</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">40</span>,<span class="number">17</span>,<span class="number">20</span>,<span class="number">29</span>);                            <span class="comment">//加粗画斜线</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">88</span>,<span class="number">17</span>,<span class="number">108</span>,<span class="number">29</span>);                           <span class="comment">//加粗画斜线</span></span><br><span class="line">    </span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();                                     <span class="comment">//加载以上内容</span></span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">float</span> <span class="title">Voltage_detect</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">//range is 0.07 to 4.91</span></span><br><span class="line">    <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0);</span><br><span class="line">    <span class="type">float</span> Voltage = analogdate*<span class="number">5.0</span>/<span class="number">1023.0</span>;</span><br><span class="line">    <span class="comment">//Serial.println(Voltage);</span></span><br><span class="line">    <span class="keyword">if</span>(Voltage&gt;=<span class="number">4.92</span>)&#123;</span><br><span class="line">      Serial.<span class="built_in">println</span>(<span class="string">&quot;out&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> Serial.<span class="built_in">println</span>(Voltage);</span><br><span class="line">    <span class="keyword">return</span> Voltage;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>arduino</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>arduino的系统学习</title>
+    <url>/2023/09/29/arduino%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<p>我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧</p>
+<hr>
+<p>arduino IDE下载</p>
+<blockquote>
+<p><a href="http://www.arduino.cc/">www.arduino.cc</a></p>
+</blockquote>
+<h2 id="arduino-uno引脚图"><a href="#arduino-uno引脚图" class="headerlink" title="arduino uno引脚图"></a>arduino uno引脚图</h2><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/09/30/dF8YseB9.png"></div></div>
+
+<p>Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶体振荡器，一个USB接口，一个DC接口，一个ICSP接口，一个复位按钮。它包含了微控制器所需的一切，你只用简单地把它连接到计算机的USB接口，或者使用AC-DC适配器，再或者用电池，就可以驱动它。</p>
+<h3 id="存储空间"><a href="#存储空间" class="headerlink" title="存储空间"></a>存储空间</h3><p>ATmega328 有32KB Flash存储空间（其中0.5KB被用于存储bootloader），2KB 的SRAM和1KB 的EEPROM。<br>可以使用官方提供的EEPROM库读写EEPROM空间。</p>
+<h3 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h3><p>Arduino Uno有14个数字输入输出引脚，可使用 pinMode()、digitalWrite() 和 digitalRead() 控制。<br>其中一些带有特殊功能，这些引脚如下</p>
+<h4 id="Serial"><a href="#Serial" class="headerlink" title="Serial"></a>Serial</h4><p>0（RX）、1（TX），被用于接收和发送串口数据。这两个引脚通过连接到ATmega16u2来与计算机进行串口通信。</p>
+<h4 id="外部中断"><a href="#外部中断" class="headerlink" title="外部中断"></a>外部中断</h4><p>2、3，可以输入外部中断信号。中断有四种触发模式：低电平触发、电平改变触发、上升沿触发、下降沿触发。</p>
+<h4 id="PWM输出："><a href="#PWM输出：" class="headerlink" title="PWM输出："></a>PWM输出：</h4><p>3、5、6、9、10、11，可用于输出8-bit PWM波。对应函数 analogWrite() 。</p>
+<h4 id="SPI："><a href="#SPI：" class="headerlink" title="SPI："></a>SPI：</h4><p>10（SS）、11（MOSI）、12（MISO）、13（SCK），可用于SPI通信。可以使用官方提供的SPI库操纵。</p>
+<h4 id="L-LED："><a href="#L-LED：" class="headerlink" title="L-LED："></a>L-LED：</h4><p>13。13号引脚连接了一个LED，当引脚输出高电平时打开LED，当引脚输出低电平时关闭LED。</p>
+<h4 id="TWI："><a href="#TWI：" class="headerlink" title="TWI："></a>TWI：</h4><p>A4（SDA）、A5（SCL）和TWI接口，可用于TWI通信，兼容I²C通信。可以使用官方提供的Wire库操纵。</p>
+<h2 id="点亮一个LED灯"><a href="#点亮一个LED灯" class="headerlink" title="点亮一个LED灯"></a>点亮一个LED灯</h2><p>点灯大师，闪亮登场<br><strong>LED灯正负两端会有2v的电压差</strong></p>
+<h3 id="pinMode-引脚号，状态-设置引脚模式"><a href="#pinMode-引脚号，状态-设置引脚模式" class="headerlink" title="pinMode(引脚号，状态)  设置引脚模式"></a>pinMode(引脚号，状态)  设置引脚模式</h3><ul>
+<li>输出(OUTPUT)</li>
+<li>输入(INPUT)</li>
+<li>输入上拉模式(INPUT_PULLUP)</li>
+</ul>
+<h3 id="digitalWrite-引脚号-状态-引脚输出状态"><a href="#digitalWrite-引脚号-状态-引脚输出状态" class="headerlink" title="digitalWrite(引脚号,状态);  引脚输出状态"></a>digitalWrite(引脚号,状态);  引脚输出状态</h3><ul>
+<li>HIGH(高电平)</li>
+<li>LOW(低电平)</li>
+</ul>
+<h3 id="上拉电阻"><a href="#上拉电阻" class="headerlink" title="上拉电阻"></a>上拉电阻</h3><p>arduino开发板上拉电阻10K</p>
+<h3 id="引脚悬空"><a href="#引脚悬空" class="headerlink" title="引脚悬空"></a>引脚悬空</h3><p>引脚设置成INPUT却没有加任何电路，引脚检测状态不定（0&#x2F;1）</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//点亮二号引脚</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  digitalWrite(<span class="number">2</span>,HIGH);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<div class="tag-plugin image"><div class="image-bg"><img src="acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
+<h2 id="串口通信"><a href="#串口通信" class="headerlink" title="串口通信"></a>串口通信</h2><h3 id="digitalRead-引脚号"><a href="#digitalRead-引脚号" class="headerlink" title="digitalRead(引脚号)"></a>digitalRead(引脚号)</h3><p>读取某个引脚状态，常与pinMode(引脚号,INOUT)搭配使用</p>
+<h3 id="Serial-begin-9600"><a href="#Serial-begin-9600" class="headerlink" title="Serial.begin(9600);"></a>Serial.begin(9600);</h3><p>串口初始化设置9600为常用波特率</p>
+<h3 id="Serial-println-打印内容"><a href="#Serial-println-打印内容" class="headerlink" title="Serial.println(打印内容);"></a>Serial.println(打印内容);</h3><p>在电脑的串口监视器上输出相应内容</p>
+<h3 id="delay-时间"><a href="#delay-时间" class="headerlink" title="delay(时间)"></a>delay(时间)</h3><p>延时函数，单位为ms</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,INPUT);</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  <span class="type">int</span> buttonState = digitalRead(<span class="number">2</span>);</span><br><span class="line">  Serial.println(buttonState);</span><br><span class="line">  delay(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="tag-plugin image"><div class="image-bg"><img src="5767da9dd70a5f3d0721899f1c0e009.jpg" alt="引脚悬空"></div><div class="image-meta"><span class="image-caption center">引脚悬空</span></div></div>
+
+<h2 id="模拟输出"><a href="#模拟输出" class="headerlink" title="模拟输出"></a>模拟输出</h2><p>标有~的数字引脚可输出PWM信号</p>
+<h3 id="analogWrite-Pin-bringtness"><a href="#analogWrite-Pin-bringtness" class="headerlink" title="analogWrite(Pin,bringtness)"></a>analogWrite(Pin,bringtness)</h3><p>模拟输出，Pin,引脚号;    brigngness为亮度范围0~255,<br>输出的为Pwm信号，PWM信号的频率大约为490Hz.<br>在Arduino UNO控制器中，5号引脚和6号引脚的PWM频率为980Hz。</p>
+<h3 id="呼吸灯（周期未测）"><a href="#呼吸灯（周期未测）" class="headerlink" title="呼吸灯（周期未测）"></a>呼吸灯（周期未测）</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> brightness = <span class="number">0</span>;brightness &lt;= <span class="number">255</span>;brightness+=<span class="number">5</span>)&#123;</span><br><span class="line">  analogWrite(<span class="number">9</span>,brightness);</span><br><span class="line">  Serial.println(brightness);</span><br><span class="line">  delay(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> brightness = <span class="number">255</span>;brightness &gt;= <span class="number">0</span>;brightness-=<span class="number">5</span>)&#123;</span><br><span class="line">  analogWrite(<span class="number">9</span>,brightness);</span><br><span class="line">  Serial.println(brightness);</span><br><span class="line">  delay(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="模拟输入"><a href="#模拟输入" class="headerlink" title="模拟输入"></a>模拟输入</h2><h3 id="电位器"><a href="#电位器" class="headerlink" title="电位器"></a>电位器</h3><div class="tag-plugin image"><div class="image-bg"><img src="f66bddad2a38dbff12ddf1ab7b48169.jpg" alt="电位器"></div><div class="image-meta"><span class="image-caption center">电位器</span></div></div>
+
+<h3 id="ananaloRead-Pin"><a href="#ananaloRead-Pin" class="headerlink" title="ananaloRead(Pin)"></a>ananaloRead(Pin)</h3><p>读取范围0-5v,返回0~1023的数值，读入的最大频率为10 000次，引脚悬空状态读的数值不定</p>
+<h3 id="变量B-map-变量A-A-min-A-max-B-min-B-max"><a href="#变量B-map-变量A-A-min-A-max-B-min-B-max" class="headerlink" title="变量B &#x3D; map(变量A,A_min,A_max,B_min,B_max)"></a>变量B &#x3D; map(变量A,A_min,A_max,B_min,B_max)</h3><p>将变量A等比映射到变量B</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  <span class="built_in">pinMode</span>(<span class="number">9</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> a = <span class="built_in">map</span>(<span class="built_in">analogRead</span>(A0),<span class="number">0</span>,<span class="number">1023</span>,<span class="number">0</span>,<span class="number">255</span>);</span><br><span class="line">  Serial.<span class="built_in">println</span>(a);</span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<hr>
+<hr>
+<h2 id="电机驱动"><a href="#电机驱动" class="headerlink" title="电机驱动"></a>电机驱动</h2><h3 id="电机种类"><a href="#电机种类" class="headerlink" title="电机种类"></a>电机种类</h3><ul>
+<li>直流电机(DC)</li>
+<li>交流电机(AC)</li>
+<li>交直流两用电机(Universal)</li>
+</ul>
+<h3 id="使用arduino的引脚直接驱动直流电机"><a href="#使用arduino的引脚直接驱动直流电机" class="headerlink" title="使用arduino的引脚直接驱动直流电机"></a>使用arduino的引脚直接驱动直流电机</h3><p>简直蠢爆了，引脚输出电流不够,pwm给小了根本不动，当然，这里只是验证analogWrite是PWM信号，周期490Hz</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  <span class="built_in">pinMode</span>(<span class="number">9</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">analogWrite</span>(<span class="number">9</span>,<span class="number">200</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="tag-plugin image"><div class="image-bg"><img src="de5d82d59445ca40372736644f54ff8.jpg" alt="引脚直接驱动电机"></div><div class="image-meta"><span class="image-caption center">引脚直接驱动电机</span></div></div>
+
+<h3 id="舵机驱动"><a href="#舵机驱动" class="headerlink" title="舵机驱动"></a>舵机驱动</h3><p>普通舵机有3根线：GND（黑）、VCC（红）、Signal（黄），一般情况下，建议为舵机单独供电，此处实验为了图方便，用arduino为舵机供电。</p>
+<div class="tag-plugin image"><div class="image-bg"><img src="5a19651acadc6638210bae0b486d1fa.jpg" alt="SG90舵机"></div><div class="image-meta"><span class="image-caption center">SG90舵机</span></div></div>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">servo类下有以下成员函数</span></span><br><span class="line"><span class="comment">attach()//连接舵机</span></span><br><span class="line"><span class="comment">write()//角度控制</span></span><br><span class="line"><span class="comment">writeMicroseconds()//</span></span><br><span class="line"><span class="comment">read()//读上一次舵机转动角度</span></span><br><span class="line"><span class="comment">attached()//</span></span><br><span class="line"><span class="comment">detach()//断开舵机连接</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;Servo.h&gt;</span> </span></span><br><span class="line">Servo myservo;  <span class="comment">//创建一个舵机控制对象</span></span><br><span class="line">                          <span class="comment">// 使用Servo类最多可以控制8个舵机</span></span><br><span class="line"><span class="type">int</span> pos = <span class="number">0</span>;    <span class="comment">// 该变量用与存储舵机角度位置</span></span><br><span class="line"><span class="comment">/*~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~~~~~~~~~~~~~~~~~~~~~~~~~~ */</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  myservo.<span class="built_in">attach</span>(<span class="number">9</span>);  <span class="comment">// 该舵机由arduino第九脚控制</span></span><br><span class="line">&#125; </span><br><span class="line"><span class="comment">/*~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线 ~~~~~~~~~~~~~~~~~~~~~~~~~~ */</span> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">  myservo.<span class="built_in">write</span>(<span class="number">0</span>); <span class="comment">// 复位</span></span><br><span class="line">  <span class="keyword">for</span>(pos = <span class="number">0</span>; pos &lt; <span class="number">180</span>; pos += <span class="number">1</span>)  <span class="comment">// 从0度到180度运动 </span></span><br><span class="line">  &#123;                                                     <span class="comment">// 每次步进一度</span></span><br><span class="line">    myservo.<span class="built_in">write</span>(pos);        <span class="comment">// 指定舵机转向的角度</span></span><br><span class="line">    <span class="built_in">delay</span>(<span class="number">15</span>);                       <span class="comment">// 等待15ms让舵机到达指定位置</span></span><br><span class="line">    </span><br><span class="line">  &#125; </span><br><span class="line">  <span class="keyword">for</span>(pos = <span class="number">180</span>; pos&gt;=<span class="number">1</span>; pos-=<span class="number">1</span>)   <span class="comment">//从180度到0度运动  </span></span><br><span class="line">  &#123;                                </span><br><span class="line">    myservo.<span class="built_in">write</span>(pos);         <span class="comment">// 指定舵机转向的角度 </span></span><br><span class="line">    <span class="built_in">delay</span>(<span class="number">15</span>);                        <span class="comment">// 等待15ms让舵机到达指定位置 </span></span><br><span class="line">    Serial.<span class="built_in">println</span>(myservo.<span class="built_in">read</span>());</span><br><span class="line">  &#125; </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<div class="tag-plugin image"><div class="image-bg"><img src="2521152d37ddcb8e35776f6b504030a.jpg" alt="舵机驱动"></div><div class="image-meta"><span class="image-caption center">舵机驱动</span></div></div>
+
+<h3 id="步进电机驱动"><a href="#步进电机驱动" class="headerlink" title="步进电机驱动"></a>步进电机驱动</h3><h4 id="步进电机优点"><a href="#步进电机优点" class="headerlink" title="步进电机优点"></a>步进电机优点</h4><ul>
+<li>精准控制电机输出轴角度</li>
+<li>低速运行时扭矩大</li>
+<li>开环控制&#x2F;性价比高</li>
+</ul>
+<h4 id="步进电机的分类"><a href="#步进电机的分类" class="headerlink" title="步进电机的分类"></a>步进电机的分类</h4><ul>
+<li>单极性步进电机 5-6条引脚，相对输出扭矩低，控制简单</li>
+<li>双极性步进电机 4条引脚，相对输出扭矩高，控制复杂</li>
+</ul>
+<h4 id="步进电机的参数"><a href="#步进电机的参数" class="headerlink" title="步进电机的参数"></a>步进电机的参数</h4><ul>
+<li>额定电流</li>
+<li>额定电压</li>
+<li>定位转矩  不通电</li>
+<li>保持转矩  通电</li>
+<li>相数 可独立通电的定子电磁线圈数<br>步进电机详解<blockquote>
+<p><a href="http://t.csdnimg.cn/TkxCb">http://t.csdnimg.cn/TkxCb</a></p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>ardunio</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>gazebo的学习与应用</title>
+    <url>/2023/09/26/gazebo%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="学习目标与任务"><a href="#学习目标与任务" class="headerlink" title="学习目标与任务"></a>学习目标与任务</h2><ul>
+<li>Gazebo和环境模型设计</li>
+<li>机器人模型设计</li>
+<li>为模型上装备传感器与执行器</li>
+</ul>
+<blockquote>
+<p><a href="https://gazebosim.org/docs">https://gazebosim.org/docs</a></p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>ros</tag>
       </tags>
   </entry>
   <entry>
@@ -81,6 +220,104 @@
 ]]></content>
   </entry>
   <entry>
+    <title>hexo一些问题的解决</title>
+    <url>/2023/07/30/hexo%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<h1 id="hexo部署到github的报错解决"><a href="#hexo部署到github的报错解决" class="headerlink" title="hexo部署到github的报错解决"></a>hexo部署到github的报错解决</h1><p>报错如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/liwuyou/liwuyou.github.io.git/&#x27;: Fai</span><br><span class="line">led to connect to github.com port 443 after 21100 ms: Couldn&#x27;t connect to server</span><br><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/d</span><br><span class="line">ocs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (D:\blog\wj\node_modules\hexo-util\lib\spawn.js:</span><br><span class="line">51:21)</span><br><span class="line">    at ChildProcess.emit (node:events:514:28)</span><br><span class="line">    at cp.emit (D:\blog\wj\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:291:12)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="为什么出现这个问题？"><a href="#为什么出现这个问题？" class="headerlink" title="为什么出现这个问题？"></a>为什么出现这个问题？</h1><p>网络代理问题<br>或者网速不好（几率小）</p>
+<h1 id="如何解决？"><a href="#如何解决？" class="headerlink" title="如何解决？"></a>如何解决？</h1><p>打开_config.yml<br>找到</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:<span class="comment">//github.com/yourname/yourname.github.io.git</span></span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+<p>repo改为</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+<p>其中yourname改为你自己的github用户名</p>
+<h1 id="网络其他热门解决方法"><a href="#网络其他热门解决方法" class="headerlink" title="网络其他热门解决方法"></a>网络其他热门解决方法</h1>]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo部署到github图片不显示的解决</title>
+    <url>/2023/10/03/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>hexo直接部署到github时，文章的图片并不显示，而免费图床又有跑路风险。于是为了我的图片安全，我决定寻求解决方法，网上关于hexo直接部署到github是有解决方法的，但是，大部分都是无效的！！下面是我整理出来的行之有效的解决方法   </p>
+<div class="tag-plugin image"><div class="image-bg"><img src="e0b3e3e2bddfc3fde71c6af3eb9a708.png" alt="即将寄掉的图床"></div><div class="image-meta"><span class="image-caption center">即将寄掉的图床</span></div></div>
+
+
+<p><strong>参考资料</strong></p>
+<blockquote>
+<p><a href="https://zhuanlan.zhihu.com/p/542101567">https://zhuanlan.zhihu.com/p/542101567</a></p>
+</blockquote>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h3><p>来到自己的博客本地目录，右键打开git bash,输入以下命令</p>
+<blockquote>
+<p>npm install hexo-asset-image –save</p>
+</blockquote>
+<h3 id="2-修改两个文件"><a href="#2-修改两个文件" class="headerlink" title="2.修改两个文件"></a>2.修改两个文件</h3><p>由于插件较早，还有bug,还要修改一些文件</p>
+<ul>
+<li>进入你博客的根目录，然后下面顺序找到index.js:<br>node_modules –&gt; hexo-asset-image –&gt; index.js</li>
+<li>用VS Code 或者 记事本打开 index.js</li>
+<li>在第 58 行，可以找到这么一行代码：<blockquote>
+<p>$(this).attr(‘src’, config.root + link + src);</p>
+</blockquote>
+</li>
+</ul>
+<p>把这一行代码改成下面这样</p>
+<blockquote>
+<p>$(this).attr(‘src’, src);</p>
+</blockquote>
+<p>保存文件  </p>
+<hr>
+<p>另外还要先把 _config.yml中的 </p>
+<blockquote>
+<p>post_asset_folder: false </p>
+</blockquote>
+<p>改成 </p>
+<blockquote>
+<p>post_asset_folder: true </p>
+</blockquote>
+<p>(默认是false，如果你没有修改过，那请去修改)</p>
+<h3 id="3-插入图片"><a href="#3-插入图片" class="headerlink" title="3.插入图片"></a>3.插入图片</h3><p>使用</p>
+<blockquote>
+<p>hexo new “myfile”</p>
+</blockquote>
+<p>此时会在你的md同级目录下创建与myfile同名的文件夹，把要导入的图片放在这个文件夹里<br>在md文件需要的地方插入图片即可</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">这种在本地和网站都可显示</span><br><span class="line">&#123;% image ./myfile/xxx.png  %&#125;   </span><br><span class="line"></span><br><span class="line">这种在网站可显示，本地不可显示</span><br><span class="line">&#123;% image xxx.png  %&#125; </span><br></pre></td></tr></table></figure>
+
+<h2 id="over"><a href="#over" class="headerlink" title="over"></a>over</h2><hr>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>links</title>
+    <url>/2023/07/30/links/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="left">图标</th>
+<th align="left">介绍</th>
+<th align="left">网址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><img src="https://triority.cn/img/favicon.png" width="50" heigh="50"></td>
+<td align="left">triority’s blog</td>
+<td align="left"><a href="https://triority.cn/">https://triority.cn/</a></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img1.imgtp.com/2023/07/31/g9wCe4QB.png" width="50" heigh="50"></td>
+<td align="left">天鹅绒房间</td>
+<td align="left"><a href="https://qwqpap.xyz/">https://qwqpap.xyz/</a></td>
+</tr>
+<tr>
+<td align="left"><img src="http://cumtb.club/wp-content/uploads/2023/07/aa5864e03ed96ec662d40b92678935d.jpg" width="50" heigh="50"></td>
+<td align="left">北矿3D打印社</td>
+<td align="left"><a href="https://cumtb.club/">https://cumtb.club/</a></td>
+</tr>
+</tbody></table>
+]]></content>
+  </entry>
+  <entry>
     <title>markdown基本介绍与语法</title>
     <url>/2023/07/26/markdown%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D%E4%B8%8E%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h1 id="markdown是什么？"><a href="#markdown是什么？" class="headerlink" title="markdown是什么？"></a>markdown是什么？</h1><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等</p>
@@ -90,12 +327,21 @@
 <p>在线编译器网址<br><a href="https://markdown.com.cn/editor/">https://markdown.com.cn/editor/</a><br>在线转化器网址<br><a href="https://www.easeconvert.com/markdown-to-word/">https://www.easeconvert.com/markdown-to-word/</a></p>
 </blockquote>
 <hr>
-<h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown">——————标题——————<br><span class="hljs-section"># 一级标题</span><br><span class="hljs-section">## 二级标题</span><br><span class="hljs-section">### 三级标题</span><br>...<br><span class="hljs-section">###### 六级标题</span><br><br>——————字体———————<br><span class="hljs-strong">**这个是粗体**</span><br><span class="hljs-emphasis">*这个是斜体*</span><br><span class="hljs-strong">**<span class="hljs-emphasis">*这个是粗体加斜体*</span>**</span><br>~~这里想用删除线~~<br>--- 分割线<br><br>——————列表———————<br>无序列表的使用，在符号<span class="hljs-code">`-`</span>后加空格使用<br>有序列表的使用，在数字及符号<span class="hljs-code">`.`</span>后加空格后输入内容<br><br>——————图片———————<br>使用符号&gt;<br><span class="hljs-quote">&gt; 引用内容</span><br><br>——————表格———————<br>可以使用冒号来定义表格的对齐方式，如下：<br>| 姓名   | 年龄 |     工作 |<br>| :----- | :--: | -------: |<br>| 小可爱 |  18  | 吃可爱多 |<br>| 小小勇敢 |  20  | 爬棵勇敢树 |<br>| 小小小机智 |  22  | 看一本机智书 |<br><br>——————链接———————<br>[<span class="hljs-string">描述</span>](<span class="hljs-link">链接</span>)<br><br>——————图片———————<br>![<span class="hljs-string">描述</span>](<span class="hljs-link">链接</span>)<br><br>——————代码———————<br><span class="hljs-code">```语言</span><br><span class="hljs-code">代码块</span><br><span class="hljs-code">``` </span>(占位，不管)<br></code></pre></td></tr></table></figure>
+<h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">——————标题——————</span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line">...</span><br><span class="line"><span class="section">###### 六级标题</span></span><br><span class="line"></span><br><span class="line">——————字体———————</span><br><span class="line"><span class="strong">**这个是粗体**</span></span><br><span class="line"><span class="emphasis">*这个是斜体*</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*这个是粗体加斜体*</span>**</span></span><br><span class="line">~~这里想用删除线~~</span><br><span class="line">--- 分割线</span><br><span class="line"></span><br><span class="line">——————列表———————</span><br><span class="line">无序列表的使用，在符号<span class="code">`-`</span>后加空格使用</span><br><span class="line">有序列表的使用，在数字及符号<span class="code">`.`</span>后加空格后输入内容</span><br><span class="line"></span><br><span class="line">——————图片———————</span><br><span class="line">使用符号&gt;</span><br><span class="line"><span class="quote">&gt; 引用内容</span></span><br><span class="line"></span><br><span class="line">——————表格———————</span><br><span class="line">可以使用冒号来定义表格的对齐方式，如下：</span><br><span class="line">| 姓名   | 年龄 |     工作 |</span><br><span class="line">| :----- | :--: | -------: |</span><br><span class="line">| 小可爱 |  18  | 吃可爱多 |</span><br><span class="line">| 小小勇敢 |  20  | 爬棵勇敢树 |</span><br><span class="line">| 小小小机智 |  22  | 看一本机智书 |</span><br><span class="line"></span><br><span class="line">——————链接———————</span><br><span class="line">[<span class="string">描述</span>](<span class="link">链接</span>)</span><br><span class="line"></span><br><span class="line">——————图片———————</span><br><span class="line">&#123;% image 链接 描述 %&#125;</span><br><span class="line"></span><br><span class="line">——————代码———————</span><br><span class="line"><span class="code">```语言</span></span><br><span class="line"><span class="code">代码块</span></span><br><span class="line"><span class="code">``` </span>(占位，不管)</span><br></pre></td></tr></table></figure>
 
 <p>笔记over</p>
 ]]></content>
       <tags>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python study</title>
+    <url>/2023/08/10/python-study/</url>
+    <content><![CDATA[<hr>
+<h2 id="python规范-结尾空一行-导入库空两行-注释-空一格"><a href="#python规范-结尾空一行-导入库空两行-注释-空一格" class="headerlink" title="python规范- 结尾空一行- 导入库空两行- 注释# 空一格"></a>python规范<br>- 结尾空一行<br>- 导入库空两行<br>- 注释# 空一格</h2><h2 id="Python库的安装"><a href="#Python库的安装" class="headerlink" title="Python库的安装"></a>Python库的安装<br><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure></h2>]]></content>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -140,199 +386,29 @@
       </tags>
   </entry>
   <entry>
-    <title>我的技术栈</title>
-    <url>/2023/07/24/%E6%88%91%E7%9A%84%E6%8A%80%E6%9C%AF%E6%A0%88/</url>
-    <content><![CDATA[<h2 id="我的技术栈"><a href="#我的技术栈" class="headerlink" title="我的技术栈"></a>我的技术栈</h2><p>语言类：   </p>
-<ul>
-<li>c++&#x2F;c (较熟练)</li>
-<li>python(基础)</li>
-</ul>
-<p>软件类：</p>
-<ul>
-<li>ros基础</li>
-<li>51单片机</li>
-<li>stc32单片机</li>
-<li>arduino单片机</li>
-<li>linux基础</li>
-<li>eps32(未学)</li>
-<li>stm32(未学)</li>
-<li>网络基础</li>
-<li>树莓派</li>
-</ul>
-<p>硬件类：</p>
-<ul>
-<li>solidwords&#x2F;3d打印</li>
-<li>简单的pcb板绘制</li>
-<li>简单的电路板焊接</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>arduino小项目1——小时钟</title>
-    <url>/2023/07/30/arduino%E5%B0%8F%E9%A1%B9%E7%9B%AE1%E2%80%94%E2%80%94%E5%B0%8F%E6%97%B6%E9%92%9F/</url>
-    <content><![CDATA[<p>难度系数：★<br>使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕</p>
-<p>接线图，文字描述。<br>单片机上的A4接小屏幕上的SDA，A5接SCL。<br><img src="https://s1.ax1x.com/2023/07/30/pPpcIcd.jpg"></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;MsTimer2.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;U8g2lib.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="title">u8g2</span><span class="params">(U8G2_R0, SCL, SDA)</span></span>; <span class="comment">// 配置构造函数</span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> year = <span class="number">2020</span>, month = <span class="number">1</span>, day = <span class="number">1</span>, hour = <span class="number">0</span>, minute = <span class="number">0</span>, second = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">onTimer</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    second++;</span><br><span class="line">    <span class="keyword">if</span> (second &gt;= <span class="number">60</span>) &#123;</span><br><span class="line">        second = <span class="number">0</span>;</span><br><span class="line">        minute++;</span><br><span class="line">        <span class="keyword">if</span> (minute &gt;= <span class="number">60</span>) &#123;</span><br><span class="line">            minute = <span class="number">0</span>;</span><br><span class="line">            hour++;</span><br><span class="line">            <span class="keyword">if</span> (hour &gt;= <span class="number">24</span>) &#123;</span><br><span class="line">                hour = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">    u8g2.<span class="built_in">begin</span>();</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line"> </span><br><span class="line">    MsTimer2::<span class="built_in">set</span>(<span class="number">1000</span>, onTimer); <span class="comment">// 中断时间为1秒</span></span><br><span class="line">    MsTimer2::<span class="built_in">start</span>(); <span class="comment">// 启动定时器</span></span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">displayTime</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">displayTime</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line">  </span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB08_tr);</span><br><span class="line">    u8g2.<span class="built_in">drawStr</span>(<span class="number">0</span>, <span class="number">15</span>, <span class="string">&quot;TIME:&quot;</span>);</span><br><span class="line">  </span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB12_tr);</span><br><span class="line">    <span class="type">char</span> strTemp[<span class="number">12</span>];</span><br><span class="line">    <span class="built_in">sprintf</span>(strTemp, <span class="string">&quot; %d.%.2d.%.2d&quot;</span>, year, month, day);</span><br><span class="line">    u8g2.<span class="built_in">drawStr</span>(<span class="number">35</span>, <span class="number">15</span>, strTemp);</span><br><span class="line">  </span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB14_tr);</span><br><span class="line">    <span class="built_in">sprintf</span>(strTemp, <span class="string">&quot;%.2d.%.2d.%.2d&quot;</span>, hour, minute, second);</span><br><span class="line">    u8g2.<span class="built_in">drawStr</span>(<span class="number">25</span>, <span class="number">45</span>, strTemp);</span><br><span class="line"> </span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>arduino</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>arduino小项目2——电压表</title>
-    <url>/2023/07/30/arduino%E5%B0%8F%E9%A1%B9%E7%9B%AE2%E2%80%94%E2%80%94%E7%94%B5%E5%8E%8B%E8%A1%A8/</url>
-    <content><![CDATA[<p>难度系数：★<br>使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕，小按钮<br><img src="https://img1.imgtp.com/2023/07/30/wjSqoIWh.jpeg"></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"> </span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;U8g2lib.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="title">u8g2</span><span class="params">(U8G2_R0, SCL, SDA)</span></span>; <span class="comment">// 配置构造函数</span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> analogMax = <span class="number">1008</span>,analogMin = <span class="number">14</span>;<span class="comment">//理想范围0-1023;由实际情况调整；1008~4.93v,0~0V;</span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">    <span class="built_in">pinMode</span>(A0, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    <span class="built_in">pinMode</span>(<span class="number">2</span>, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    u8g2.<span class="built_in">begin</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">float</span> a = <span class="built_in">Voltage_detect</span>();</span><br><span class="line">  <span class="built_in">displayMenu</span>(a);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//oled屏幕显示</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">displayMenu</span><span class="params">(<span class="type">float</span> a)</span> </span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB08_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">0</span>, <span class="number">14</span>);</span><br><span class="line"> </span><br><span class="line">    </span><br><span class="line">    u8g2.<span class="built_in">print</span>(<span class="string">&quot;Voltage, (0-5v)&quot;</span>);</span><br><span class="line">    <span class="comment">// 显示电压表...</span></span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB14_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">20</span>, <span class="number">34</span>);</span><br><span class="line">    u8g2.<span class="built_in">println</span>(a);</span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//检测并转化为0-5v</span></span><br><span class="line"><span class="function"><span class="type">float</span> <span class="title">Voltage_detect</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">//range is 0.07 to 4.91</span></span><br><span class="line">    <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0); <span class="comment">//读取io口模拟值</span></span><br><span class="line">    <span class="type">float</span> Voltage = analogdate*<span class="number">5.0</span>/<span class="number">1023.0</span>; <span class="comment">//转化</span></span><br><span class="line">    <span class="comment">//Serial.println(Voltage);</span></span><br><span class="line">    <span class="keyword">if</span>(Voltage&gt;=<span class="number">4.92</span>)&#123;</span><br><span class="line">      Serial.<span class="built_in">println</span>(<span class="string">&quot;out&quot;</span>);  <span class="comment">//串口打印</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> Serial.<span class="built_in">println</span>(Voltage);</span><br><span class="line">    <span class="keyword">return</span> Voltage; <span class="comment">//返回值</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="https://img1.imgtp.com/2023/07/30/33MvMJ89.jpeg"><br>本来想弄万用表来着，emmp,放弃了,没写完，代码如下</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;U8g2lib.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="title">u8g2</span><span class="params">(U8G2_R0, SCL, SDA)</span></span>; <span class="comment">// 配置构造函数</span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> gear = <span class="number">0</span>; <span class="comment">// 万用表状态 0.菜单；1.电压表；2.电流表；3.电阻表</span></span><br><span class="line"><span class="type">int</span> analogMax = <span class="number">1008</span>,analogMin = <span class="number">14</span>;<span class="comment">//理想范围0-1023;由实际情况调整；1008~4.93v,0~0V;</span></span><br><span class="line"><span class="type">int</span> R_I=<span class="number">220</span>; <span class="comment">// 电流表状态，电阻为220欧姆</span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">    <span class="built_in">pinMode</span>(A0, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    <span class="built_in">pinMode</span>(<span class="number">2</span>, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    u8g2.<span class="built_in">begin</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">double</span> a = <span class="built_in">Voltage_detect</span>();</span><br><span class="line">  switch1();</span><br><span class="line">  <span class="built_in">displayMenu</span>(a);</span><br><span class="line">  <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0);</span><br><span class="line">  </span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">switch1</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> key = <span class="built_in">digitalRead</span>(<span class="number">2</span>);</span><br><span class="line"> </span><br><span class="line">    <span class="comment">// 第一次判断</span></span><br><span class="line">    <span class="keyword">if</span> (key == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// 延时20ms 消除按键抖动</span></span><br><span class="line">        <span class="built_in">delay</span>(<span class="number">20</span>);</span><br><span class="line">        <span class="comment">// 第二次判断</span></span><br><span class="line">        <span class="keyword">if</span> (key == <span class="number">0</span>) &#123;</span><br><span class="line">            gear++; <span class="comment">// 状态++</span></span><br><span class="line">            <span class="keyword">if</span> (gear &gt; <span class="number">3</span>) &#123;</span><br><span class="line">                gear = <span class="number">0</span>; <span class="comment">// 循环到第一个菜单状态</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 等待按键被松开</span></span><br><span class="line">        <span class="keyword">while</span> (!<span class="built_in">digitalRead</span>(<span class="number">2</span>)) &#123;</span><br><span class="line">            <span class="comment">// 等待按键松开</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">displayMenu</span><span class="params">(<span class="type">double</span> a)</span> </span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB08_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">0</span>, <span class="number">14</span>);</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">switch</span> (gear) &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">            <span class="comment">//u8g2.print(&quot;Menu&quot;);</span></span><br><span class="line">            <span class="comment">// 显示菜单选项...</span></span><br><span class="line">            <span class="built_in">face</span>();</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Voltage&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电压表...</span></span><br><span class="line">            u8g2.<span class="built_in">setCursor</span>(<span class="number">20</span>, <span class="number">34</span>);</span><br><span class="line">            u8g2.<span class="built_in">println</span>(a);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Current&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电流表...</span></span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">3</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Resistance&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电阻表...</span></span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">face</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();                                    <span class="comment">//清空显示屏缓存</span></span><br><span class="line"> </span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//画四分之一圆，圆心坐标（56,44），半径8</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">40</span>,<span class="number">18</span>,<span class="number">20</span>,<span class="number">30</span>);                            <span class="comment">//画斜线，两端点坐标分别是（40，18）（20,30）</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">88</span>,<span class="number">18</span>,<span class="number">108</span>,<span class="number">30</span>);                           <span class="comment">//画斜线</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">40</span>,<span class="number">17</span>,<span class="number">20</span>,<span class="number">29</span>);                            <span class="comment">//加粗画斜线</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">88</span>,<span class="number">17</span>,<span class="number">108</span>,<span class="number">29</span>);                           <span class="comment">//加粗画斜线</span></span><br><span class="line">    </span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();                                     <span class="comment">//加载以上内容</span></span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">float</span> <span class="title">Voltage_detect</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">//range is 0.07 to 4.91</span></span><br><span class="line">    <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0);</span><br><span class="line">    <span class="type">float</span> Voltage = analogdate*<span class="number">5.0</span>/<span class="number">1023.0</span>;</span><br><span class="line">    <span class="comment">//Serial.println(Voltage);</span></span><br><span class="line">    <span class="keyword">if</span>(Voltage&gt;=<span class="number">4.92</span>)&#123;</span><br><span class="line">      Serial.<span class="built_in">println</span>(<span class="string">&quot;out&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> Serial.<span class="built_in">println</span>(Voltage);</span><br><span class="line">    <span class="keyword">return</span> Voltage;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>arduino</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo一些问题的解决</title>
-    <url>/2023/07/30/hexo%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
-    <content><![CDATA[<h1 id="hexo部署到github的报错解决"><a href="#hexo部署到github的报错解决" class="headerlink" title="hexo部署到github的报错解决"></a>hexo部署到github的报错解决</h1><p>报错如下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/liwuyou/liwuyou.github.io.git/&#x27;: Fai</span><br><span class="line">led to connect to github.com port 443 after 21100 ms: Couldn&#x27;t connect to server</span><br><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/d</span><br><span class="line">ocs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (D:\blog\wj\node_modules\hexo-util\lib\spawn.js:</span><br><span class="line">51:21)</span><br><span class="line">    at ChildProcess.emit (node:events:514:28)</span><br><span class="line">    at cp.emit (D:\blog\wj\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:291:12)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h1 id="为什么出现这个问题？"><a href="#为什么出现这个问题？" class="headerlink" title="为什么出现这个问题？"></a>为什么出现这个问题？</h1><p>网络代理问题<br>或者网速不好（几率小）</p>
-<h1 id="如何解决？"><a href="#如何解决？" class="headerlink" title="如何解决？"></a>如何解决？</h1><p>打开_config.yml<br>找到</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:<span class="comment">//github.com/yourname/yourname.github.io.git</span></span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
-<p>repo改为</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
-
-<p>其中yourname改为你自己的github用户名</p>
-<h1 id="网络其他热门解决方法"><a href="#网络其他热门解决方法" class="headerlink" title="网络其他热门解决方法"></a>网络其他热门解决方法</h1>]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>links</title>
-    <url>/2023/07/30/links/</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th align="left">图标</th>
-<th align="left">介绍</th>
-<th align="left">网址</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><img src="https://triority.cn/img/favicon.png" width=50 heigh=50></td>
-<td align="left">triority’s blog</td>
-<td align="left"><a href="https://triority.cn/">https://triority.cn/</a></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img1.imgtp.com/2023/07/31/g9wCe4QB.png" width=50 heigh=50></td>
-<td align="left">天鹅绒房间</td>
-<td align="left"><a href="https://qwqpap.xyz/">https://qwqpap.xyz/</a></td>
-</tr>
-<tr>
-<td align="left"><img src="http://cumtb.club/wp-content/uploads/2023/07/aa5864e03ed96ec662d40b92678935d.jpg" width=50 heigh=50></td>
-<td align="left">北矿3D打印社</td>
-<td align="left"><a href="https://cumtb.club/">https://cumtb.club/</a></td>
-</tr>
-</tbody></table>
-]]></content>
-  </entry>
-  <entry>
-    <title>python study</title>
-    <url>/2023/08/10/python-study/</url>
-    <content><![CDATA[<hr>
-<h2 id="python规范-结尾空一行-导入库空两行-注释-空一格"><a href="#python规范-结尾空一行-导入库空两行-注释-空一格" class="headerlink" title="python规范- 结尾空一行- 导入库空两行- 注释# 空一格"></a>python规范<br>- 结尾空一行<br>- 导入库空两行<br>- 注释# 空一格</h2><h2 id="Python库的安装"><a href="#Python库的安装" class="headerlink" title="Python库的安装"></a>Python库的安装<br><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure></h2>]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资源收集</title>
-    <url>/2023/08/16/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>社团成员基本学习路线及其介绍</title>
-    <url>/2023/09/05/%E7%A4%BE%E5%9B%A2%E6%88%90%E5%91%98%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%8F%8A%E5%85%B6%E4%BB%8B%E7%BB%8D/</url>
-    <content><![CDATA[<p>本文档用于告知新生社员基本的学习路线，学习方向。<br>该文档同步发布在我的个人博客(liwuyou.github.io)以及3D打印社网站(cumtb.club)上<br>个人意见，仅供参考<br>如果对学习路线有疑问或者不了解的地方，请联系社长或管理员</p>
-<hr>
-<h2 id="学习路线"><a href="#学习路线" class="headerlink" title="学习路线"></a>学习路线</h2><h3 id="语言类"><a href="#语言类" class="headerlink" title="语言类"></a>语言类</h3><ul>
-<li>c&#x2F;c++</li>
-<li>python</li>
-<li>English</li>
-</ul>
-<h3 id="单片机类"><a href="#单片机类" class="headerlink" title="单片机类"></a>单片机类</h3><ul>
-<li>arduino –&gt; esp32</li>
-<li>51单片机 –&gt; stm32</li>
-<li>树莓派&#x2F;香橙派</li>
-</ul>
-<h3 id="硬件类"><a href="#硬件类" class="headerlink" title="硬件类"></a>硬件类</h3><ul>
-<li>电脑装配及结构认识</li>
-<li>solidworks基本使用</li>
-<li>基本元器件使用及选型</li>
-<li>原理图及pcb板的绘制</li>
-<li>元件焊接工艺</li>
-</ul>
-<h3 id="软件类"><a href="#软件类" class="headerlink" title="软件类"></a>软件类</h3><ul>
-<li>github的使用</li>
-<li>chatgpt的使用</li>
-<li>基本网络知识及电脑工具使用</li>
-<li>ros基本了解</li>
-<li>linux学习</li>
-<li>神经网络学习</li>
-<li>个人博客搭建</li>
-</ul>
-<hr>
-<hr>
-<hr>
-<h2 id="具体介绍"><a href="#具体介绍" class="headerlink" title="具体介绍"></a>具体介绍</h2><p>请注意学习路线里面的，并不是所有内容都要学。   </p>
-<p>首先呢，语言类方面，我们要学习一门编程语言，如果你想走嵌入式开发c是必选的，如果你想走更偏软件一点的机器学习，人工智能的路线，推荐学习python，如果更偏向于算法，对计算机更加细致入微的调控请选择C++。<br>北矿的我们，大一上学期学的是python，但是课程很水，两节课就可以讲完所有的python基本语法，课程简单，基本不会挂科。大一下学期学的是C语言，蛮重要的，会考试，分数占比大，容易挂科。<br>推荐入门，语言使用c，理由如下，下学期要学C语言，提前预习，可获得更高分数，或者获得更多的空余时间。<br>然后尽量把英语学好，特别是在外网的时候，英语就很重要了，当然不会，也没有关系。用翻译软件也能解决，但是翻译软件并不能适用于所有场景，所以英语还是尽量学好一点</p>
-<hr>
-<p>而在单片机类中，什么是单片机，请自行百度，了解什么是单片机，单片机的常见类型。<br>为什么要学习单片机呢？单片机是嵌入式开发学习的基本环节，学会了使用单片机，我们可以设计一些具有一些实用价值的东西，如智能门锁，烟雾报警器，联网天气显示时钟等。<br>我们目前使用的单片机类型有很多，而最简单的最好入门的最容易上手的是arduino，arduino开发套件，淘宝上买的话，大概100多块钱，闲鱼上二手更便宜。Arduino，开发简单，开源库多，资料较多。<br>arduino学完下一步就可以使用，arduino的开发环境，开发esp32，Esp 32是一款性能更加强大，具有联网和蓝牙功能的单片机，价格低廉。<br>如果不从arduino入手的话，也可以从51单片机进行入门，51单片机是stm32单片机的前置课程，直接上手stm 32难度较大，学完51更容易上手。Stm32是当前使用规模最大的单片机类型之一，功能强大，性能优越，能够完成很多复杂的工作，如果方向是嵌入式的话，很难不接触到stm 32这款单片机。而且stm 32也是大学生毕业设计的首选单片机之一。<br>然后就是树莓派和香橙派以及其他什么派，从某种意义上来讲，这些派应该不属于单片机类型，他们可以连接屏幕，充当电脑，甚至安装WINDOWS系统使用。当然了，他们性能没有电脑这么强。一般他们都安装Linux系统进行开发，充当上位机使用。如自动导航小车的上位机。性能十分强大，价格也昂贵。</p>
-<hr>
-<p>而硬件类方向，如果你是传统工科专业，可能不可避免要接触到一些元器件的选型，和PCB板原理图的绘制。简单来说就是做一块完整的，能够正常使用的电路板。<br>再介绍一下solidwords，具体使用请参照，零基础小白3d打印基本入门，这篇文章。这是一款功能强大的软件，可以用于3d建模，然后将建模好的文件导出进行3d打印。他是我们3d打印社成员，必须要掌握的一款软件。<br>而电脑的装配及结构认识，如果你有兴趣的话，我们可以和你一起组装电脑，当一名图吧垃圾佬。我们实验室的电脑都是自己组装的，自己在网上淘CPU，显卡，机箱等</p>
-<hr>
-<p>而在软件类方向，我们首先第一步是科学上网，这一步自行领悟。然后使用github，github是开源社区开源社区里面有很多开源的项目和代码，计算机类必备。<br>然后还要学习一些基本的电脑工具软件，如资源管理器，powershell等<br>Linux系统是我们开发的常用系统，特别是在机器人领域， 机器人开发平台ros，就是在Linux系统上开发的，像很多服务器，都搭载在Linux系统上。Linux系统相对于WINDOWS系统具有轻量化，稳定性的优点。十分建议学习。<br>如果你python学的好的话，还可以进阶学习神经网络的相关知识，如视觉识别相关的open CV,yolo等</p>
-<hr>
-<p>最后，对学习路线进行一下小小的总结。以下有几种路线以供选择，难度依次增大<br>注意难度与实用并不相关。</p>
-<p>最快最轻量的路线</p>
-<ul>
-<li>语言类的c，硬件类的soildwords，单片机类的arduino，esp32</li>
-</ul>
-<p>稍微复杂一点</p>
-<ul>
-<li>语言类的python，c，硬件类的soildwords，单片机类的51，stm32</li>
-</ul>
-<p>再复杂一点</p>
-<ul>
-<li>语言类的python，c，硬件类的，pcb绘制，solidwords，单片机类的，arduino，esp32，stm32，软件类的linux开发</li>
-</ul>
-<p><strong>而第一学期，新生适宜参加的一些比赛有，校巡线车比赛，蓝桥杯比赛</strong></p>
-<p>最后，感谢你看到这里，如果内容有什么错误，请及时跟我们联系，如果有什么想法，可以和我们交流。谢谢</p>
-]]></content>
-      <tags>
-        <tag>社团</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>stc32学习</title>
     <url>/2023/09/14/stc32%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<p>时隔三月，再摸单片机，<del>这一次我要把遗忘的全部拿回来</del></p>
-<h1 id="STC32介绍"><a href="#STC32介绍" class="headerlink" title="STC32介绍"></a>STC32介绍</h1><p><img src="https://img1.imgtp.com/2023/09/14/cgPVVTYs.png" alt="针脚图"></p>
-<h1 id="STC-I-O口工作模式"><a href="#STC-I-O口工作模式" class="headerlink" title="STC I&#x2F;O口工作模式"></a>STC I&#x2F;O口工作模式</h1><p><img src="https://img1.imgtp.com/2023/09/14/VPEuqJpn.png" alt="针脚图"></p>
+<h1 id="STC32介绍"><a href="#STC32介绍" class="headerlink" title="STC32介绍"></a>STC32介绍</h1><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/09/14/cgPVVTYs.png" alt="针脚图"></div><div class="image-meta"><span class="image-caption center">针脚图</span></div></div>
+
+<h1 id="STC-I-O口工作模式"><a href="#STC-I-O口工作模式" class="headerlink" title="STC I&#x2F;O口工作模式"></a>STC I&#x2F;O口工作模式</h1><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/09/14/VPEuqJpn.png" alt="针脚图"></div><div class="image-meta"><span class="image-caption center">针脚图</span></div></div>
+
 <p>除了P3.0和P3.1（准双向口）外，其他默认高阻输入模式<br>准双向口和推挽输出模式默认为高电平</p>
-<h1 id="define和typedef"><a href="#define和typedef" class="headerlink" title="define和typedef"></a>define和typedef</h1><figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c">typedf <span class="hljs-type">unsigned</span> <span class="hljs-type">char</span> u8;<br>给已存在的数据类型起别名<br></code></pre></td></tr></table></figure>
+<h1 id="define和typedef"><a href="#define和typedef" class="headerlink" title="define和typedef"></a>define和typedef</h1><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">typedf <span class="type">unsigned</span> <span class="type">char</span> u8;</span><br><span class="line">给已存在的数据类型起别名</span><br></pre></td></tr></table></figure>
 <h1 id="WTST"><a href="#WTST" class="headerlink" title="WTST"></a>WTST</h1><p>程序读取等待控制寄存器，上电默认为7<br>0-255</p>
 <h1 id="volatile"><a href="#volatile" class="headerlink" title="volatile"></a>volatile</h1><p>设置变量，防止优化</p>
-<h1 id="预编译处理"><a href="#预编译处理" class="headerlink" title="预编译处理"></a>预编译处理</h1><figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c"><span class="hljs-comment">//主要命令有</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">ifndef</span>  <span class="hljs-comment">//如果宏未定义则执行</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span>  <span class="hljs-comment">//定义宏</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">endif</span>   <span class="hljs-comment">//结束有if的定义</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">elif</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">undef</span>   <span class="hljs-comment">// 取消已定义的宏</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">line</span></span><br><span class="hljs-meta">#program</span><br><span class="hljs-meta">#<span class="hljs-keyword">error</span></span><br></code></pre></td></tr></table></figure>
+<h1 id="预编译处理"><a href="#预编译处理" class="headerlink" title="预编译处理"></a>预编译处理</h1><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//主要命令有</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">ifndef</span>  <span class="comment">//如果宏未定义则执行</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  <span class="comment">//定义宏</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span>   <span class="comment">//结束有if的定义</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">elif</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">undef</span>   <span class="comment">// 取消已定义的宏</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">line</span></span></span><br><span class="line"><span class="meta">#program</span></span><br><span class="line"><span class="meta">#<span class="keyword">error</span></span></span><br></pre></td></tr></table></figure>
 <p>模块化编程思想</p>
-<h1 id="移位法点亮LED"><a href="#移位法点亮LED" class="headerlink" title="移位法点亮LED"></a>移位法点亮LED</h1><p><img src="https://img1.imgtp.com/2023/09/15/rqOVcsF2.png"></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c"><span class="hljs-keyword">while</span>(<span class="hljs-number">1</span>)&#123;<br>    <span class="hljs-keyword">for</span>(i = <span class="hljs-number">0</span>;i &lt; <span class="hljs-number">8</span>; i++)<br>    &#123;<br>        P2 = ~(<span class="hljs-number">0x01</span>  &lt;&lt; i);<br>        delayms(<span class="hljs-number">500</span>);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h1 id="移位法点亮LED"><a href="#移位法点亮LED" class="headerlink" title="移位法点亮LED"></a>移位法点亮LED</h1><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/09/15/rqOVcsF2.png"></div></div>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">    <span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; <span class="number">8</span>; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        P2 = ~(<span class="number">0x01</span>  &lt;&lt; i);</span><br><span class="line">        delayms(<span class="number">500</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h1 id="上拉电阻和下拉电阻"><a href="#上拉电阻和下拉电阻" class="headerlink" title="上拉电阻和下拉电阻"></a>上拉电阻和下拉电阻</h1><p>所有IO口都配置了一个4.1K的上拉电阻和10K的下拉电阻<br>都是8位寄存器<br>上拉电阻控制寄存器：PxPU<br>上拉电阻控制寄存器：PxPD<br>(x &#x3D;0,1,2,3,4,5,6,7)</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c">P7M1 = <span class="hljs-number">0xFF</span>;P7M0 = <span class="hljs-number">0x00</span>; <span class="hljs-comment">//高阻输入模式</span><br>EAXFR = <span class="hljs-number">1</span>; <span class="hljs-comment">//使能XFR,特殊寄存器，设置使之能访问</span><br><span class="hljs-keyword">while</span>(<span class="hljs-number">1</span>)&#123;<br>    P7PU = <span class="hljs-number">0x01</span>; <span class="hljs-comment">//加上拉电阻等于准双向口模式</span><br>    delayms(<span class="hljs-number">1000</span>);<br>    P&amp;PD = <span class="hljs-number">0x00</span>;<br>    delayms(<span class="hljs-number">1000</span>);<br>&#125;<br><br></code></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">P7M1 = <span class="number">0xFF</span>;P7M0 = <span class="number">0x00</span>; <span class="comment">//高阻输入模式</span></span><br><span class="line">EAXFR = <span class="number">1</span>; <span class="comment">//使能XFR,特殊寄存器，设置使之能访问</span></span><br><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">    P7PU = <span class="number">0x01</span>; <span class="comment">//加上拉电阻等于准双向口模式</span></span><br><span class="line">    delayms(<span class="number">1000</span>);</span><br><span class="line">    P&amp;PD = <span class="number">0x00</span>;</span><br><span class="line">    delayms(<span class="number">1000</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h1 id="自适应delayms-函数"><a href="#自适应delayms-函数" class="headerlink" title="自适应delayms()函数"></a>自适应delayms()函数</h1><figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">define</span> MAIN_Fose = 35000000  <span class="hljs-comment">//设置主频</span></span><br><span class="hljs-type">void</span> <span class="hljs-title function_">delayms</span><span class="hljs-params">(<span class="hljs-type">int</span> ms)</span>&#123;<br>    <span class="hljs-type">int</span> i;<br>    <span class="hljs-keyword">do</span>&#123;<br>        i = MAIN_Fose/<span class="hljs-number">6000</span>;<br>        <span class="hljs-keyword">while</span>(i--);<br>    &#125;<span class="hljs-keyword">while</span>(--ms);<br>&#125;<br></code></pre></td></tr></table></figure>
+<h1 id="自适应delayms-函数"><a href="#自适应delayms-函数" class="headerlink" title="自适应delayms()函数"></a>自适应delayms()函数</h1><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MAIN_Fose = 35000000  <span class="comment">//设置主频</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">delayms</span><span class="params">(<span class="type">int</span> ms)</span>&#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="keyword">do</span>&#123;</span><br><span class="line">        i = MAIN_Fose/<span class="number">6000</span>;</span><br><span class="line">        <span class="keyword">while</span>(i--);</span><br><span class="line">    &#125;<span class="keyword">while</span>(--ms);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h1 id="特殊功能寄存器（SFR，XFR）"><a href="#特殊功能寄存器（SFR，XFR）" class="headerlink" title="特殊功能寄存器（SFR，XFR）"></a>特殊功能寄存器（SFR，XFR）</h1><p><img src="https://img1.imgtp.com/2023/09/15/urw0mUxh.png"><br>地址范围0x7E0000-0x7EFFF<br>如需访问扩展寄存器，需先设置SFR使能寄存器<br>CKCON 外部数据总线时钟控制寄存器<br>CKCON &#x3D; 0x00;<br>(上电默认为7，建议设为0)</p>
+<h1 id="特殊功能寄存器（SFR，XFR）"><a href="#特殊功能寄存器（SFR，XFR）" class="headerlink" title="特殊功能寄存器（SFR，XFR）"></a>特殊功能寄存器（SFR，XFR）</h1><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/09/15/urw0mUxh.png"></div></div>
+<p>地址范围0x7E0000-0x7EFFF<br>如需访问扩展寄存器，需先设置SFR使能寄存器<br>CKCON 外部数据总线时钟控制寄存器<br>CKCON &#x3D; 0x00;<br>(上电默认为7，建议设为0)</p>
 <h1 id="74HC595"><a href="#74HC595" class="headerlink" title="74HC595"></a>74HC595</h1><h1 id="独立按键"><a href="#独立按键" class="headerlink" title="独立按键"></a>独立按键</h1><h1 id="定时器与计数器"><a href="#定时器与计数器" class="headerlink" title="定时器与计数器"></a>定时器与计数器</h1><p>5个24位定时器&#x2F;计数器（八位预分频+16位计数）</p>
 ]]></content>
       <tags>
@@ -351,11 +427,6 @@
       <tags>
         <tag>单片机</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>51/stc/stm校巡线车基本方案</title>
-    <url>/2023/09/19/51-stc-stm%E6%A0%A1%E5%B7%A1%E7%BA%BF%E8%BD%A6%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>基于古月居的ros入门</title>
@@ -460,112 +531,32 @@
       </tags>
   </entry>
   <entry>
-    <title>gazebo的学习与应用</title>
-    <url>/2023/09/26/gazebo%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<h2 id="学习目标与任务"><a href="#学习目标与任务" class="headerlink" title="学习目标与任务"></a>学习目标与任务</h2><ul>
-<li>Gazebo和环境模型设计</li>
-<li>机器人模型设计</li>
-<li>为模型上装备传感器与执行器</li>
+    <title>我的技术栈</title>
+    <url>/2023/07/24/%E6%88%91%E7%9A%84%E6%8A%80%E6%9C%AF%E6%A0%88/</url>
+    <content><![CDATA[<h2 id="我的技术栈"><a href="#我的技术栈" class="headerlink" title="我的技术栈"></a>我的技术栈</h2><p>语言类：   </p>
+<ul>
+<li>c++&#x2F;c (较熟练)</li>
+<li>python(基础)</li>
 </ul>
-<blockquote>
-<p><a href="https://gazebosim.org/docs">https://gazebosim.org/docs</a></p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>ros</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>arduino的系统学习</title>
-    <url>/2023/09/29/arduino%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<p>我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧</p>
-<hr>
-<p>arduino IDE下载</p>
-<blockquote>
-<p><a href="http://www.arduino.cc/">www.arduino.cc</a></p>
-</blockquote>
-<h2 id="arduino-uno引脚图"><a href="#arduino-uno引脚图" class="headerlink" title="arduino uno引脚图"></a>arduino uno引脚图</h2><div class="tag-plugin image"><div class="image-bg"><img src="https://img1.imgtp.com/2023/09/30/dF8YseB9.png"></div></div>
-
-<p>Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶体振荡器，一个USB接口，一个DC接口，一个ICSP接口，一个复位按钮。它包含了微控制器所需的一切，你只用简单地把它连接到计算机的USB接口，或者使用AC-DC适配器，再或者用电池，就可以驱动它。</p>
-<h3 id="存储空间"><a href="#存储空间" class="headerlink" title="存储空间"></a>存储空间</h3><p>ATmega328 有32KB Flash存储空间（其中0.5KB被用于存储bootloader），2KB 的SRAM和1KB 的EEPROM。<br>可以使用官方提供的EEPROM库读写EEPROM空间。</p>
-<h3 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h3><p>Arduino Uno有14个数字输入输出引脚，可使用 pinMode()、digitalWrite() 和 digitalRead() 控制。<br>其中一些带有特殊功能，这些引脚如下</p>
-<h4 id="Serial"><a href="#Serial" class="headerlink" title="Serial"></a>Serial</h4><p>0（RX）、1（TX），被用于接收和发送串口数据。这两个引脚通过连接到ATmega16u2来与计算机进行串口通信。</p>
-<h4 id="外部中断"><a href="#外部中断" class="headerlink" title="外部中断"></a>外部中断</h4><p>2、3，可以输入外部中断信号。中断有四种触发模式：低电平触发、电平改变触发、上升沿触发、下降沿触发。</p>
-<h4 id="PWM输出："><a href="#PWM输出：" class="headerlink" title="PWM输出："></a>PWM输出：</h4><p>3、5、6、9、10、11，可用于输出8-bit PWM波。对应函数 analogWrite() 。</p>
-<h4 id="SPI："><a href="#SPI：" class="headerlink" title="SPI："></a>SPI：</h4><p>10（SS）、11（MOSI）、12（MISO）、13（SCK），可用于SPI通信。可以使用官方提供的SPI库操纵。</p>
-<h4 id="L-LED："><a href="#L-LED：" class="headerlink" title="L-LED："></a>L-LED：</h4><p>13。13号引脚连接了一个LED，当引脚输出高电平时打开LED，当引脚输出低电平时关闭LED。</p>
-<h4 id="TWI："><a href="#TWI：" class="headerlink" title="TWI："></a>TWI：</h4><p>A4（SDA）、A5（SCL）和TWI接口，可用于TWI通信，兼容I²C通信。可以使用官方提供的Wire库操纵。</p>
-<h2 id="点亮一个LED灯"><a href="#点亮一个LED灯" class="headerlink" title="点亮一个LED灯"></a>点亮一个LED灯</h2><p>点灯大师，闪亮登场<br><strong>LED灯正负两端会有2v的电压差</strong></p>
-<h3 id="pinMode-引脚号，状态-设置引脚模式"><a href="#pinMode-引脚号，状态-设置引脚模式" class="headerlink" title="pinMode(引脚号，状态)  设置引脚模式"></a>pinMode(引脚号，状态)  设置引脚模式</h3><ul>
-<li>输出(OUTPUT)</li>
-<li>输入(INPUT)</li>
-<li>输入上拉模式(INPUT_PULLUP)</li>
+<p>软件类：</p>
+<ul>
+<li>ros基础</li>
+<li>51单片机</li>
+<li>stc32单片机</li>
+<li>arduino单片机</li>
+<li>linux基础</li>
+<li>eps32(未学)</li>
+<li>stm32(未学)</li>
+<li>网络基础</li>
+<li>树莓派</li>
 </ul>
-<h3 id="digitalWrite-引脚号-状态-引脚输出状态"><a href="#digitalWrite-引脚号-状态-引脚输出状态" class="headerlink" title="digitalWrite(引脚号,状态);  引脚输出状态"></a>digitalWrite(引脚号,状态);  引脚输出状态</h3><ul>
-<li>HIGH(高电平)</li>
-<li>LOW(低电平)</li>
-</ul>
-<h3 id="上拉电阻"><a href="#上拉电阻" class="headerlink" title="上拉电阻"></a>上拉电阻</h3><p>arduino开发板上拉电阻10K</p>
-<h3 id="引脚悬空"><a href="#引脚悬空" class="headerlink" title="引脚悬空"></a>引脚悬空</h3><p>引脚设置成INPUT却没有加任何电路，引脚检测状态不定（0&#x2F;1）</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//点亮二号引脚</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  digitalWrite(<span class="number">2</span>,HIGH);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img src="acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
-<h2 id="串口通信"><a href="#串口通信" class="headerlink" title="串口通信"></a>串口通信</h2><h3 id="digitalRead-引脚号"><a href="#digitalRead-引脚号" class="headerlink" title="digitalRead(引脚号)"></a>digitalRead(引脚号)</h3><p>读取某个引脚状态，常与pinMode(引脚号,INOUT)搭配使用</p>
-<h3 id="Serial-begin-9600"><a href="#Serial-begin-9600" class="headerlink" title="Serial.begin(9600);"></a>Serial.begin(9600);</h3><p>串口初始化设置9600为常用波特率</p>
-<h3 id="Serial-println-打印内容"><a href="#Serial-println-打印内容" class="headerlink" title="Serial.println(打印内容);"></a>Serial.println(打印内容);</h3><p>在电脑的串口监视器上输出相应内容</p>
-<h3 id="delay-时间"><a href="#delay-时间" class="headerlink" title="delay(时间)"></a>delay(时间)</h3><p>延时函数，单位为ms</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,INPUT);</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  <span class="type">int</span> buttonState = digitalRead(<span class="number">2</span>);</span><br><span class="line">  Serial.println(buttonState);</span><br><span class="line">  delay(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img src="5767da9dd70a5f3d0721899f1c0e009.jpg" alt="引脚悬空"></div><div class="image-meta"><span class="image-caption center">引脚悬空</span></div></div>
-
-<h2 id="模拟输出"><a href="#模拟输出" class="headerlink" title="模拟输出"></a>模拟输出</h2><p>标有~的数字引脚可输出PWM信号</p>
-<h3 id="analogWrite-Pin-bringtness"><a href="#analogWrite-Pin-bringtness" class="headerlink" title="analogWrite(Pin,bringtness)"></a>analogWrite(Pin,bringtness)</h3><p>模拟输出，Pin,引脚号;    brigngness为亮度范围0~255,<br>输出的为Pwm信号，PWM信号的频率大约为490Hz.<br>在Arduino UNO控制器中，5号引脚和6号引脚的PWM频率为980Hz。</p>
-<h3 id="呼吸灯（周期未测）"><a href="#呼吸灯（周期未测）" class="headerlink" title="呼吸灯（周期未测）"></a>呼吸灯（周期未测）</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> brightness = <span class="number">0</span>;brightness &lt;= <span class="number">255</span>;brightness+=<span class="number">5</span>)&#123;</span><br><span class="line">  analogWrite(<span class="number">9</span>,brightness);</span><br><span class="line">  Serial.println(brightness);</span><br><span class="line">  delay(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> brightness = <span class="number">255</span>;brightness &gt;= <span class="number">0</span>;brightness-=<span class="number">5</span>)&#123;</span><br><span class="line">  analogWrite(<span class="number">9</span>,brightness);</span><br><span class="line">  Serial.println(brightness);</span><br><span class="line">  delay(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="模拟输入"><a href="#模拟输入" class="headerlink" title="模拟输入"></a>模拟输入</h2><h3 id="电位器"><a href="#电位器" class="headerlink" title="电位器"></a>电位器</h3><div class="tag-plugin image"><div class="image-bg"><img src="f66bddad2a38dbff12ddf1ab7b48169.jpg" alt="电位器"></div><div class="image-meta"><span class="image-caption center">电位器</span></div></div>
-
-<h3 id="ananaloRead-Pin"><a href="#ananaloRead-Pin" class="headerlink" title="ananaloRead(Pin)"></a>ananaloRead(Pin)</h3><p>读取范围0-5v,返回0~1023的数值，读入的最大频率为10 000次，引脚悬空状态读的数值不定</p>
-<h3 id="变量B-map-变量A-A-min-A-max-B-min-B-max"><a href="#变量B-map-变量A-A-min-A-max-B-min-B-max" class="headerlink" title="变量B &#x3D; map(变量A,A_min,A_max,B_min,B_max)"></a>变量B &#x3D; map(变量A,A_min,A_max,B_min,B_max)</h3><p>将变量A等比映射到变量B</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  <span class="built_in">pinMode</span>(<span class="number">9</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> a = <span class="built_in">map</span>(<span class="built_in">analogRead</span>(A0),<span class="number">0</span>,<span class="number">1023</span>,<span class="number">0</span>,<span class="number">255</span>);</span><br><span class="line">  Serial.<span class="built_in">println</span>(a);</span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<hr>
-<hr>
-<hr>
-<h2 id="电机驱动"><a href="#电机驱动" class="headerlink" title="电机驱动"></a>电机驱动</h2><h3 id="电机种类"><a href="#电机种类" class="headerlink" title="电机种类"></a>电机种类</h3><ul>
-<li>直流电机(DC)</li>
-<li>交流电机(AC)</li>
-<li>交直流两用电机(Universal)</li>
-</ul>
-<h3 id="使用arduino的引脚直接驱动直流电机"><a href="#使用arduino的引脚直接驱动直流电机" class="headerlink" title="使用arduino的引脚直接驱动直流电机"></a>使用arduino的引脚直接驱动直流电机</h3><p>简直蠢爆了，引脚输出电流不够,pwm给小了根本不动，当然，这里只是验证analogWrite是PWM信号，周期490Hz</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  <span class="built_in">pinMode</span>(<span class="number">9</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">analogWrite</span>(<span class="number">9</span>,<span class="number">200</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img src="de5d82d59445ca40372736644f54ff8.jpg" alt="引脚直接驱动电机"></div><div class="image-meta"><span class="image-caption center">引脚直接驱动电机</span></div></div>
-
-<h3 id="舵机驱动"><a href="#舵机驱动" class="headerlink" title="舵机驱动"></a>舵机驱动</h3><p>普通舵机有3根线：GND（黑）、VCC（红）、Signal（黄），一般情况下，建议为舵机单独供电，此处实验为了图方便，用arduino为舵机供电。</p>
-<div class="tag-plugin image"><div class="image-bg"><img src="5a19651acadc6638210bae0b486d1fa.jpg" alt="SG90舵机"></div><div class="image-meta"><span class="image-caption center">SG90舵机</span></div></div>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">servo类下有以下成员函数</span></span><br><span class="line"><span class="comment">attach()//连接舵机</span></span><br><span class="line"><span class="comment">write()//角度控制</span></span><br><span class="line"><span class="comment">writeMicroseconds()//</span></span><br><span class="line"><span class="comment">read()//读上一次舵机转动角度</span></span><br><span class="line"><span class="comment">attached()//</span></span><br><span class="line"><span class="comment">detach()//断开舵机连接</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;Servo.h&gt;</span> </span></span><br><span class="line">Servo myservo;  <span class="comment">//创建一个舵机控制对象</span></span><br><span class="line">                          <span class="comment">// 使用Servo类最多可以控制8个舵机</span></span><br><span class="line"><span class="type">int</span> pos = <span class="number">0</span>;    <span class="comment">// 该变量用与存储舵机角度位置</span></span><br><span class="line"><span class="comment">/*~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~~~~~~~~~~~~~~~~~~~~~~~~~~ */</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  myservo.<span class="built_in">attach</span>(<span class="number">9</span>);  <span class="comment">// 该舵机由arduino第九脚控制</span></span><br><span class="line">&#125; </span><br><span class="line"><span class="comment">/*~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线 ~~~~~~~~~~~~~~~~~~~~~~~~~~ */</span> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">  myservo.<span class="built_in">write</span>(<span class="number">0</span>); <span class="comment">// 复位</span></span><br><span class="line">  <span class="keyword">for</span>(pos = <span class="number">0</span>; pos &lt; <span class="number">180</span>; pos += <span class="number">1</span>)  <span class="comment">// 从0度到180度运动 </span></span><br><span class="line">  &#123;                                                     <span class="comment">// 每次步进一度</span></span><br><span class="line">    myservo.<span class="built_in">write</span>(pos);        <span class="comment">// 指定舵机转向的角度</span></span><br><span class="line">    <span class="built_in">delay</span>(<span class="number">15</span>);                       <span class="comment">// 等待15ms让舵机到达指定位置</span></span><br><span class="line">    </span><br><span class="line">  &#125; </span><br><span class="line">  <span class="keyword">for</span>(pos = <span class="number">180</span>; pos&gt;=<span class="number">1</span>; pos-=<span class="number">1</span>)   <span class="comment">//从180度到0度运动  </span></span><br><span class="line">  &#123;                                </span><br><span class="line">    myservo.<span class="built_in">write</span>(pos);         <span class="comment">// 指定舵机转向的角度 </span></span><br><span class="line">    <span class="built_in">delay</span>(<span class="number">15</span>);                        <span class="comment">// 等待15ms让舵机到达指定位置 </span></span><br><span class="line">    Serial.<span class="built_in">println</span>(myservo.<span class="built_in">read</span>());</span><br><span class="line">  &#125; </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img src="2521152d37ddcb8e35776f6b504030a.jpg" alt="舵机驱动"></div><div class="image-meta"><span class="image-caption center">舵机驱动</span></div></div>
-
-<h3 id="步进电机驱动"><a href="#步进电机驱动" class="headerlink" title="步进电机驱动"></a>步进电机驱动</h3><h4 id="步进电机优点"><a href="#步进电机优点" class="headerlink" title="步进电机优点"></a>步进电机优点</h4><ul>
-<li>精准控制电机输出轴角度</li>
-<li>低速运行时扭矩大</li>
-<li>开环控制&#x2F;性价比高</li>
-</ul>
-<h4 id="步进电机的分类"><a href="#步进电机的分类" class="headerlink" title="步进电机的分类"></a>步进电机的分类</h4><ul>
-<li>单极性步进电机 5-6条引脚，相对输出扭矩低，控制简单</li>
-<li>双极性步进电机 4条引脚，相对输出扭矩高，控制复杂</li>
-</ul>
-<h4 id="步进电机的参数"><a href="#步进电机的参数" class="headerlink" title="步进电机的参数"></a>步进电机的参数</h4><ul>
-<li>额定电流</li>
-<li>额定电压</li>
-<li>定位转矩  不通电</li>
-<li>保持转矩  通电</li>
-<li>相数 可独立通电的定子电磁线圈数<br>步进电机详解<blockquote>
-<p><a href="http://t.csdnimg.cn/TkxCb">http://t.csdnimg.cn/TkxCb</a></p>
-</blockquote>
-</li>
+<p>硬件类：</p>
+<ul>
+<li>solidwords&#x2F;3d打印</li>
+<li>简单的pcb板绘制</li>
+<li>简单的电路板焊接</li>
 </ul>
 ]]></content>
-      <tags>
-        <tag>ardunio</tag>
-      </tags>
   </entry>
   <entry>
     <title>江科大51再学习</title>
@@ -573,56 +564,71 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>hexo部署到github图片不显示的解决</title>
-    <url>/2023/10/03/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>hexo直接部署到github时，文章的图片并不显示，而免费图床又有跑路风险。于是为了我的图片安全，我决定寻求解决方法，网上关于hexo直接部署到github是有解决方法的，但是，大部分都是无效的！！下面是我整理出来的行之有效的解决方法   </p>
-<div class="tag-plugin image"><div class="image-bg"><img src="e0b3e3e2bddfc3fde71c6af3eb9a708.png" alt="即将寄掉的图床"></div><div class="image-meta"><span class="image-caption center">即将寄掉的图床</span></div></div>
-
-
-<p><strong>参考资料</strong></p>
-<blockquote>
-<p><a href="https://zhuanlan.zhihu.com/p/542101567">https://zhuanlan.zhihu.com/p/542101567</a></p>
-</blockquote>
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h3><p>来到自己的博客本地目录，右键打开git bash,输入以下命令</p>
-<blockquote>
-<p>npm install hexo-asset-image –save</p>
-</blockquote>
-<h3 id="2-修改两个文件"><a href="#2-修改两个文件" class="headerlink" title="2.修改两个文件"></a>2.修改两个文件</h3><p>由于插件较早，还有bug,还要修改一些文件</p>
-<ul>
-<li>进入你博客的根目录，然后下面顺序找到index.js:<br>node_modules –&gt; hexo-asset-image –&gt; index.js</li>
-<li>用VS Code 或者 记事本打开 index.js</li>
-<li>在第 58 行，可以找到这么一行代码：<blockquote>
-<p>$(this).attr(‘src’, config.root + link + src);</p>
-</blockquote>
-</li>
-</ul>
-<p>把这一行代码改成下面这样</p>
-<blockquote>
-<p>$(this).attr(‘src’, src);</p>
-</blockquote>
-<p>保存文件  </p>
+    <title>社团成员基本学习路线及其介绍</title>
+    <url>/2023/09/05/%E7%A4%BE%E5%9B%A2%E6%88%90%E5%91%98%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%8F%8A%E5%85%B6%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<p>本文档用于告知新生社员基本的学习路线，学习方向。<br>该文档同步发布在我的个人博客(liwuyou.github.io)以及3D打印社网站(cumtb.club)上<br>个人意见，仅供参考<br>如果对学习路线有疑问或者不了解的地方，请联系社长或管理员</p>
 <hr>
-<p>另外还要先把 _config.yml中的 </p>
-<blockquote>
-<p>post_asset_folder: false </p>
-</blockquote>
-<p>改成 </p>
-<blockquote>
-<p>post_asset_folder: true </p>
-</blockquote>
-<p>(默认是false，如果你没有修改过，那请去修改)</p>
-<h3 id="3-插入图片"><a href="#3-插入图片" class="headerlink" title="3.插入图片"></a>3.插入图片</h3><p>使用</p>
-<blockquote>
-<p>hexo new “myfile”</p>
-</blockquote>
-<p>此时会在你的md同级目录下创建与myfile同名的文件夹，把要导入的图片放在这个文件夹里<br>在md文件需要的地方插入图片即可</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">这种在本地和网站都可显示</span><br><span class="line">&#123;% image ./myfile/xxx.png  %&#125;   </span><br><span class="line"></span><br><span class="line">这种在网站可显示，本地不可显示</span><br><span class="line">&#123;% image xxx.png  %&#125; </span><br></pre></td></tr></table></figure>
-
-
-
+<h2 id="学习路线"><a href="#学习路线" class="headerlink" title="学习路线"></a>学习路线</h2><h3 id="语言类"><a href="#语言类" class="headerlink" title="语言类"></a>语言类</h3><ul>
+<li>c&#x2F;c++</li>
+<li>python</li>
+<li>English</li>
+</ul>
+<h3 id="单片机类"><a href="#单片机类" class="headerlink" title="单片机类"></a>单片机类</h3><ul>
+<li>arduino –&gt; esp32</li>
+<li>51单片机 –&gt; stm32</li>
+<li>树莓派&#x2F;香橙派</li>
+</ul>
+<h3 id="硬件类"><a href="#硬件类" class="headerlink" title="硬件类"></a>硬件类</h3><ul>
+<li>电脑装配及结构认识</li>
+<li>solidworks基本使用</li>
+<li>基本元器件使用及选型</li>
+<li>原理图及pcb板的绘制</li>
+<li>元件焊接工艺</li>
+</ul>
+<h3 id="软件类"><a href="#软件类" class="headerlink" title="软件类"></a>软件类</h3><ul>
+<li>github的使用</li>
+<li>chatgpt的使用</li>
+<li>基本网络知识及电脑工具使用</li>
+<li>ros基本了解</li>
+<li>linux学习</li>
+<li>神经网络学习</li>
+<li>个人博客搭建</li>
+</ul>
+<hr>
+<hr>
+<hr>
+<h2 id="具体介绍"><a href="#具体介绍" class="headerlink" title="具体介绍"></a>具体介绍</h2><p>请注意学习路线里面的，并不是所有内容都要学。   </p>
+<p>首先呢，语言类方面，我们要学习一门编程语言，如果你想走嵌入式开发c是必选的，如果你想走更偏软件一点的机器学习，人工智能的路线，推荐学习python，如果更偏向于算法，对计算机更加细致入微的调控请选择C++。<br>北矿的我们，大一上学期学的是python，但是课程很水，两节课就可以讲完所有的python基本语法，课程简单，基本不会挂科。大一下学期学的是C语言，蛮重要的，会考试，分数占比大，容易挂科。<br>推荐入门，语言使用c，理由如下，下学期要学C语言，提前预习，可获得更高分数，或者获得更多的空余时间。<br>然后尽量把英语学好，特别是在外网的时候，英语就很重要了，当然不会，也没有关系。用翻译软件也能解决，但是翻译软件并不能适用于所有场景，所以英语还是尽量学好一点</p>
+<hr>
+<p>而在单片机类中，什么是单片机，请自行百度，了解什么是单片机，单片机的常见类型。<br>为什么要学习单片机呢？单片机是嵌入式开发学习的基本环节，学会了使用单片机，我们可以设计一些具有一些实用价值的东西，如智能门锁，烟雾报警器，联网天气显示时钟等。<br>我们目前使用的单片机类型有很多，而最简单的最好入门的最容易上手的是arduino，arduino开发套件，淘宝上买的话，大概100多块钱，闲鱼上二手更便宜。Arduino，开发简单，开源库多，资料较多。<br>arduino学完下一步就可以使用，arduino的开发环境，开发esp32，Esp 32是一款性能更加强大，具有联网和蓝牙功能的单片机，价格低廉。<br>如果不从arduino入手的话，也可以从51单片机进行入门，51单片机是stm32单片机的前置课程，直接上手stm 32难度较大，学完51更容易上手。Stm32是当前使用规模最大的单片机类型之一，功能强大，性能优越，能够完成很多复杂的工作，如果方向是嵌入式的话，很难不接触到stm 32这款单片机。而且stm 32也是大学生毕业设计的首选单片机之一。<br>然后就是树莓派和香橙派以及其他什么派，从某种意义上来讲，这些派应该不属于单片机类型，他们可以连接屏幕，充当电脑，甚至安装WINDOWS系统使用。当然了，他们性能没有电脑这么强。一般他们都安装Linux系统进行开发，充当上位机使用。如自动导航小车的上位机。性能十分强大，价格也昂贵。</p>
+<hr>
+<p>而硬件类方向，如果你是传统工科专业，可能不可避免要接触到一些元器件的选型，和PCB板原理图的绘制。简单来说就是做一块完整的，能够正常使用的电路板。<br>再介绍一下solidwords，具体使用请参照，零基础小白3d打印基本入门，这篇文章。这是一款功能强大的软件，可以用于3d建模，然后将建模好的文件导出进行3d打印。他是我们3d打印社成员，必须要掌握的一款软件。<br>而电脑的装配及结构认识，如果你有兴趣的话，我们可以和你一起组装电脑，当一名图吧垃圾佬。我们实验室的电脑都是自己组装的，自己在网上淘CPU，显卡，机箱等</p>
+<hr>
+<p>而在软件类方向，我们首先第一步是科学上网，这一步自行领悟。然后使用github，github是开源社区开源社区里面有很多开源的项目和代码，计算机类必备。<br>然后还要学习一些基本的电脑工具软件，如资源管理器，powershell等<br>Linux系统是我们开发的常用系统，特别是在机器人领域， 机器人开发平台ros，就是在Linux系统上开发的，像很多服务器，都搭载在Linux系统上。Linux系统相对于WINDOWS系统具有轻量化，稳定性的优点。十分建议学习。<br>如果你python学的好的话，还可以进阶学习神经网络的相关知识，如视觉识别相关的open CV,yolo等</p>
+<hr>
+<p>最后，对学习路线进行一下小小的总结。以下有几种路线以供选择，难度依次增大<br>注意难度与实用并不相关。</p>
+<p>最快最轻量的路线</p>
+<ul>
+<li>语言类的c，硬件类的soildwords，单片机类的arduino，esp32</li>
+</ul>
+<p>稍微复杂一点</p>
+<ul>
+<li>语言类的python，c，硬件类的soildwords，单片机类的51，stm32</li>
+</ul>
+<p>再复杂一点</p>
+<ul>
+<li>语言类的python，c，硬件类的，pcb绘制，solidwords，单片机类的，arduino，esp32，stm32，软件类的linux开发</li>
+</ul>
+<p><strong>而第一学期，新生适宜参加的一些比赛有，校巡线车比赛，蓝桥杯比赛</strong></p>
+<p>最后，感谢你看到这里，如果内容有什么错误，请及时跟我们联系，如果有什么想法，可以和我们交流。谢谢</p>
 ]]></content>
       <tags>
-        <tag>hexo</tag>
+        <tag>社团</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>资源收集</title>
+    <url>/2023/08/16/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
