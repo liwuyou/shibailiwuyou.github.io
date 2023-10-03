@@ -572,4 +572,20 @@
     <url>/2023/09/29/%E6%B1%9F%E7%A7%91%E5%A4%A751%E5%86%8D%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
+  <entry>
+    <title>hexo部署到github图片不显示的解决</title>
+    <url>/2023/10/03/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>hexo直接部署到github时，文章的图片并不显示，而免费图床又有跑路风险。于是为了我的图片安全，我决定寻求解决方法，网上关于hexo直接部署到github是有解决方法的，但是，大部分都是无效的！！下面是我整理出来的行之有效的解决方法   </p>
+<div class="tag-plugin image"><div class="image-bg"><img src="e0b3e3e2bddfc3fde71c6af3eb9a708.png" alt="即将寄掉的图床"></div><div class="image-meta"><span class="image-caption center">即将寄掉的图床</span></div></div>
+
+
+<p><strong>参考资料</strong></p>
+<blockquote>
+<p><a href="https://zhuanlan.zhihu.com/p/542101567">https://zhuanlan.zhihu.com/p/542101567</a></p>
+</blockquote>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3>]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
 </search>
