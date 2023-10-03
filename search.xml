@@ -583,7 +583,44 @@
 <blockquote>
 <p><a href="https://zhuanlan.zhihu.com/p/542101567">https://zhuanlan.zhihu.com/p/542101567</a></p>
 </blockquote>
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3>]]></content>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h3><p>来到自己的博客本地目录，右键打开git bash,输入以下命令</p>
+<blockquote>
+<p>npm install hexo-asset-image –save</p>
+</blockquote>
+<h3 id="2-修改两个文件"><a href="#2-修改两个文件" class="headerlink" title="2.修改两个文件"></a>2.修改两个文件</h3><p>由于插件较早，还有bug,还要修改一些文件</p>
+<ul>
+<li>进入你博客的根目录，然后下面顺序找到index.js:<br>node_modules –&gt; hexo-asset-image –&gt; index.js</li>
+<li>用VS Code 或者 记事本打开 index.js</li>
+<li>在第 58 行，可以找到这么一行代码：<blockquote>
+<p>$(this).attr(‘src’, config.root + link + src);</p>
+</blockquote>
+</li>
+</ul>
+<p>把这一行代码改成下面这样</p>
+<blockquote>
+<p>$(this).attr(‘src’, src);</p>
+</blockquote>
+<p>保存文件  </p>
+<hr>
+<p>另外还要先把 _config.yml中的 </p>
+<blockquote>
+<p>post_asset_folder: false </p>
+</blockquote>
+<p>改成 </p>
+<blockquote>
+<p>post_asset_folder: true </p>
+</blockquote>
+<p>(默认是false，如果你没有修改过，那请去修改)</p>
+<h3 id="3-插入图片"><a href="#3-插入图片" class="headerlink" title="3.插入图片"></a>3.插入图片</h3><p>使用</p>
+<blockquote>
+<p>hexo new “myfile”</p>
+</blockquote>
+<p>此时会在你的md同级目录下创建与myfile同名的文件夹，把要导入的图片放在这个文件夹里<br>在md文件需要的地方插入图片即可</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">这种在本地和网站都可显示</span><br><span class="line">&#123;% image ./myfile/xxx.png  %&#125;   </span><br><span class="line"></span><br><span class="line">这种在网站可显示，本地不可显示</span><br><span class="line">&#123;% image xxx.png  %&#125; </span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
       <tags>
         <tag>hexo</tag>
       </tags>
