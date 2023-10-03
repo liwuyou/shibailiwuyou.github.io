@@ -242,7 +242,9 @@
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>hexo直接部署到github时，文章的图片并不显示，而免费图床又有跑路风险。于是为了我的图片安全，我决定寻求解决方法，网上关于hexo直接部署到github是有解决方法的，但是，大部分都是无效的！！下面是我整理出来的行之有效的解决方法   </p>
 <div class="tag-plugin image"><div class="image-bg"><img src="e0b3e3e2bddfc3fde71c6af3eb9a708.png" alt="即将寄掉的图床"></div><div class="image-meta"><span class="image-caption center">即将寄掉的图床</span></div></div>
 
-
+<blockquote>
+<p>有哪些免费又好用的图床网站? - 程序员蜗牛的回答 - 知乎<br><a href="https://www.zhihu.com/question/337669216/answer/1699620048">https://www.zhihu.com/question/337669216/answer/1699620048</a></p>
+</blockquote>
 <p><strong>参考资料</strong></p>
 <blockquote>
 <p><a href="https://zhuanlan.zhihu.com/p/542101567">https://zhuanlan.zhihu.com/p/542101567</a></p>
@@ -280,7 +282,8 @@
 <p>hexo new “myfile”</p>
 </blockquote>
 <p>此时会在你的md同级目录下创建与myfile同名的文件夹，把要导入的图片放在这个文件夹里<br>在md文件需要的地方插入图片即可</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">这种在本地和网站都可显示</span><br><span class="line">&#123;% image ./myfile/xxx.png  %&#125;   </span><br><span class="line"></span><br><span class="line">这种在网站可显示，本地不可显示</span><br><span class="line">&#123;% image xxx.png  %&#125; </span><br></pre></td></tr></table></figure>
+<figure class="highlight txt"><table><tr><td class="code"><pre><span class="line">这种在本地和网站都可显示</span><br><span class="line">&#123;% image ./myfile/xxx.png  %&#125;   </span><br><span class="line"></span><br><span class="line">这种在网站可显示，本地不可显示</span><br><span class="line">&#123;% image xxx.png  %&#125; </span><br></pre></td></tr></table></figure>
+
 
 <h2 id="over"><a href="#over" class="headerlink" title="over"></a>over</h2><hr>
 ]]></content>
