@@ -1,34 +1,27 @@
+
+
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en" data-default-color-scheme=auto>
+
+
 
 <head>
-  <meta name="generator" content="Hexo 6.3.0">
-  <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.19.0">
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-
-  <meta http-equiv='x-dns-prefetch-control' content='on' />
-  <link rel='dns-prefetch' href='https://gcore.jsdelivr.net'>
-  <link rel="preconnect" href="https://gcore.jsdelivr.net" crossorigin>
-  <link rel='dns-prefetch' href='//unpkg.com'>
-
-  <meta name="renderer" content="webkit">
-  <meta name="force-rendering" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="HandheldFriendly" content="True" >
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="theme-color" content="#f8f8f8">
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="wj">
+  <meta name="keywords" content="">
   
-  <title>arduino小项目2——电压表 - 无忧</title>
-
-  
-    <meta name="description" content="难度系数：★使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕，小按钮  12345678910111213141516171819202122232425262728293031323334353637383940414243444546 #include &lt;U8g2lib.h&gt; U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g">
+    <meta name="description" content="难度系数：★使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕，小按钮 12345678910111213141516171819202122232425262728293031323334353637383940414243444546 #include &lt;U8g2lib.h&gt; U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2">
 <meta property="og:type" content="article">
 <meta property="og:title" content="arduino小项目2——电压表">
 <meta property="og:url" content="https://liwuyou.github.io/2023/07/30/arduino%E5%B0%8F%E9%A1%B9%E7%9B%AE2%E2%80%94%E2%80%94%E7%94%B5%E5%8E%8B%E8%A1%A8/index.html">
 <meta property="og:site_name" content="无忧">
-<meta property="og:description" content="难度系数：★使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕，小按钮  12345678910111213141516171819202122232425262728293031323334353637383940414243444546 #include &lt;U8g2lib.h&gt; U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g">
+<meta property="og:description" content="难度系数：★使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕，小按钮 12345678910111213141516171819202122232425262728293031323334353637383940414243444546 #include &lt;U8g2lib.h&gt; U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://img1.imgtp.com/2023/07/30/wjSqoIWh.jpeg">
 <meta property="og:image" content="https://img1.imgtp.com/2023/07/30/33MvMJ89.jpeg">
@@ -36,275 +29,602 @@
 <meta property="article:modified_time" content="2023-07-30T12:33:11.057Z">
 <meta property="article:author" content="wj">
 <meta property="article:tag" content="arduino">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://img1.imgtp.com/2023/07/30/wjSqoIWh.jpeg">
   
   
   
-  <meta name="keywords" content="arduino">
+  <title>arduino小项目2——电压表 - 无忧</title>
 
-  <!-- feed -->
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
-  
-    
-<link rel="stylesheet" href="/css/main.css">
-
-  
-
-  
-
-  
-
-  
 
 
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"liwuyou.github.io","root":"/","version":"1.9.5-a","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
   
-</head>
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
 
 <body>
   
 
-
-
-
-  <div class='l_body' id='start'>
-    <aside class='l_left' layout='post'>
+  <header>
     
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
 
   
 
-<header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="/img/wx.jpg" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">无忧</div><div class="sub cap">today is a good day</div></a></div>
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="arduino小项目2——电压表"></span>
+          
+        </div>
 
-<nav class="menu dis-select"><a class="nav-item active" href="/">主页</a><a class="nav-item" href="/about/">关于</a></nav>
-</header>
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-07-30 19:51" pubdate>
+          July 30, 2023 pm
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          3.3k words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          28 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
 
 
-<div class="widgets">
-<widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" data-filter="/blog/" placeholder="文章搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">No Results!</div></div></div></widget>
+        
+      </div>
 
-
-
-<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">Recent Update</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/10/03/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3/"><span class="title">hexo部署到github图片不显示的解决</span></a><a class="item title" href="/2023/09/29/arduino%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/"><span class="title">arduino的系统学习</span></a><a class="item title" href="/2023/09/29/%E6%B1%9F%E7%A7%91%E5%A4%A751%E5%86%8D%E5%AD%A6%E4%B9%A0/"><span class="title">江科大51再学习</span></a><a class="item title" href="/2023/09/26/gazebo%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/"><span class="title">gazebo的学习与应用</span></a><a class="item title" href="/2023/09/21/%E5%9F%BA%E4%BA%8E%E5%8F%A4%E6%9C%88%E5%B1%85%E7%9A%84ros%E5%85%A5%E9%97%A8/"><span class="title">基于古月居的ros入门</span></a></div></widget>
-
-
-
-
+      
+    </div>
+  </div>
+</div>
 
 </div>
 
+  </header>
 
-    </aside>
-    <div class='l_main'>
+  <main>
+    
       
 
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
       
 
+    </div>
 
-
-<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a><span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a></div><div id="post-meta">Posted on&nbsp;<time datetime="2023-07-30T11:51:07.000Z">2023-07-30</time></div></div>
-
-<article class='md-text content post'>
-<h1 class="article-title"><span>arduino小项目2——电压表</span></h1>
-<p>难度系数：★<br>使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕，小按钮</p>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img1.imgtp.com/2023/07/30/wjSqoIWh.jpeg"></div></div>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"> </span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;U8g2lib.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="title">u8g2</span><span class="params">(U8G2_R0, SCL, SDA)</span></span>; <span class="comment">// 配置构造函数</span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> analogMax = <span class="number">1008</span>,analogMin = <span class="number">14</span>;<span class="comment">//理想范围0-1023;由实际情况调整；1008~4.93v,0~0V;</span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">    <span class="built_in">pinMode</span>(A0, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    <span class="built_in">pinMode</span>(<span class="number">2</span>, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    u8g2.<span class="built_in">begin</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">float</span> a = <span class="built_in">Voltage_detect</span>();</span><br><span class="line">  <span class="built_in">displayMenu</span>(a);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//oled屏幕显示</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">displayMenu</span><span class="params">(<span class="type">float</span> a)</span> </span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB08_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">0</span>, <span class="number">14</span>);</span><br><span class="line"> </span><br><span class="line">    </span><br><span class="line">    u8g2.<span class="built_in">print</span>(<span class="string">&quot;Voltage, (0-5v)&quot;</span>);</span><br><span class="line">    <span class="comment">// 显示电压表...</span></span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB14_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">20</span>, <span class="number">34</span>);</span><br><span class="line">    u8g2.<span class="built_in">println</span>(a);</span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//检测并转化为0-5v</span></span><br><span class="line"><span class="function"><span class="type">float</span> <span class="title">Voltage_detect</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">//range is 0.07 to 4.91</span></span><br><span class="line">    <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0); <span class="comment">//读取io口模拟值</span></span><br><span class="line">    <span class="type">float</span> Voltage = analogdate*<span class="number">5.0</span>/<span class="number">1023.0</span>; <span class="comment">//转化</span></span><br><span class="line">    <span class="comment">//Serial.println(Voltage);</span></span><br><span class="line">    <span class="keyword">if</span>(Voltage&gt;=<span class="number">4.92</span>)&#123;</span><br><span class="line">      Serial.<span class="built_in">println</span>(<span class="string">&quot;out&quot;</span>);  <span class="comment">//串口打印</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> Serial.<span class="built_in">println</span>(Voltage);</span><br><span class="line">    <span class="keyword">return</span> Voltage; <span class="comment">//返回值</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img1.imgtp.com/2023/07/30/33MvMJ89.jpeg"></div></div>
-<p>本来想弄万用表来着，emmp,放弃了,没写完，代码如下</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br></pre></td><td class="code"><pre><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;U8g2lib.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="title">u8g2</span><span class="params">(U8G2_R0, SCL, SDA)</span></span>; <span class="comment">// 配置构造函数</span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> gear = <span class="number">0</span>; <span class="comment">// 万用表状态 0.菜单；1.电压表；2.电流表；3.电阻表</span></span><br><span class="line"><span class="type">int</span> analogMax = <span class="number">1008</span>,analogMin = <span class="number">14</span>;<span class="comment">//理想范围0-1023;由实际情况调整；1008~4.93v,0~0V;</span></span><br><span class="line"><span class="type">int</span> R_I=<span class="number">220</span>; <span class="comment">// 电流表状态，电阻为220欧姆</span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">    <span class="built_in">pinMode</span>(A0, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    <span class="built_in">pinMode</span>(<span class="number">2</span>, INPUT_PULLUP); <span class="comment">// 设置引脚2为上拉输入模式</span></span><br><span class="line">    u8g2.<span class="built_in">begin</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">double</span> a = <span class="built_in">Voltage_detect</span>();</span><br><span class="line">  switch1();</span><br><span class="line">  <span class="built_in">displayMenu</span>(a);</span><br><span class="line">  <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0);</span><br><span class="line">  </span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">switch1</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> key = <span class="built_in">digitalRead</span>(<span class="number">2</span>);</span><br><span class="line"> </span><br><span class="line">    <span class="comment">// 第一次判断</span></span><br><span class="line">    <span class="keyword">if</span> (key == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// 延时20ms 消除按键抖动</span></span><br><span class="line">        <span class="built_in">delay</span>(<span class="number">20</span>);</span><br><span class="line">        <span class="comment">// 第二次判断</span></span><br><span class="line">        <span class="keyword">if</span> (key == <span class="number">0</span>) &#123;</span><br><span class="line">            gear++; <span class="comment">// 状态++</span></span><br><span class="line">            <span class="keyword">if</span> (gear &gt; <span class="number">3</span>) &#123;</span><br><span class="line">                gear = <span class="number">0</span>; <span class="comment">// 循环到第一个菜单状态</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 等待按键被松开</span></span><br><span class="line">        <span class="keyword">while</span> (!<span class="built_in">digitalRead</span>(<span class="number">2</span>)) &#123;</span><br><span class="line">            <span class="comment">// 等待按键松开</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">displayMenu</span><span class="params">(<span class="type">double</span> a)</span> </span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();</span><br><span class="line">    u8g2.<span class="built_in">setFont</span>(u8g2_font_ncenB08_tr);</span><br><span class="line">    u8g2.<span class="built_in">setCursor</span>(<span class="number">0</span>, <span class="number">14</span>);</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">switch</span> (gear) &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">            <span class="comment">//u8g2.print(&quot;Menu&quot;);</span></span><br><span class="line">            <span class="comment">// 显示菜单选项...</span></span><br><span class="line">            <span class="built_in">face</span>();</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Voltage&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电压表...</span></span><br><span class="line">            u8g2.<span class="built_in">setCursor</span>(<span class="number">20</span>, <span class="number">34</span>);</span><br><span class="line">            u8g2.<span class="built_in">println</span>(a);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Current&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电流表...</span></span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">3</span>:</span><br><span class="line">            u8g2.<span class="built_in">print</span>(<span class="string">&quot;Resistance&quot;</span>);</span><br><span class="line">            <span class="comment">// 显示电阻表...</span></span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">face</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    u8g2.<span class="built_in">clearBuffer</span>();                                    <span class="comment">//清空显示屏缓存</span></span><br><span class="line"> </span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//画四分之一圆，圆心坐标（56,44），半径8</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">40</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">56</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawCircle</span>(<span class="number">72</span>,<span class="number">41</span>,<span class="number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="comment">//加粗画四分之一圆</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">40</span>,<span class="number">18</span>,<span class="number">20</span>,<span class="number">30</span>);                            <span class="comment">//画斜线，两端点坐标分别是（40，18）（20,30）</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">88</span>,<span class="number">18</span>,<span class="number">108</span>,<span class="number">30</span>);                           <span class="comment">//画斜线</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">40</span>,<span class="number">17</span>,<span class="number">20</span>,<span class="number">29</span>);                            <span class="comment">//加粗画斜线</span></span><br><span class="line">    u8g2.<span class="built_in">drawLine</span>(<span class="number">88</span>,<span class="number">17</span>,<span class="number">108</span>,<span class="number">29</span>);                           <span class="comment">//加粗画斜线</span></span><br><span class="line">    </span><br><span class="line">    u8g2.<span class="built_in">sendBuffer</span>();                                     <span class="comment">//加载以上内容</span></span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">float</span> <span class="title">Voltage_detect</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">//range is 0.07 to 4.91</span></span><br><span class="line">    <span class="type">int</span> analogdate = <span class="built_in">analogRead</span>(A0);</span><br><span class="line">    <span class="type">float</span> Voltage = analogdate*<span class="number">5.0</span>/<span class="number">1023.0</span>;</span><br><span class="line">    <span class="comment">//Serial.println(Voltage);</span></span><br><span class="line">    <span class="keyword">if</span>(Voltage&gt;=<span class="number">4.92</span>)&#123;</span><br><span class="line">      Serial.<span class="built_in">println</span>(<span class="string">&quot;out&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> Serial.<span class="built_in">println</span>(Voltage);</span><br><span class="line">    <span class="keyword">return</span> Voltage;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<div class="article-footer reveal fs14"><section id="license"><div class="header"><span>License</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
-</div></section></div>
-
-</article>
-
-<div class="related-wrap reveal" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">Newer</div><a href="/2023/07/30/hexo%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/">hexo一些问题的解决</a></div><div class="item" id="next"><div class="note">Older</div><a href="/2023/07/30/arduino%E5%B0%8F%E9%A1%B9%E7%9B%AE1%E2%80%94%E2%80%94%E5%B0%8F%E6%97%B6%E9%92%9F/">arduino小项目1——小时钟</a></div></section></div>
-
-
-
-
-
-
-
-
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">arduino小项目2——电压表</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>难度系数：★<br>使用工具，arduino uno，面包板，杜邦线，4寸0.96寸I2C小屏幕，小按钮<br><img src="https://img1.imgtp.com/2023/07/30/wjSqoIWh.jpeg" srcset="/img/loading.gif" lazyload></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><code class="hljs c++"> <br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;U8g2lib.h&gt;</span></span><br> <br><span class="hljs-function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="hljs-title">u8g2</span><span class="hljs-params">(U8G2_R0, SCL, SDA)</span></span>; <span class="hljs-comment">// 配置构造函数</span><br> <br><span class="hljs-type">int</span> analogMax = <span class="hljs-number">1008</span>,analogMin = <span class="hljs-number">14</span>;<span class="hljs-comment">//理想范围0-1023;由实际情况调整；1008~4.93v,0~0V;</span><br> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">setup</span><span class="hljs-params">()</span> </span>&#123;<br>    Serial.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>);<br>    <span class="hljs-built_in">pinMode</span>(A0, INPUT_PULLUP); <span class="hljs-comment">// 设置引脚2为上拉输入模式</span><br>    <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">2</span>, INPUT_PULLUP); <span class="hljs-comment">// 设置引脚2为上拉输入模式</span><br>    u8g2.<span class="hljs-built_in">begin</span>();<br>&#125;<br> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">loop</span><span class="hljs-params">()</span> </span>&#123;<br>  <span class="hljs-type">float</span> a = <span class="hljs-built_in">Voltage_detect</span>();<br>  <span class="hljs-built_in">displayMenu</span>(a);<br>&#125;<br> <br><span class="hljs-comment">//oled屏幕显示</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">displayMenu</span><span class="hljs-params">(<span class="hljs-type">float</span> a)</span> </span>&#123;<br>    u8g2.<span class="hljs-built_in">clearBuffer</span>();<br>    u8g2.<span class="hljs-built_in">setFont</span>(u8g2_font_ncenB08_tr);<br>    u8g2.<span class="hljs-built_in">setCursor</span>(<span class="hljs-number">0</span>, <span class="hljs-number">14</span>);<br> <br>    <br>    u8g2.<span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Voltage, (0-5v)&quot;</span>);<br>    <span class="hljs-comment">// 显示电压表...</span><br>    u8g2.<span class="hljs-built_in">setFont</span>(u8g2_font_ncenB14_tr);<br>    u8g2.<span class="hljs-built_in">setCursor</span>(<span class="hljs-number">20</span>, <span class="hljs-number">34</span>);<br>    u8g2.<span class="hljs-built_in">println</span>(a);<br>    u8g2.<span class="hljs-built_in">sendBuffer</span>();<br>&#125;<br> <br><span class="hljs-comment">//检测并转化为0-5v</span><br><span class="hljs-function"><span class="hljs-type">float</span> <span class="hljs-title">Voltage_detect</span><span class="hljs-params">()</span></span>&#123;<br>  <span class="hljs-comment">//range is 0.07 to 4.91</span><br>    <span class="hljs-type">int</span> analogdate = <span class="hljs-built_in">analogRead</span>(A0); <span class="hljs-comment">//读取io口模拟值</span><br>    <span class="hljs-type">float</span> Voltage = analogdate*<span class="hljs-number">5.0</span>/<span class="hljs-number">1023.0</span>; <span class="hljs-comment">//转化</span><br>    <span class="hljs-comment">//Serial.println(Voltage);</span><br>    <span class="hljs-keyword">if</span>(Voltage&gt;=<span class="hljs-number">4.92</span>)&#123;<br>      Serial.<span class="hljs-built_in">println</span>(<span class="hljs-string">&quot;out&quot;</span>);  <span class="hljs-comment">//串口打印</span><br>    &#125;<br>    <span class="hljs-keyword">else</span> Serial.<span class="hljs-built_in">println</span>(Voltage);<br>    <span class="hljs-keyword">return</span> Voltage; <span class="hljs-comment">//返回值</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p><img src="https://img1.imgtp.com/2023/07/30/33MvMJ89.jpeg" srcset="/img/loading.gif" lazyload><br>本来想弄万用表来着，emmp,放弃了,没写完，代码如下</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br></pre></td><td class="code"><pre><code class="hljs c++"> <br> <br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;U8g2lib.h&gt;</span></span><br> <br><span class="hljs-function">U8G2_SSD1306_128X64_NONAME_F_SW_I2C <span class="hljs-title">u8g2</span><span class="hljs-params">(U8G2_R0, SCL, SDA)</span></span>; <span class="hljs-comment">// 配置构造函数</span><br> <br><span class="hljs-type">int</span> gear = <span class="hljs-number">0</span>; <span class="hljs-comment">// 万用表状态 0.菜单；1.电压表；2.电流表；3.电阻表</span><br><span class="hljs-type">int</span> analogMax = <span class="hljs-number">1008</span>,analogMin = <span class="hljs-number">14</span>;<span class="hljs-comment">//理想范围0-1023;由实际情况调整；1008~4.93v,0~0V;</span><br><span class="hljs-type">int</span> R_I=<span class="hljs-number">220</span>; <span class="hljs-comment">// 电流表状态，电阻为220欧姆</span><br> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">setup</span><span class="hljs-params">()</span> </span>&#123;<br>    Serial.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>);<br>    <span class="hljs-built_in">pinMode</span>(A0, INPUT_PULLUP); <span class="hljs-comment">// 设置引脚2为上拉输入模式</span><br>    <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">2</span>, INPUT_PULLUP); <span class="hljs-comment">// 设置引脚2为上拉输入模式</span><br>    u8g2.<span class="hljs-built_in">begin</span>();<br>&#125;<br> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">loop</span><span class="hljs-params">()</span> </span>&#123;<br>  <span class="hljs-type">double</span> a = <span class="hljs-built_in">Voltage_detect</span>();<br>  switch1();<br>  <span class="hljs-built_in">displayMenu</span>(a);<br>  <span class="hljs-type">int</span> analogdate = <span class="hljs-built_in">analogRead</span>(A0);<br>  <br> <br>&#125;<br> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">switch1</span><span class="hljs-params">()</span> </span>&#123;<br>    <span class="hljs-type">int</span> key = <span class="hljs-built_in">digitalRead</span>(<span class="hljs-number">2</span>);<br> <br>    <span class="hljs-comment">// 第一次判断</span><br>    <span class="hljs-keyword">if</span> (key == <span class="hljs-number">0</span>) &#123;<br>        <span class="hljs-comment">// 延时20ms 消除按键抖动</span><br>        <span class="hljs-built_in">delay</span>(<span class="hljs-number">20</span>);<br>        <span class="hljs-comment">// 第二次判断</span><br>        <span class="hljs-keyword">if</span> (key == <span class="hljs-number">0</span>) &#123;<br>            gear++; <span class="hljs-comment">// 状态++</span><br>            <span class="hljs-keyword">if</span> (gear &gt; <span class="hljs-number">3</span>) &#123;<br>                gear = <span class="hljs-number">0</span>; <span class="hljs-comment">// 循环到第一个菜单状态</span><br>            &#125;<br>        &#125;<br>        <span class="hljs-comment">// 等待按键被松开</span><br>        <span class="hljs-keyword">while</span> (!<span class="hljs-built_in">digitalRead</span>(<span class="hljs-number">2</span>)) &#123;<br>            <span class="hljs-comment">// 等待按键松开</span><br>        &#125;<br>    &#125;<br>&#125;<br> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">displayMenu</span><span class="hljs-params">(<span class="hljs-type">double</span> a)</span> </span>&#123;<br>    u8g2.<span class="hljs-built_in">clearBuffer</span>();<br>    u8g2.<span class="hljs-built_in">setFont</span>(u8g2_font_ncenB08_tr);<br>    u8g2.<span class="hljs-built_in">setCursor</span>(<span class="hljs-number">0</span>, <span class="hljs-number">14</span>);<br> <br>    <span class="hljs-keyword">switch</span> (gear) &#123;<br>        <span class="hljs-keyword">case</span> <span class="hljs-number">0</span>:<br>            <span class="hljs-comment">//u8g2.print(&quot;Menu&quot;);</span><br>            <span class="hljs-comment">// 显示菜单选项...</span><br>            <span class="hljs-built_in">face</span>();<br>            <span class="hljs-keyword">break</span>;<br>        <span class="hljs-keyword">case</span> <span class="hljs-number">1</span>:<br>            u8g2.<span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Voltage&quot;</span>);<br>            <span class="hljs-comment">// 显示电压表...</span><br>            u8g2.<span class="hljs-built_in">setCursor</span>(<span class="hljs-number">20</span>, <span class="hljs-number">34</span>);<br>            u8g2.<span class="hljs-built_in">println</span>(a);<br>            <span class="hljs-keyword">break</span>;<br>        <span class="hljs-keyword">case</span> <span class="hljs-number">2</span>:<br>            u8g2.<span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Current&quot;</span>);<br>            <span class="hljs-comment">// 显示电流表...</span><br>            <span class="hljs-keyword">break</span>;<br>        <span class="hljs-keyword">case</span> <span class="hljs-number">3</span>:<br>            u8g2.<span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Resistance&quot;</span>);<br>            <span class="hljs-comment">// 显示电阻表...</span><br>            <span class="hljs-keyword">break</span>;<br>    &#125;<br> <br>    u8g2.<span class="hljs-built_in">sendBuffer</span>();<br>&#125;<br> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">face</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    u8g2.<span class="hljs-built_in">clearBuffer</span>();                                    <span class="hljs-comment">//清空显示屏缓存</span><br> <br>    u8g2.<span class="hljs-built_in">drawCircle</span>(<span class="hljs-number">56</span>,<span class="hljs-number">40</span>,<span class="hljs-number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="hljs-comment">//画四分之一圆，圆心坐标（56,44），半径8</span><br>    u8g2.<span class="hljs-built_in">drawCircle</span>(<span class="hljs-number">56</span>,<span class="hljs-number">40</span>,<span class="hljs-number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="hljs-comment">//画四分之一圆</span><br>    u8g2.<span class="hljs-built_in">drawCircle</span>(<span class="hljs-number">72</span>,<span class="hljs-number">40</span>,<span class="hljs-number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="hljs-comment">//画四分之一圆</span><br>    u8g2.<span class="hljs-built_in">drawCircle</span>(<span class="hljs-number">72</span>,<span class="hljs-number">40</span>,<span class="hljs-number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="hljs-comment">//画四分之一圆</span><br>    u8g2.<span class="hljs-built_in">drawCircle</span>(<span class="hljs-number">56</span>,<span class="hljs-number">41</span>,<span class="hljs-number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="hljs-comment">//加粗画四分之一圆</span><br>    u8g2.<span class="hljs-built_in">drawCircle</span>(<span class="hljs-number">56</span>,<span class="hljs-number">41</span>,<span class="hljs-number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="hljs-comment">//加粗画四分之一圆</span><br>    u8g2.<span class="hljs-built_in">drawCircle</span>(<span class="hljs-number">72</span>,<span class="hljs-number">41</span>,<span class="hljs-number">8</span>,U8G2_DRAW_LOWER_LEFT);         <span class="hljs-comment">//加粗画四分之一圆</span><br>    u8g2.<span class="hljs-built_in">drawCircle</span>(<span class="hljs-number">72</span>,<span class="hljs-number">41</span>,<span class="hljs-number">8</span>,U8G2_DRAW_LOWER_RIGHT);        <span class="hljs-comment">//加粗画四分之一圆</span><br>    u8g2.<span class="hljs-built_in">drawLine</span>(<span class="hljs-number">40</span>,<span class="hljs-number">18</span>,<span class="hljs-number">20</span>,<span class="hljs-number">30</span>);                            <span class="hljs-comment">//画斜线，两端点坐标分别是（40，18）（20,30）</span><br>    u8g2.<span class="hljs-built_in">drawLine</span>(<span class="hljs-number">88</span>,<span class="hljs-number">18</span>,<span class="hljs-number">108</span>,<span class="hljs-number">30</span>);                           <span class="hljs-comment">//画斜线</span><br>    u8g2.<span class="hljs-built_in">drawLine</span>(<span class="hljs-number">40</span>,<span class="hljs-number">17</span>,<span class="hljs-number">20</span>,<span class="hljs-number">29</span>);                            <span class="hljs-comment">//加粗画斜线</span><br>    u8g2.<span class="hljs-built_in">drawLine</span>(<span class="hljs-number">88</span>,<span class="hljs-number">17</span>,<span class="hljs-number">108</span>,<span class="hljs-number">29</span>);                           <span class="hljs-comment">//加粗画斜线</span><br>    <br>    u8g2.<span class="hljs-built_in">sendBuffer</span>();                                     <span class="hljs-comment">//加载以上内容</span><br>&#125;<br> <br><span class="hljs-function"><span class="hljs-type">float</span> <span class="hljs-title">Voltage_detect</span><span class="hljs-params">()</span></span>&#123;<br>  <span class="hljs-comment">//range is 0.07 to 4.91</span><br>    <span class="hljs-type">int</span> analogdate = <span class="hljs-built_in">analogRead</span>(A0);<br>    <span class="hljs-type">float</span> Voltage = analogdate*<span class="hljs-number">5.0</span>/<span class="hljs-number">1023.0</span>;<br>    <span class="hljs-comment">//Serial.println(Voltage);</span><br>    <span class="hljs-keyword">if</span>(Voltage&gt;=<span class="hljs-number">4.92</span>)&#123;<br>      Serial.<span class="hljs-built_in">println</span>(<span class="hljs-string">&quot;out&quot;</span>);<br>    &#125;<br>    <span class="hljs-keyword">else</span> Serial.<span class="hljs-built_in">println</span>(Voltage);<br>    <span class="hljs-keyword">return</span> Voltage;<br>&#125;<br></code></pre></td></tr></table></figure>
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
       
-<footer class="page-footer reveal fs12"><hr><div class="text"><p>本站由 <a href="/">@anonymity</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar">Stellar</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
-</div></footer>
-
-      <div class='float-panel mobile-only blur' style='display:none'>
-  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
-    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
-  </button>
+        <a href="/tags/arduino/" class="print-no-link">#arduino</a>
+      
+    </div>
+  
 </div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>arduino小项目2——电压表</div>
+      <div>https://liwuyou.github.io/2023/07/30/arduino小项目2——电压表/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>wj</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>July 30, 2023</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2023/07/30/hexo%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/" title="hexo一些问题的解决">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">hexo一些问题的解决</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/07/30/arduino%E5%B0%8F%E9%A1%B9%E7%9B%AE1%E2%80%94%E2%80%94%E5%B0%8F%E6%97%B6%E9%92%9F/" title="arduino小项目1——小时钟">
+                        <span class="hidden-mobile">arduino小项目1——小时钟</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
 
     </div>
   </div>
-  <div class='scripts'>
-    <script type="text/javascript">
-  const stellar = {
-    // 懒加载 css https://github.com/filamentgroup/loadCSS
-    loadCSS: (href, before, media, attributes) => {
-      var doc = window.document;
-      var ss = doc.createElement("link");
-      var ref;
-      if (before) {
-        ref = before;
-      } else {
-        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
-        ref = refs[refs.length - 1];
-      }
-      var sheets = doc.styleSheets;
-      if (attributes) {
-        for (var attributeName in attributes) {
-          if (attributes.hasOwnProperty(attributeName)) {
-            ss.setAttribute(attributeName, attributes[attributeName]);
-          }
-        }
-      }
-      ss.rel = "stylesheet";
-      ss.href = href;
-      ss.media = "only x";
-      function ready(cb) {
-        if (doc.body) {
-          return cb();
-        }
-        setTimeout(function () {
-          ready(cb);
-        });
-      }
-      ready(function () {
-        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
-      });
-      var onloadcssdefined = function (cb) {
-        var resolvedHref = ss.href;
-        var i = sheets.length;
-        while (i--) {
-          if (sheets[i].href === resolvedHref) {
-            return cb();
-          }
-        }
-        setTimeout(function () {
-          onloadcssdefined(cb);
-        });
-      };
-      function loadCB() {
-        if (ss.addEventListener) {
-          ss.removeEventListener("load", loadCB);
-        }
-        ss.media = media || "all";
-      }
-      if (ss.addEventListener) {
-        ss.addEventListener("load", loadCB);
-      }
-      ss.onloadcssdefined = onloadcssdefined;
-      onloadcssdefined(loadCB);
-      return ss;
-    },
+</div>
 
-    // 从 butterfly 和 volantis 获得灵感
-    loadScript: (src, opt) => new Promise((resolve, reject) => {
-      var script = document.createElement('script');
-      if (src.startsWith('/')){
-        src = stellar.config.root + src.substring(1);
-      }
-      script.src = src;
-      if (opt) {
-        for (let key of Object.keys(opt)) {
-          script[key] = opt[key]
-        }
-      } else {
-        // 默认异步，如果需要同步，第二个参数传入 {} 即可
-        script.async = true
-      }
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    }),
 
-    // https://github.com/jerryc127/hexo-theme-butterfly
-    jQuery: (fn) => {
-      if (typeof jQuery === 'undefined') {
-        stellar.loadScript(stellar.plugins.jQuery).then(fn)
-      } else {
-        fn()
-      }
-    }
-  };
-  stellar.version = '1.19.0';
-  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.19.0';
-  stellar.config = {
-    date_suffix: {
-      just: 'Just',
-      min: 'minutes ago',
-      hour: 'hours ago',
-      day: 'days ago',
-      month: 'months ago',
-    },
-    root : '/',
-  };
 
-  // required plugins (only load if needs)
-  stellar.plugins = {
-    jQuery: 'https://gcore.jsdelivr.net/npm/jquery@3.6.2/dist/jquery.min.js'
-  };
 
-  if ('local_search') {
-    stellar.search = {};
-    stellar.search.service = 'local_search';
-    if (stellar.search.service == 'local_search') {
-      let service_obj = Object.assign({}, {"field":"all","path":"/search.json","content":true,"sort":"-date"});
-      stellar.search[stellar.search.service] = service_obj;
-    }
-  }
-
-  // stellar js
-  stellar.plugins.stellar = Object.assign({"sites":"/js/plugins/sites.js","friends":"/js/plugins/friends.js","ghinfo":"/js/plugins/ghinfo.js","timeline":"/js/plugins/timeline.js","linkcard":"/js/plugins/linkcard.js","fcircle":"/js/plugins/fcircle.js","weibo":"/js/plugins/weibo.js"});
-
-  stellar.plugins.marked = Object.assign("https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js");
-  // optional plugins
-  if ('true' == 'true') {
-    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://gcore.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js","transition":"blur"});
-  }
-  if ('true' == 'true') {
-    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper@8.4.5/swiper-bundle.min.css","js":"https://unpkg.com/swiper@8.4.5/swiper-bundle.min.js"});
-  }
-  if ('' == 'true') {
-    stellar.plugins.scrollreveal = Object.assign({"enable":null,"js":"https://gcore.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"8px","duration":500,"interval":100,"scale":1});
-  }
-  if ('true' == 'true') {
-    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://gcore.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
-  }
-  if ('true' == 'true') {
-    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://gcore.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://gcore.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
-  }
-  if ('false' == 'true') {
-    stellar.plugins.heti = Object.assign({"enable":false,"css":"https://unpkg.com/heti@0.9.2/umd/heti.min.css","js":"https://unpkg.com/heti@0.9.2/umd/heti-addon.min.js"});
-  }
-  if ('true' == 'true') {
-    stellar.plugins.copycode = Object.assign({"enable":true,"js":"/js/plugins/copycode.js","default_text":"Copy","success_text":"Copied"});
-  }
-</script>
-
-<!-- required -->
 
   
-<script src="/js/main.js" async></script>
 
 
 
-<!-- optional -->
+  
 
 
 
-<!-- inject -->
+  
 
 
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
   </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
 </body>
 </html>

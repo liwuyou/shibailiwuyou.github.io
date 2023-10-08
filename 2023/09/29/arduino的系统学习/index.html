@@ -1,34 +1,27 @@
+
+
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en" data-default-color-scheme=auto>
+
+
 
 <head>
-  <meta name="generator" content="Hexo 6.3.0">
-  <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.19.0">
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-
-  <meta http-equiv='x-dns-prefetch-control' content='on' />
-  <link rel='dns-prefetch' href='https://gcore.jsdelivr.net'>
-  <link rel="preconnect" href="https://gcore.jsdelivr.net" crossorigin>
-  <link rel='dns-prefetch' href='//unpkg.com'>
-
-  <meta name="renderer" content="webkit">
-  <meta name="force-rendering" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="HandheldFriendly" content="True" >
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="theme-color" content="#f8f8f8">
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="wj">
+  <meta name="keywords" content="">
   
-  <title>arduino的系统学习 - 无忧</title>
-
-  
-    <meta name="description" content="我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧  arduino IDE下载  www.arduino.cc  arduino uno引脚图  Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶">
+    <meta name="description" content="我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧  arduino IDE下载  www.arduino.cc  arduino uno引脚图 Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶体">
 <meta property="og:type" content="article">
 <meta property="og:title" content="arduino的系统学习">
 <meta property="og:url" content="https://liwuyou.github.io/2023/09/29/arduino%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/index.html">
 <meta property="og:site_name" content="无忧">
-<meta property="og:description" content="我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧  arduino IDE下载  www.arduino.cc  arduino uno引脚图  Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶">
+<meta property="og:description" content="我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧  arduino IDE下载  www.arduino.cc  arduino uno引脚图 Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶体">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://img1.imgtp.com/2023/09/30/dF8YseB9.png">
 <meta property="og:image" content="https://liwuyou.github.io/2023/09/29/arduino%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/acef7197dc8e2003ceb04c42952ec92.jpg">
@@ -46,77 +39,255 @@
   
   
   
-  <meta name="keywords" content="ardunio">
+  <title>arduino的系统学习 - 无忧</title>
 
-  <!-- feed -->
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
-  
-    
-<link rel="stylesheet" href="/css/main.css">
-
-  
-
-  
-
-  
-
-  
 
 
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"liwuyou.github.io","root":"/","version":"1.9.5-a","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
   
-</head>
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
 
 <body>
   
 
-
-
-
-  <div class='l_body' id='start'>
-    <aside class='l_left' layout='post'>
+  <header>
     
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
 
   
 
-<header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="/img/wx.jpg" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">无忧</div><div class="sub cap">today is a good day</div></a></div>
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="arduino的系统学习"></span>
+          
+        </div>
 
-<nav class="menu dis-select"><a class="nav-item active" href="/">主页</a><a class="nav-item" href="/about/">关于</a></nav>
-</header>
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-09-29 23:16" pubdate>
+          September 29, 2023 pm
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          3.5k words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          29 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
 
 
-<div class="widgets">
-<widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" data-filter="/blog/" placeholder="文章搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">No Results!</div></div></div></widget>
+        
+      </div>
 
-
-<widget class="widget-wrapper toc single" id="data-toc"><div class="widget-header cap dis-select"><span class="name">arduino的系统学习</span></div><div class="widget-body fs14"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#arduino-uno%E5%BC%95%E8%84%9A%E5%9B%BE"><span class="toc-text">arduino uno引脚图</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4"><span class="toc-text">存储空间</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA"><span class="toc-text">输入输出</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Serial"><span class="toc-text">Serial</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%96%E9%83%A8%E4%B8%AD%E6%96%AD"><span class="toc-text">外部中断</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#PWM%E8%BE%93%E5%87%BA%EF%BC%9A"><span class="toc-text">PWM输出：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SPI%EF%BC%9A"><span class="toc-text">SPI：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#L-LED%EF%BC%9A"><span class="toc-text">L-LED：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TWI%EF%BC%9A"><span class="toc-text">TWI：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%82%B9%E4%BA%AE%E4%B8%80%E4%B8%AALED%E7%81%AF"><span class="toc-text">点亮一个LED灯</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#pinMode-%E5%BC%95%E8%84%9A%E5%8F%B7%EF%BC%8C%E7%8A%B6%E6%80%81-%E8%AE%BE%E7%BD%AE%E5%BC%95%E8%84%9A%E6%A8%A1%E5%BC%8F"><span class="toc-text">pinMode(引脚号，状态)  设置引脚模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#digitalWrite-%E5%BC%95%E8%84%9A%E5%8F%B7-%E7%8A%B6%E6%80%81-%E5%BC%95%E8%84%9A%E8%BE%93%E5%87%BA%E7%8A%B6%E6%80%81"><span class="toc-text">digitalWrite(引脚号,状态);  引脚输出状态</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E6%8B%89%E7%94%B5%E9%98%BB"><span class="toc-text">上拉电阻</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E8%84%9A%E6%82%AC%E7%A9%BA"><span class="toc-text">引脚悬空</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%B2%E5%8F%A3%E9%80%9A%E4%BF%A1"><span class="toc-text">串口通信</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#digitalRead-%E5%BC%95%E8%84%9A%E5%8F%B7"><span class="toc-text">digitalRead(引脚号)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Serial-begin-9600"><span class="toc-text">Serial.begin(9600);</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Serial-println-%E6%89%93%E5%8D%B0%E5%86%85%E5%AE%B9"><span class="toc-text">Serial.println(打印内容);</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#delay-%E6%97%B6%E9%97%B4"><span class="toc-text">delay(时间)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E6%8B%9F%E8%BE%93%E5%87%BA"><span class="toc-text">模拟输出</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#analogWrite-Pin-bringtness"><span class="toc-text">analogWrite(Pin,bringtness)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%91%BC%E5%90%B8%E7%81%AF%EF%BC%88%E5%91%A8%E6%9C%9F%E6%9C%AA%E6%B5%8B%EF%BC%89"><span class="toc-text">呼吸灯（周期未测）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E6%8B%9F%E8%BE%93%E5%85%A5"><span class="toc-text">模拟输入</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%B5%E4%BD%8D%E5%99%A8"><span class="toc-text">电位器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ananaloRead-Pin"><span class="toc-text">ananaloRead(Pin)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8FB-map-%E5%8F%98%E9%87%8FA-A-min-A-max-B-min-B-max"><span class="toc-text">变量B &#x3D; map(变量A,A_min,A_max,B_min,B_max)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8"><span class="toc-text">电机驱动</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%B5%E6%9C%BA%E7%A7%8D%E7%B1%BB"><span class="toc-text">电机种类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8arduino%E7%9A%84%E5%BC%95%E8%84%9A%E7%9B%B4%E6%8E%A5%E9%A9%B1%E5%8A%A8%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA"><span class="toc-text">使用arduino的引脚直接驱动直流电机</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%88%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8"><span class="toc-text">舵机驱动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8"><span class="toc-text">步进电机驱动</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E4%BC%98%E7%82%B9"><span class="toc-text">步进电机优点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9A%84%E5%88%86%E7%B1%BB"><span class="toc-text">步进电机的分类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E7%9A%84%E5%8F%82%E6%95%B0"><span class="toc-text">步进电机的参数</span></a></li></ol></li></ol></li></ol></div></div></widget>
-
-
-
+      
+    </div>
+  </div>
+</div>
 
 </div>
 
+  </header>
 
-    </aside>
-    <div class='l_main'>
+  <main>
+    
       
 
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
       
 
+    </div>
 
-
-<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a><span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a></div><div id="post-meta">Posted on&nbsp;<time datetime="2023-09-29T15:16:19.000Z">2023-09-29</time></div></div>
-
-<article class='md-text content post'>
-<h1 class="article-title"><span>arduino的系统学习</span></h1>
-<p>我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧</p>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">arduino的系统学习</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>我还是决定系统学一下arduino，虽然系统学，但仍是速成，由于碰到一些事情我意识到自己还不够努力，就从arduino开始吧</p>
 <hr>
 <p>arduino IDE下载</p>
 <blockquote>
 <p><a target="_blank" rel="noopener" href="http://www.arduino.cc/">www.arduino.cc</a></p>
 </blockquote>
-<h2 id="arduino-uno引脚图"><a href="#arduino-uno引脚图" class="headerlink" title="arduino uno引脚图"></a>arduino uno引脚图</h2><div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img1.imgtp.com/2023/09/30/dF8YseB9.png"></div></div>
-
+<h2 id="arduino-uno引脚图"><a href="#arduino-uno引脚图" class="headerlink" title="arduino uno引脚图"></a>arduino uno引脚图</h2><p><img src="https://img1.imgtp.com/2023/09/30/dF8YseB9.png" srcset="/img/loading.gif" lazyload></p>
 <p>Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶体振荡器，一个USB接口，一个DC接口，一个ICSP接口，一个复位按钮。它包含了微控制器所需的一切，你只用简单地把它连接到计算机的USB接口，或者使用AC-DC适配器，再或者用电池，就可以驱动它。</p>
 <h3 id="存储空间"><a href="#存储空间" class="headerlink" title="存储空间"></a>存储空间</h3><p>ATmega328 有32KB Flash存储空间（其中0.5KB被用于存储bootloader），2KB 的SRAM和1KB 的EEPROM。<br>可以使用官方提供的EEPROM库读写EEPROM空间。</p>
 <h3 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h3><p>Arduino Uno有14个数字输入输出引脚，可使用 pinMode()、digitalWrite() 和 digitalRead() 控制。<br>其中一些带有特殊功能，这些引脚如下</p>
@@ -138,24 +309,22 @@
 </ul>
 <h3 id="上拉电阻"><a href="#上拉电阻" class="headerlink" title="上拉电阻"></a>上拉电阻</h3><p>arduino开发板上拉电阻10K</p>
 <h3 id="引脚悬空"><a href="#引脚悬空" class="headerlink" title="引脚悬空"></a>引脚悬空</h3><p>引脚设置成INPUT却没有加任何电路，引脚检测状态不定（0&#x2F;1）</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//点亮二号引脚</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  digitalWrite(<span class="number">2</span>,HIGH);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="acef7197dc8e2003ceb04c42952ec92.jpg"></div></div>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs c"><span class="hljs-comment">//点亮二号引脚</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">setup</span><span class="hljs-params">()</span> &#123;<br>  pinMode(<span class="hljs-number">2</span>,OUTPUT);<br>&#125;<br><br><span class="hljs-type">void</span> <span class="hljs-title function_">loop</span><span class="hljs-params">()</span> &#123;<br>  digitalWrite(<span class="hljs-number">2</span>,HIGH);<br>&#125;<br><br></code></pre></td></tr></table></figure>
+<p><img src="acef7197dc8e2003ceb04c42952ec92.jpg" srcset="/img/loading.gif" lazyload></p>
 <h2 id="串口通信"><a href="#串口通信" class="headerlink" title="串口通信"></a>串口通信</h2><h3 id="digitalRead-引脚号"><a href="#digitalRead-引脚号" class="headerlink" title="digitalRead(引脚号)"></a>digitalRead(引脚号)</h3><p>读取某个引脚状态，常与pinMode(引脚号,INOUT)搭配使用</p>
 <h3 id="Serial-begin-9600"><a href="#Serial-begin-9600" class="headerlink" title="Serial.begin(9600);"></a>Serial.begin(9600);</h3><p>串口初始化设置9600为常用波特率</p>
 <h3 id="Serial-println-打印内容"><a href="#Serial-println-打印内容" class="headerlink" title="Serial.println(打印内容);"></a>Serial.println(打印内容);</h3><p>在电脑的串口监视器上输出相应内容</p>
 <h3 id="delay-时间"><a href="#delay-时间" class="headerlink" title="delay(时间)"></a>delay(时间)</h3><p>延时函数，单位为ms</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  pinMode(<span class="number">2</span>,INPUT);</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line">  <span class="type">int</span> buttonState = digitalRead(<span class="number">2</span>);</span><br><span class="line">  Serial.println(buttonState);</span><br><span class="line">  delay(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="5767da9dd70a5f3d0721899f1c0e009.jpg" alt="引脚悬空"></div><div class="image-meta"><span class="image-caption center">引脚悬空</span></div></div>
-
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs c"><span class="hljs-type">void</span> <span class="hljs-title function_">setup</span><span class="hljs-params">()</span> &#123;<br>  pinMode(<span class="hljs-number">2</span>,INPUT);<br>  Serial.begin(<span class="hljs-number">9600</span>);<br>&#125;<br><br><span class="hljs-type">void</span> <span class="hljs-title function_">loop</span><span class="hljs-params">()</span> &#123;<br>  <span class="hljs-type">int</span> buttonState = digitalRead(<span class="hljs-number">2</span>);<br>  Serial.println(buttonState);<br>  delay(<span class="hljs-number">1</span>);<br>&#125;<br></code></pre></td></tr></table></figure>
+<p><img src="5767da9dd70a5f3d0721899f1c0e009.jpg" srcset="/img/loading.gif" lazyload alt="引脚悬空"></p>
 <h2 id="模拟输出"><a href="#模拟输出" class="headerlink" title="模拟输出"></a>模拟输出</h2><p>标有~的数字引脚可输出PWM信号</p>
 <h3 id="analogWrite-Pin-bringtness"><a href="#analogWrite-Pin-bringtness" class="headerlink" title="analogWrite(Pin,bringtness)"></a>analogWrite(Pin,bringtness)</h3><p>模拟输出，Pin,引脚号;    brigngness为亮度范围0~255,<br>输出的为Pwm信号，PWM信号的频率大约为490Hz.<br>在Arduino UNO控制器中，5号引脚和6号引脚的PWM频率为980Hz。</p>
-<h3 id="呼吸灯（周期未测）"><a href="#呼吸灯（周期未测）" class="headerlink" title="呼吸灯（周期未测）"></a>呼吸灯（周期未测）</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span> &#123;</span><br><span class="line">  Serial.begin(<span class="number">9600</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span> &#123;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> brightness = <span class="number">0</span>;brightness &lt;= <span class="number">255</span>;brightness+=<span class="number">5</span>)&#123;</span><br><span class="line">  analogWrite(<span class="number">9</span>,brightness);</span><br><span class="line">  Serial.println(brightness);</span><br><span class="line">  delay(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> brightness = <span class="number">255</span>;brightness &gt;= <span class="number">0</span>;brightness-=<span class="number">5</span>)&#123;</span><br><span class="line">  analogWrite(<span class="number">9</span>,brightness);</span><br><span class="line">  Serial.println(brightness);</span><br><span class="line">  delay(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="呼吸灯（周期未测）"><a href="#呼吸灯（周期未测）" class="headerlink" title="呼吸灯（周期未测）"></a>呼吸灯（周期未测）</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs c"><span class="hljs-type">void</span> <span class="hljs-title function_">setup</span><span class="hljs-params">()</span> &#123;<br>  Serial.begin(<span class="hljs-number">9600</span>);<br>&#125;<br><br><span class="hljs-type">void</span> <span class="hljs-title function_">loop</span><span class="hljs-params">()</span> &#123;<br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> brightness = <span class="hljs-number">0</span>;brightness &lt;= <span class="hljs-number">255</span>;brightness+=<span class="hljs-number">5</span>)&#123;<br>  analogWrite(<span class="hljs-number">9</span>,brightness);<br>  Serial.println(brightness);<br>  delay(<span class="hljs-number">10</span>);<br>&#125;<br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> brightness = <span class="hljs-number">255</span>;brightness &gt;= <span class="hljs-number">0</span>;brightness-=<span class="hljs-number">5</span>)&#123;<br>  analogWrite(<span class="hljs-number">9</span>,brightness);<br>  Serial.println(brightness);<br>  delay(<span class="hljs-number">10</span>);<br>&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
-<h2 id="模拟输入"><a href="#模拟输入" class="headerlink" title="模拟输入"></a>模拟输入</h2><h3 id="电位器"><a href="#电位器" class="headerlink" title="电位器"></a>电位器</h3><div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="f66bddad2a38dbff12ddf1ab7b48169.jpg" alt="电位器"></div><div class="image-meta"><span class="image-caption center">电位器</span></div></div>
-
+<h2 id="模拟输入"><a href="#模拟输入" class="headerlink" title="模拟输入"></a>模拟输入</h2><h3 id="电位器"><a href="#电位器" class="headerlink" title="电位器"></a>电位器</h3><p><img src="f66bddad2a38dbff12ddf1ab7b48169.jpg" srcset="/img/loading.gif" lazyload alt="电位器"></p>
 <h3 id="ananaloRead-Pin"><a href="#ananaloRead-Pin" class="headerlink" title="ananaloRead(Pin)"></a>ananaloRead(Pin)</h3><p>读取范围0-5v,返回0~1023的数值，读入的最大频率为10 000次，引脚悬空状态读的数值不定</p>
 <h3 id="变量B-map-变量A-A-min-A-max-B-min-B-max"><a href="#变量B-map-变量A-A-min-A-max-B-min-B-max" class="headerlink" title="变量B &#x3D; map(变量A,A_min,A_max,B_min,B_max)"></a>变量B &#x3D; map(变量A,A_min,A_max,B_min,B_max)</h3><p>将变量A等比映射到变量B</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  <span class="built_in">pinMode</span>(<span class="number">9</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> a = <span class="built_in">map</span>(<span class="built_in">analogRead</span>(A0),<span class="number">0</span>,<span class="number">1023</span>,<span class="number">0</span>,<span class="number">255</span>);</span><br><span class="line">  Serial.<span class="built_in">println</span>(a);</span><br><span class="line">  <span class="built_in">delay</span>(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">setup</span><span class="hljs-params">()</span> </span>&#123;<br>  Serial.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>);<br>  <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">9</span>,OUTPUT);<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">loop</span><span class="hljs-params">()</span> </span>&#123;<br>  <span class="hljs-type">int</span> a = <span class="hljs-built_in">map</span>(<span class="hljs-built_in">analogRead</span>(A0),<span class="hljs-number">0</span>,<span class="hljs-number">1023</span>,<span class="hljs-number">0</span>,<span class="hljs-number">255</span>);<br>  Serial.<span class="hljs-built_in">println</span>(a);<br>  <span class="hljs-built_in">delay</span>(<span class="hljs-number">10</span>);<br>&#125;<br><br></code></pre></td></tr></table></figure>
 
 <hr>
 <hr>
@@ -166,14 +335,11 @@
 <li>交直流两用电机(Universal)</li>
 </ul>
 <h3 id="使用arduino的引脚直接驱动直流电机"><a href="#使用arduino的引脚直接驱动直流电机" class="headerlink" title="使用arduino的引脚直接驱动直流电机"></a>使用arduino的引脚直接驱动直流电机</h3><p>简直蠢爆了，引脚输出电流不够,pwm给小了根本不动，当然，这里只是验证analogWrite是PWM信号，周期490Hz</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  <span class="built_in">pinMode</span>(<span class="number">9</span>,OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">analogWrite</span>(<span class="number">9</span>,<span class="number">200</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="de5d82d59445ca40372736644f54ff8.jpg" alt="引脚直接驱动电机"></div><div class="image-meta"><span class="image-caption center">引脚直接驱动电机</span></div></div>
-
-<h3 id="舵机驱动"><a href="#舵机驱动" class="headerlink" title="舵机驱动"></a>舵机驱动</h3><p>普通舵机有3根线：GND（黑）、VCC（红）、Signal（黄），一般情况下，建议为舵机单独供电，此处实验为了图方便，用arduino为舵机供电。</p>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="5a19651acadc6638210bae0b486d1fa.jpg" alt="SG90舵机"></div><div class="image-meta"><span class="image-caption center">SG90舵机</span></div></div>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">servo类下有以下成员函数</span></span><br><span class="line"><span class="comment">attach()//连接舵机</span></span><br><span class="line"><span class="comment">write()//角度控制</span></span><br><span class="line"><span class="comment">writeMicroseconds()//</span></span><br><span class="line"><span class="comment">read()//读上一次舵机转动角度</span></span><br><span class="line"><span class="comment">attached()//</span></span><br><span class="line"><span class="comment">detach()//断开舵机连接</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;Servo.h&gt;</span> </span></span><br><span class="line">Servo myservo;  <span class="comment">//创建一个舵机控制对象</span></span><br><span class="line">                          <span class="comment">// 使用Servo类最多可以控制8个舵机</span></span><br><span class="line"><span class="type">int</span> pos = <span class="number">0</span>;    <span class="comment">// 该变量用与存储舵机角度位置</span></span><br><span class="line"><span class="comment">/*~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~~~~~~~~~~~~~~~~~~~~~~~~~~ */</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">setup</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">  Serial.<span class="built_in">begin</span>(<span class="number">9600</span>);</span><br><span class="line">  myservo.<span class="built_in">attach</span>(<span class="number">9</span>);  <span class="comment">// 该舵机由arduino第九脚控制</span></span><br><span class="line">&#125; </span><br><span class="line"><span class="comment">/*~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线 ~~~~~~~~~~~~~~~~~~~~~~~~~~ */</span> </span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">loop</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">  myservo.<span class="built_in">write</span>(<span class="number">0</span>); <span class="comment">// 复位</span></span><br><span class="line">  <span class="keyword">for</span>(pos = <span class="number">0</span>; pos &lt; <span class="number">180</span>; pos += <span class="number">1</span>)  <span class="comment">// 从0度到180度运动 </span></span><br><span class="line">  &#123;                                                     <span class="comment">// 每次步进一度</span></span><br><span class="line">    myservo.<span class="built_in">write</span>(pos);        <span class="comment">// 指定舵机转向的角度</span></span><br><span class="line">    <span class="built_in">delay</span>(<span class="number">15</span>);                       <span class="comment">// 等待15ms让舵机到达指定位置</span></span><br><span class="line">    </span><br><span class="line">  &#125; </span><br><span class="line">  <span class="keyword">for</span>(pos = <span class="number">180</span>; pos&gt;=<span class="number">1</span>; pos-=<span class="number">1</span>)   <span class="comment">//从180度到0度运动  </span></span><br><span class="line">  &#123;                                </span><br><span class="line">    myservo.<span class="built_in">write</span>(pos);         <span class="comment">// 指定舵机转向的角度 </span></span><br><span class="line">    <span class="built_in">delay</span>(<span class="number">15</span>);                        <span class="comment">// 等待15ms让舵机到达指定位置 </span></span><br><span class="line">    Serial.<span class="built_in">println</span>(myservo.<span class="built_in">read</span>());</span><br><span class="line">  &#125; </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="2521152d37ddcb8e35776f6b504030a.jpg" alt="舵机驱动"></div><div class="image-meta"><span class="image-caption center">舵机驱动</span></div></div>
-
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">setup</span><span class="hljs-params">()</span> </span>&#123;<br>  Serial.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>);<br>  <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">9</span>,OUTPUT);<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">loop</span><span class="hljs-params">()</span> </span>&#123;<br>  <span class="hljs-built_in">analogWrite</span>(<span class="hljs-number">9</span>,<span class="hljs-number">200</span>);<br>&#125;<br></code></pre></td></tr></table></figure>
+<p><img src="de5d82d59445ca40372736644f54ff8.jpg" srcset="/img/loading.gif" lazyload alt="引脚直接驱动电机"></p>
+<h3 id="舵机驱动"><a href="#舵机驱动" class="headerlink" title="舵机驱动"></a>舵机驱动</h3><p>普通舵机有3根线：GND（黑）、VCC（红）、Signal（黄），一般情况下，建议为舵机单独供电，此处实验为了图方便，用arduino为舵机供电。<br><img src="5a19651acadc6638210bae0b486d1fa.jpg" srcset="/img/loading.gif" lazyload alt="SG90舵机"></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-comment">/*</span><br><span class="hljs-comment">servo类下有以下成员函数</span><br><span class="hljs-comment">attach()//连接舵机</span><br><span class="hljs-comment">write()//角度控制</span><br><span class="hljs-comment">writeMicroseconds()//</span><br><span class="hljs-comment">read()//读上一次舵机转动角度</span><br><span class="hljs-comment">attached()//</span><br><span class="hljs-comment">detach()//断开舵机连接</span><br><span class="hljs-comment">*/</span><br><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;Servo.h&gt;</span> </span><br>Servo myservo;  <span class="hljs-comment">//创建一个舵机控制对象</span><br>                          <span class="hljs-comment">// 使用Servo类最多可以控制8个舵机</span><br><span class="hljs-type">int</span> pos = <span class="hljs-number">0</span>;    <span class="hljs-comment">// 该变量用与存储舵机角度位置</span><br><span class="hljs-comment">/*~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~~~~~~~~~~~~~~~~~~~~~~~~~~ */</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">setup</span><span class="hljs-params">()</span> </span><br><span class="hljs-function"></span>&#123; <br>  Serial.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>);<br>  myservo.<span class="hljs-built_in">attach</span>(<span class="hljs-number">9</span>);  <span class="hljs-comment">// 该舵机由arduino第九脚控制</span><br>&#125; <br><span class="hljs-comment">/*~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线 ~~~~~~~~~~~~~~~~~~~~~~~~~~ */</span> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">loop</span><span class="hljs-params">()</span> </span><br><span class="hljs-function"></span>&#123; <br>  myservo.<span class="hljs-built_in">write</span>(<span class="hljs-number">0</span>); <span class="hljs-comment">// 复位</span><br>  <span class="hljs-keyword">for</span>(pos = <span class="hljs-number">0</span>; pos &lt; <span class="hljs-number">180</span>; pos += <span class="hljs-number">1</span>)  <span class="hljs-comment">// 从0度到180度运动 </span><br>  &#123;                                                     <span class="hljs-comment">// 每次步进一度</span><br>    myservo.<span class="hljs-built_in">write</span>(pos);        <span class="hljs-comment">// 指定舵机转向的角度</span><br>    <span class="hljs-built_in">delay</span>(<span class="hljs-number">15</span>);                       <span class="hljs-comment">// 等待15ms让舵机到达指定位置</span><br>    <br>  &#125; <br>  <span class="hljs-keyword">for</span>(pos = <span class="hljs-number">180</span>; pos&gt;=<span class="hljs-number">1</span>; pos-=<span class="hljs-number">1</span>)   <span class="hljs-comment">//从180度到0度运动  </span><br>  &#123;                                <br>    myservo.<span class="hljs-built_in">write</span>(pos);         <span class="hljs-comment">// 指定舵机转向的角度 </span><br>    <span class="hljs-built_in">delay</span>(<span class="hljs-number">15</span>);                        <span class="hljs-comment">// 等待15ms让舵机到达指定位置 </span><br>    Serial.<span class="hljs-built_in">println</span>(myservo.<span class="hljs-built_in">read</span>());<br>  &#125; <br><br><br>&#125;<br><br></code></pre></td></tr></table></figure>
+<p><img src="2521152d37ddcb8e35776f6b504030a.jpg" srcset="/img/loading.gif" lazyload alt="舵机驱动"></p>
 <h3 id="步进电机驱动"><a href="#步进电机驱动" class="headerlink" title="步进电机驱动"></a>步进电机驱动</h3><h4 id="步进电机优点"><a href="#步进电机优点" class="headerlink" title="步进电机优点"></a>步进电机优点</h4><ul>
 <li>精准控制电机输出轴角度</li>
 <li>低速运行时扭矩大</li>
@@ -194,199 +360,351 @@
 </li>
 </ul>
 
-
-
-<div class="article-footer reveal fs14"><section id="license"><div class="header"><span>License</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
-</div></section></div>
-
-</article>
-
-<div class="related-wrap reveal" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">Newer</div><a href="/2023/10/03/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3/">hexo部署到github图片不显示的解决</a></div><div class="item" id="next"><div class="note">Older</div><a href="/2023/09/29/%E6%B1%9F%E7%A7%91%E5%A4%A751%E5%86%8D%E5%AD%A6%E4%B9%A0/">江科大51再学习</a></div></section></div>
-
-
-
-
-
-
-
-
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
       
-<footer class="page-footer reveal fs12"><hr><div class="text"><p>本站由 <a href="/">@anonymity</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar">Stellar</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
-</div></footer>
-
-      <div class='float-panel mobile-only blur' style='display:none'>
-  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
-    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
-  </button>
+        <a href="/tags/ardunio/" class="print-no-link">#ardunio</a>
+      
+    </div>
+  
 </div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>arduino的系统学习</div>
+      <div>https://liwuyou.github.io/2023/09/29/arduino的系统学习/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>wj</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>September 29, 2023</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2023/10/03/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3/" title="hexo部署到github图片不显示的解决">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">hexo部署到github图片不显示的解决</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/09/29/%E6%B1%9F%E7%A7%91%E5%A4%A751%E5%86%8D%E5%AD%A6%E4%B9%A0/" title="江科大51再学习">
+                        <span class="hidden-mobile">江科大51再学习</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
 
     </div>
   </div>
-  <div class='scripts'>
-    <script type="text/javascript">
-  const stellar = {
-    // 懒加载 css https://github.com/filamentgroup/loadCSS
-    loadCSS: (href, before, media, attributes) => {
-      var doc = window.document;
-      var ss = doc.createElement("link");
-      var ref;
-      if (before) {
-        ref = before;
-      } else {
-        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
-        ref = refs[refs.length - 1];
-      }
-      var sheets = doc.styleSheets;
-      if (attributes) {
-        for (var attributeName in attributes) {
-          if (attributes.hasOwnProperty(attributeName)) {
-            ss.setAttribute(attributeName, attributes[attributeName]);
-          }
-        }
-      }
-      ss.rel = "stylesheet";
-      ss.href = href;
-      ss.media = "only x";
-      function ready(cb) {
-        if (doc.body) {
-          return cb();
-        }
-        setTimeout(function () {
-          ready(cb);
-        });
-      }
-      ready(function () {
-        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
-      });
-      var onloadcssdefined = function (cb) {
-        var resolvedHref = ss.href;
-        var i = sheets.length;
-        while (i--) {
-          if (sheets[i].href === resolvedHref) {
-            return cb();
-          }
-        }
-        setTimeout(function () {
-          onloadcssdefined(cb);
-        });
-      };
-      function loadCB() {
-        if (ss.addEventListener) {
-          ss.removeEventListener("load", loadCB);
-        }
-        ss.media = media || "all";
-      }
-      if (ss.addEventListener) {
-        ss.addEventListener("load", loadCB);
-      }
-      ss.onloadcssdefined = onloadcssdefined;
-      onloadcssdefined(loadCB);
-      return ss;
-    },
+</div>
 
-    // 从 butterfly 和 volantis 获得灵感
-    loadScript: (src, opt) => new Promise((resolve, reject) => {
-      var script = document.createElement('script');
-      if (src.startsWith('/')){
-        src = stellar.config.root + src.substring(1);
-      }
-      script.src = src;
-      if (opt) {
-        for (let key of Object.keys(opt)) {
-          script[key] = opt[key]
-        }
-      } else {
-        // 默认异步，如果需要同步，第二个参数传入 {} 即可
-        script.async = true
-      }
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    }),
 
-    // https://github.com/jerryc127/hexo-theme-butterfly
-    jQuery: (fn) => {
-      if (typeof jQuery === 'undefined') {
-        stellar.loadScript(stellar.plugins.jQuery).then(fn)
-      } else {
-        fn()
-      }
-    }
-  };
-  stellar.version = '1.19.0';
-  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.19.0';
-  stellar.config = {
-    date_suffix: {
-      just: 'Just',
-      min: 'minutes ago',
-      hour: 'hours ago',
-      day: 'days ago',
-      month: 'months ago',
-    },
-    root : '/',
-  };
 
-  // required plugins (only load if needs)
-  stellar.plugins = {
-    jQuery: 'https://gcore.jsdelivr.net/npm/jquery@3.6.2/dist/jquery.min.js'
-  };
 
-  if ('local_search') {
-    stellar.search = {};
-    stellar.search.service = 'local_search';
-    if (stellar.search.service == 'local_search') {
-      let service_obj = Object.assign({}, {"field":"all","path":"/search.json","content":true,"sort":"-date"});
-      stellar.search[stellar.search.service] = service_obj;
-    }
-  }
-
-  // stellar js
-  stellar.plugins.stellar = Object.assign({"sites":"/js/plugins/sites.js","friends":"/js/plugins/friends.js","ghinfo":"/js/plugins/ghinfo.js","timeline":"/js/plugins/timeline.js","linkcard":"/js/plugins/linkcard.js","fcircle":"/js/plugins/fcircle.js","weibo":"/js/plugins/weibo.js"});
-
-  stellar.plugins.marked = Object.assign("https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js");
-  // optional plugins
-  if ('true' == 'true') {
-    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://gcore.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js","transition":"blur"});
-  }
-  if ('true' == 'true') {
-    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper@8.4.5/swiper-bundle.min.css","js":"https://unpkg.com/swiper@8.4.5/swiper-bundle.min.js"});
-  }
-  if ('' == 'true') {
-    stellar.plugins.scrollreveal = Object.assign({"enable":null,"js":"https://gcore.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"8px","duration":500,"interval":100,"scale":1});
-  }
-  if ('true' == 'true') {
-    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://gcore.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
-  }
-  if ('true' == 'true') {
-    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://gcore.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://gcore.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
-  }
-  if ('false' == 'true') {
-    stellar.plugins.heti = Object.assign({"enable":false,"css":"https://unpkg.com/heti@0.9.2/umd/heti.min.css","js":"https://unpkg.com/heti@0.9.2/umd/heti-addon.min.js"});
-  }
-  if ('true' == 'true') {
-    stellar.plugins.copycode = Object.assign({"enable":true,"js":"/js/plugins/copycode.js","default_text":"Copy","success_text":"Copied"});
-  }
-</script>
-
-<!-- required -->
 
   
-<script src="/js/main.js" async></script>
 
 
 
-<!-- optional -->
+  
 
 
 
-<!-- inject -->
+  
 
 
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
   </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
 </body>
 </html>
