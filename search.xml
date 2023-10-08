@@ -68,7 +68,7 @@
 <blockquote>
 <p><a href="http://www.arduino.cc/">www.arduino.cc</a></p>
 </blockquote>
-<h2 id="arduino-uno引脚图"><a href="#arduino-uno引脚图" class="headerlink" title="arduino uno引脚图"></a>arduino uno引脚图</h2><div class="tag-plugin image"><div class="image-bg"><img src="0a40966d74d987e105daf85381605b9.png"></div></div>
+<h2 id="arduino-uno引脚图"><a href="#arduino-uno引脚图" class="headerlink" title="arduino uno引脚图"></a>arduino uno引脚图</h2><div class="tag-plugin image"><div class="image-bg"><img src="0a40966d74d987e105daf85381605b9.png" alt="引脚"></div><div class="image-meta"><span class="image-caption center">引脚</span></div></div>
 
 <p>Arduino UNO是基于ATmega328P的Arduino开发板。它有14个数字输入&#x2F;输出引脚（其中6个可用于PWM输出）、6个模拟输入引脚，一个16 MHz的晶体振荡器，一个USB接口，一个DC接口，一个ICSP接口，一个复位按钮。它包含了微控制器所需的一切，你只用简单地把它连接到计算机的USB接口，或者使用AC-DC适配器，再或者用电池，就可以驱动它。</p>
 <h3 id="存储空间"><a href="#存储空间" class="headerlink" title="存储空间"></a>存储空间</h3><p>ATmega328 有32KB Flash存储空间（其中0.5KB被用于存储bootloader），2KB 的SRAM和1KB 的EEPROM。<br>可以使用官方提供的EEPROM库读写EEPROM空间。</p>
