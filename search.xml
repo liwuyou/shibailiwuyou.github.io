@@ -598,6 +598,41 @@
   <entry>
     <title>linux系统学习</title>
     <url>/2023/10/10/linux%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="计算机硬件结构"><a href="#计算机硬件结构" class="headerlink" title="计算机硬件结构"></a>计算机硬件结构</h2><h3 id="冯-诺依曼结构"><a href="#冯-诺依曼结构" class="headerlink" title="冯 诺依曼结构"></a>冯 诺依曼结构</h3><ul>
+<li>计算机处理的数据和指令一律用二进制数表示</li>
+<li>顺序执行程序</li>
+<li>计算机硬件由运算器、控制器、存储器、输入设备和输出设备五大部分组成</li>
+</ul>
+<p>其他主流计算机硬件结构</p>
+<blockquote>
+<p>哈佛体系</p>
+</blockquote>
+<p>计算机之父</p>
+<blockquote>
+<p>冯 诺依曼<br>图灵</p>
+</blockquote>
+<h3 id="计算机硬件组成"><a href="#计算机硬件组成" class="headerlink" title="计算机硬件组成"></a>计算机硬件组成</h3><h4 id="输入设备"><a href="#输入设备" class="headerlink" title="输入设备"></a>输入设备</h4><h4 id="输出设备"><a href="#输出设备" class="headerlink" title="输出设备"></a>输出设备</h4><h4 id="存储器"><a href="#存储器" class="headerlink" title="存储器"></a>存储器</h4><h5 id="RAM"><a href="#RAM" class="headerlink" title="RAM"></a>RAM</h5><p>RAM(random access memory) 即随机存储内存</p>
+<ul>
+<li>速度快，容量小</li>
+<li>掉电易失</li>
+<li>逻辑IO</li>
+</ul>
+<h5 id="ROM"><a href="#ROM" class="headerlink" title="ROM"></a>ROM</h5><p>ROM (Read-Onboy Memory) 即只读内存硬盘</p>
+<ul>
+<li>容量大，速度相对较慢</li>
+<li>长久保存</li>
+<li>物理10</li>
+</ul>
+<h4 id="运算器、控制器"><a href="#运算器、控制器" class="headerlink" title="运算器、控制器"></a>运算器、控制器</h4><h3 id="网络连接"><a href="#网络连接" class="headerlink" title="网络连接"></a>网络连接</h3><ul>
+<li>ip地址</li>
+<li>子网掩码</li>
+<li>默认网关</li>
+<li>DNS</li>
+</ul>
+<h4 id="ip地址IPADDR"><a href="#ip地址IPADDR" class="headerlink" title="ip地址IPADDR"></a>ip地址IPADDR</h4><p>ip地址 &#x3D; 网络地址+主机地址<br>ip地址是一个4*8bit由0&#x2F;1组成的字符串（ip4协议）</p>
+<h4 id="子网掩码"><a href="#子网掩码" class="headerlink" title="子网掩码"></a>子网掩码</h4>]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
   </entry>
 </search>
